@@ -1,0 +1,518 @@
+<h2>Dancer's complete Documentation</h2>
+
+<p>
+This documentation was written for Dancer <a
+href="http://search.cpan.org/~sukria/Dancer-0.9901/">0.9001</a>
+</p>
+
+<h3>Usage</h3>
+
+<p>
+As soon as Dancer is imported to a script, that script becomes a webapp.  All
+the script has to do is to declare a list of routes.  A route handler is
+composed by an HTTP method, a path pattern and a code block.
+</p>
+
+<p>
+The code block given to the route handler has to return a string which will be
+used as the content to render to the client.
+</p>
+
+<p>
+Routes are defined for a given HTTP method (get or post). For each method
+supported, a keyword is exported by the module. 
+</p>
+
+<p>
+Here is an example of a route definition:
+</p>
+
+<pre class="prettyprint">
+    get '/hello/:name' => sub {
+        # do something important here
+        
+        return "Hello ".params->{name};
+    };
+</pre>
+
+<p>
+The route is defined for the method <code>get</code>, so only GET requests will be honoured
+by that route.
+</p>
+
+<p>
+The route action is the code reference declared, it can access parameters through 
+the `params' keyword, which returns an hashref.
+This hashref is a merge of the route pattern matches and the request params.
+</p>
+
+<p>
+Below are all the possible ways to define a route, note that it is not
+possible to mix them up. Don't expect to have a working application if you mix
+different kinds of route!
+</p>
+
+<h3>Named Matching</h3>
+
+<p>
+A route pattern can contain one or more tokens (a word prefixed with ':'). Each
+token found in a route pattern is used as a named-pattern match. Any match will
+be set in the params hashref.
+</p>
+
+
+<pre class="prettyprint">
+    get '/hello/:name' => sub {
+        "Hey ".params->{name}.", welcome here!";
+    };
+</pre>
+
+<h3>WILDCARDS MATCHING </h3>
+
+<p>
+A route can contain a wildcard (represented by a '*'). Each wildcard match will
+be returned in an arrayref, accessible via the `splat' keyword.
+</p>
+
+
+<pre class="prettyprint">
+    get '/download/*.*' => sub {
+        my ($file, $ext) = splat;
+        # do something with $file.$ext here
+    };
+</pre>    
+
+<h3>REGULAR EXPRESSION MATCHING</h3>
+
+<p>
+A route can be defined with a Perl regular expression. The syntax is assumed to
+be a classic Perl regexp except for the slashes that will be escaped before
+running the match.
+</p>
+
+<p>
+For instance, don't do <code>'\/hello\/(.+)'</code> but rather:
+<code>'/hello/(.+)'</code>
+</p>
+
+<p>
+In order to tell Dancer to consider the route as a real regexp, the route must
+be defined explicitly with the keyword <code>r</code>, like the following:
+</p>
+
+    
+<pre class="prettyprint">
+    get r( '/hello/([\w]+)' ) => sub {
+        my ($name) = splat;
+        return "Hello $name";
+    };
+</pre>    
+
+<h3>RUNNING THE WEBSERVER</h3>
+
+<p>
+Once the script is ready, you can run the webserver just by running the
+script. The following options are supported:
+</p>
+
+<ul>
+
+<li><b>--port=XXXX</b>    set the port to listen to (default is 1915)</li>
+
+<li><b>--daemon</b>       run the webserver in the background</li>
+
+<li><b>--help</b>         display a detailed help message</li>
+
+</ul>
+
+<h2>ACTION SKIPPING</h2>
+
+<p>
+An action can choose not to serve the current request and ask Dancer to process
+the request with the next matching route.
+</p>
+
+<p>
+This is done with the <code>pass</code> keyword, like in the following example
+</p>
+
+
+<pre class="prettyprint">
+    get '/say/:word' => sub {
+        pass if (params->{word} =~ /^\d+$/);
+        "I say a word: ".params->{word};
+    };
+
+    get '/say/:number' => sub {
+        "I say a number: ".params->{number};
+    };
+</pre>    
+
+<h2>ACTION RESPONSES</h2>
+
+<p>
+The action's return value is always considered to be the content to render. So
+take care to your return value.
+</p>
+
+<p>
+In order to change the default behaviour of the rendering of an action, you can
+use the following keywords.
+</p>
+
+<h3>status</h3>
+
+<p>
+By default, an action will produce an <code>HTTP 200 OK</code> status code, meaning
+everything is OK. It's possible to change that with the keyword <code>status</code> :
+</p>
+
+
+<pre class="prettyprint">
+    get '/download/:file' => {
+        if (! -f params->{file}) {
+            status 'not_found';
+            return "File does not exist, unable to download";
+        }
+        # serving the file...
+    };
+</pre>    
+
+<p>
+In that example, Dancer will notice that the status has changed, and will
+render the response accordingly.
+</p>
+
+<p>
+The status keyword receives the name of the status to render, it can be either
+an HTTP code or its alias, as defined in <code>Dancer::HTTP</code>.
+</p>
+
+<h3>content_type</h3>
+
+<p>
+You can also change the content type rendered in the same maner, with the
+keyword <code>content_type</code>
+</p>
+
+
+<pre class="prettyprint">
+    get '/cat/:txtfile' => {
+        content_type 'text/plain';
+
+        # here we can dump the contents of params->{txtfile}
+    };
+</pre>    
+
+<h3>Before filters</h3>
+
+<p>
+Before filters are evaluated before each request within the context of the
+request and can modify the request and response. It's possible to define variable 
+that will be accessible in the action blocks with the keyword <code>var</code>.
+</p>
+
+
+<pre class="prettyprint">
+    before sub {
+        var note => 'Hi there';
+        request->path_info('/foo/oversee')
+    };
+    
+    get '/foo/*' => sub {
+        my ($match) = splat; # 'oversee';
+        vars->{note}; # 'Hi there'
+    };
+</pre>    
+
+<p>
+The request keyword returns the current CGI object representing the incoming request.
+See the documentation of the <code>CGI</code> module for details.
+</p>
+
+<h2>CONFIGURATION AND ENVIRONMENTS</h2>
+
+<p>
+Configuring a Dancer application can be done in many ways. The easiest one (and
+maybe the the dirtiest) is to put all your settings statements at the top of
+your script, before calling the dance() method.
+</p>
+
+<p>
+Other ways are possible, you can write all your setting calls in the file
+`appdir/config.pl'. That's better than the first option, but it's still not
+perfect as you can't switch easily from an environment to another without
+rewriting the config.pl file.
+</p>
+
+<p>
+The better way is to have one config.pl file that just set the environment
+setting:
+</p>
+
+
+<pre class="prettyprint">
+    # appdir/config.pl
+    set environment => 'development';
+</pre>    
+
+<p>
+And then write as many environment file as you like in appdir/environements.
+That way, you just have to change the value of appdir/config.pl to switch to
+another environment.
+</p>
+
+<p>
+Note that you can also overide the config.pl enviroment value by using the
+<code>--environment</code> commandline switch.
+</p>
+
+<p>
+If the setting `environment' is set, Dancer will try to load the corresponding 
+environment file (appdir/environments/$environment.pl).
+</p>
+
+<p>
+If the setting `environment' is not defined, no environment file will be
+loaded.
+</p>
+
+<h2>LOGGING</h2>
+
+<p>
+It's possible to log messages sent by the application. In the current version,
+only one method is possible for logging messages but it may come in future
+releases new methods.
+</p>
+
+<p>
+In order to enable the logging system for your application, you first have to
+start the logger engine in your config.pl (or directly within your application
+code), do:
+</p>
+
+<pre class="prettyprint">
+    logger => 'file'; 
+</pre>    
+
+<p>
+Then you can choose which kind of messages you want to actually log:
+</p>
+
+
+<pre class="prettyprint">
+    set log => 'debug';     # will log debug, warning and errors
+    set log => 'warning';   # will log warning and errors
+    set log => 'error';     # will log only errors
+</pre>    
+
+<p>
+A directory appdir/logs will be created and will host one logfile per
+environment. The log message contains the time it was written, the PID of the
+current process, the message and the caller information (file and line).
+</p>
+
+<h2>USING TEMPLATES</h2>
+
+<h2>VIEWS </h2>
+
+<p>
+It's possible to render the action's content with a template, this is called a
+view. The `appdir/views' directory is the place where views are located. 
+</p>
+
+<p>
+You can change this location by changing the setting <code>views</code>, for instance if
+your templates are located in the <code>templates</code> directory, do the following:
+</p>
+
+
+<pre class="prettyprint">
+    set views => path(dirname(__FILE__), 'templates');
+</pre>    
+
+<p>
+A view should have a <code>.tt</code> extension and is rendered with the
+<code>Template</code> module. You have to import the `Template' module in your script if
+you want to render views within your actions.
+</p>
+
+<p>
+In order to render a view, just call the 'template' keyword at the end of the
+action by giving the view name and the HASHREF of tokens to interpolate in the
+view (note that all the route params are accessible in the view):
+</p>
+
+
+<pre class="prettyprint">
+    use Dancer;
+    use Template;
+
+    get '/hello/:name' => sub {
+        template 'hello' => {var => 42};
+    };
+</pre>    
+
+<h3>LAYOUTS</h3>
+
+<p>
+A layout is a special view, located in the <code>layouts</code> directory (inside the
+views directory) which must have a token named `content'. That token marks the
+place where to render the action view. This lets you define a global layout for
+your actions. 
+</p>
+
+<p>
+A layout can be used like the following:
+</p>
+
+<pre class="prettyprint">
+    use Dancer;
+    use Template; 
+
+    layout 'main';
+
+    get '/' => sub {
+        template 'index';
+    };
+</pre>    
+
+<h2>STATIC FILES</h2>
+
+<h3>STATIC DIRECTORY</h3>
+
+<p>
+Static files are served from the ./public directory. You can specify a
+different location by setting the <code>public</code> option:
+</p>
+
+
+<pre class="prettyprint">
+    set public => path(dirname(__FILE__), 'static');
+</pre>    
+
+<p>
+Note that the public directory name is not included in the URL. A file
+<code>./public/css/style.css</code> is made available as
+<code>example.com/css/style.css</code>.
+</p>
+
+<h3>MIME-TYPES CONFIGURATION</h3>
+
+<p>
+By default, Dancer will automatically detect the mime-types to use for 
+the static files accessed.
+</p>
+
+<p>
+It's possible to choose specific mime-type per file extensions. For instance,
+we can imagine you want to sever *.foo as a text/foo content, instead of
+text/plain (which would be the content type detected by Dancer if *.foo are
+text files).
+</p>
+
+<pre class="prettyprint">
+        mime_type foo => 'text/foo';
+</pre>    
+
+<p>
+This configures the 'text/foo' content type for any file matching '*.foo'.
+</p>
+
+<h3>STATIC FILE FROM A ROUTE HANDLER</h3>
+
+<p>
+It's possible for a route handler to pass the batton to a static file, like
+the following.
+</p>
+
+
+<pre class="prettyprint">
+    get '/download/*' => sub {
+        my $params = shift;
+        my ($file) = @{ $params->{splat} };
+
+        send_file $file;
+    };
+</pre>    
+
+<p>
+Or even if you want your index page to be a plain old index.html file, just do:
+</p>
+
+<pre class="prettyprint">
+    get '/' => sub {
+        send_file '/index.html'
+    };
+</pre>    
+
+<h2>SETTINGS</h2>
+
+<p>
+It's possible to change quite every parameter of the application via the
+settings mechanism.
+</p>
+
+<p>
+A setting is key/value pair assigned by the keyword <code>set</code>:
+</p>
+
+
+<pre class="prettyprint">
+    set setting_name => 'setting_value';
+</pre>    
+
+<h2>EXAMPLE</h2>
+
+<p>
+This is a possible webapp created with Dancer :
+</p>
+
+<pre class="prettyprint">
+    #!/usr/bin/perl
+    
+    # make this script a webapp
+    use Dancer;
+
+    # declare routes/actions
+    get '/' => sub { 
+        "Hello World";
+    };
+
+    get '/hello/:name' => sub {
+        "Hello ".params->{name}"
+    };
+
+    # run the webserver
+    dance;
+</pre>    
+
+<h2>DEPENDENCIES</h2>
+
+<p>
+Dancer depends on the following modules:
+</p>
+
+<p>
+The following modules are mandatory (Dancer cannot run without them)
+</p>
+
+<ul>
+<li>HTTP::Server::Simple</li>
+<li>CGI</li>
+<li>File::MimeInfo</li>
+</ul>
+
+<p>
+The following modules are optional 
+</p>
+
+<ul>
+<li>Template :  needed for the views rendering system</li>
+</ul>
+
+<h2>LICENSE</h2>
+
+This module is free software and is published under the same
+terms as Perl itself.
+

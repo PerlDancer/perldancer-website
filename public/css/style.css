@@ -3,7 +3,7 @@ body {
 }
 
 a { 
-    text-decoration: none;
+    color: #3c516e;
 }
 
 a:hover {
@@ -65,12 +65,12 @@ a:hover {
 #content {
     background: #e8eaed url('/images/dancer-content-bg.png') no-repeat bottom right;
     border-right: 6px solid #eeb938;
-    color: #3c516e;
-    height: 100%;
+    color: #444;
     margin-left: 260px;
     padding-left: 10px;
     padding-top: 8px;
-    font-family:'georgia','bitstream vera serif',serif;
+    padding-bottom: 2em;
+    min-height: 460px;
 }
 
 h1 { 
@@ -79,6 +79,7 @@ h1 {
     letter-spacing:3px;
     line-height:1.25;
     margin: 0;
+    font-family:'georgia','bitstream vera serif',serif;
 }
 
 h2 { 
@@ -89,5 +90,26 @@ h2 {
     text-transform:uppercase;
     font-weight: normal;
     font-family: sans-serif;
+    margin-top: 0;
 }
 
+h3 { 
+    letter-spacing: 4.5px;
+    font-size:16px;
+    letter-spacing:3px;
+    line-height:1.25;
+    text-transform:uppercase;
+    font-weight: normal;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+p {
+    width: 700px;
+    font-family:'georgia','bitstream vera serif',serif;
+    font-size: 20px;
+}
+
+code, pre { 
+    font-size: 14px;
+    font-family: "lucida console","monaco","andale mono","bitstream vera sans mono","consolas",monospace;
+}

@@ -1,0 +1,40 @@
+<h2>Dance with us</h2>
+
+<p>
+Dancer is a modern Perl project, while it's already usable to build small
+websites (like this one) it's still in development. There are many ways to contribute.
+</p>
+
+<h3>Promote</h3>
+
+<p>
+There are many, many frameworks out there, marketing can make a difference.
+If you like Dancer, tell the world about it, blog it, tweet it. This is a very
+valuable contribution to the project.
+</p>
+
+<h3>Use it</h3>
+
+<p>
+Of course, using Dancer is the best way to help the project, you will see it
+running by yourself, and maybe, you will find something to enhance or will
+commit some ideas to the crew.
+</p>
+
+<h3>Report bugs</h3>
+
+<p>
+So you're using it and you've found a bug, that's great! Yes, Great. Because a
+bug found is a bug in the way of being fixed. <a
+href="http://rt.cpan.org/Public/Bug/Report.html?Queue=Dancer">Report it</a>, 
+but take care it's not yet filled before.
+</p>
+
+<h3>Submit Patches</h3>
+
+<p>
+Okay, so you've found a bug and <a href="http://github.com/sukria/Dancer">after
+having forked the project</a> on GitHub you have a written patch to submit the fix, 
+that's really great. At the time, the best way to get a review is to request a pull from
+<a href="http://github.com/sukria">sukria</a>.
+</p>

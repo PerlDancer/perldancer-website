@@ -1,0 +1,38 @@
+<h2>Getting Started</h2>
+
+<p>
+Dancer implements an idea that was firstly introduced by the Ruby community, with
+the <a href="http://www.sinatrarb.com">Sinatra</a> project.<br />
+Like it's cousin, it's a DSL for quickly creating web applications in Perl with minimal effort: 
+</p>
+
+<pre class="prettyprint">
+# myapp.pl
+use Dancer;
+
+get '/' => sub {
+    'Hello world!'
+};
+
+dance;
+</pre>
+
+<p>
+Install Dancer's dependencies and Dancer itself:
+</p>
+
+<pre>
+sudo cpan HTTP::Server::Simple
+sudo cpan File::MimeInfo
+sudo cpan Dancer
+</pre>
+
+<p>
+Run it and view at <a href="http://localhost:3000">http://localhost:3000</a>
+</p>
+
+<pre>
+$ perl ./hi.pl
+>> Listening on 127.0.0.1:3000
+== Entering the dance floor ...
+</pre>
