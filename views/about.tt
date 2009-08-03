@@ -1,0 +1,22 @@
+<h2>Who's on the dancefloor?</h2>
+
+<h3>Authors</h3>
+<p>
+Dancer was inspired by <a href="http://www.sinatrarb.com">Sinatra</a> 
+and has been written by <a href="http://twitter.com/sukria">Alexis Sukrieh</a>.
+</p>
+
+<h3>License</h3>
+
+<p>
+Dancer is free software, it is released under the same terms as Perl itself. 
+</p>
+
+<h3>Contact</h3>
+
+<p>
+You can reach Alexis by mail at <code>sukria at sukria dot net</code>.
+It's also possible to use GitHub to submit a patch, see the <a
+href="/contribute">contribute</a> page for more details about collaborative
+work about Dancer.
+</p>

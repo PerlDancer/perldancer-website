@@ -75,11 +75,12 @@ a:hover {
 
 h1 { 
     letter-spacing: 4.5px;
-    font-size:44px;
+    font-size:54px;
     letter-spacing:3px;
     line-height:1.25;
     margin: 0;
-    font-family:'georgia','bitstream vera serif',serif;
+    font-family:'georgia','bitstream vera serif',serif; 
+    color: #000;
 }
 
 h2 { 
