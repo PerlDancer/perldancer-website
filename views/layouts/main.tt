@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Dancer - Effortless Web Framework for Perl</title>
+
+<!-- default skin -->
+<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
+
+<!-- prettify -->
+<link href="/css/prettify.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/javascripts/prettify.js"></script>
+
+<meta name="generator" content="Dancer 1.0" />
+</head>
+<body onload="prettyPrint()">
+
+<div id="menu">
+
+<ul>
+    <li><a href="/readme">Readme</a></li>
+    <li><a href="/documentation">Documentation</a></li>
+    <li><a href="/contribute">Contribute</a></li>
+    <li><a href="/about">About</a></li>
+</ul>
+
+</div>
+
+<div id="container">
+  <div id="content">
+    <% content %>
+  </div>
+
+  <div id="footer">
+    Dancer is copyright &copy; 2009 Alexis Sukrieh - <a href="http://www.sukria.net">http://sukria.net</a> - <a href="http://www.twitter.com/sukria">http://twitter.com/sukria</a>
+  </div>
+
+</div>
+
+</body>
+</html>

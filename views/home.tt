@@ -1,0 +1,30 @@
+<h1>Dancer</h1>
+
+<p>
+<em>The easiest way to write web applications in Perl</em>
+</p>
+
+<h2>Prepare your moves</h2>
+
+<pre class="prettyprint">
+#!/usr/bin/perl
+
+use Dancer;
+
+get '/hi' => sub {
+    "Hello World!"
+};
+
+dance;
+</pre>
+
+<h2>And dance</h2>
+
+<pre>
+$ sudo cpan HTTP::Server::Simple
+$ sudo cpan Dancer
+$ perl ./hi.pl
+>> Listening on 127.0.0.1:3000
+== Entering the dance floor ...
+== GET /hi HTTP/1.0 200 OK
+</pre>

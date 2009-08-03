@@ -1,0 +1,93 @@
+body {
+    background-color: #3c516e;
+}
+
+a { 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    display: block;
+    color: #3c516e;
+}
+
+#menu ul li:hover {
+    background-color: #eeb938;
+    color: #3c516e;
+    border-left:3px solid #fff;
+}
+
+#menu ul li {
+    margin-bottom: 4px;
+    border-left:3px solid #eeb938;
+    margin-left: 5px;
+    padding-left: 4px;
+    background-color: #eee;
+    font-size:24px;
+    letter-spacing:3px;
+    line-height:1.25;
+    text-transform:uppercase;
+}
+
+#footer {
+   font-size: 12px;
+   color: #eee;
+   width: 700px;
+   margin-top: 20px;
+   bottom: 4px;
+}
+#footer a {
+    color: #eeb938;
+}
+
+#container {
+    height: 500px;
+    background: #3c516e url('/images/dancer.png') no-repeat bottom left;
+}
+
+#content {
+    background: #e8eaed url('/images/dancer-content-bg.png') no-repeat bottom right;
+    border-right: 6px solid #eeb938;
+    color: #3c516e;
+    height: 100%;
+    margin-left: 260px;
+    padding-left: 10px;
+    padding-top: 8px;
+    font-family:'georgia','bitstream vera serif',serif;
+}
+
+h1 { 
+    letter-spacing: 4.5px;
+    font-size:44px;
+    letter-spacing:3px;
+    line-height:1.25;
+    margin: 0;
+}
+
+h2 { 
+    letter-spacing: 4.5px;
+    font-size:20px;
+    letter-spacing:3px;
+    line-height:1.25;
+    text-transform:uppercase;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
