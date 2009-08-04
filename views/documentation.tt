@@ -240,42 +240,58 @@ your script, before calling the dance() method.
 
 <p>
 Other ways are possible, you can write all your setting calls in the file
-`appdir/config.pl'. That's better than the first option, but it's still not
-perfect as you can't switch easily from an environment to another without
-rewriting the config.pl file.
+<code>appdir/config.yml</code>. For this, you must have installed the <code>YAML</code>
+module, and of course, write the conffile in YAML format. 
 </p>
 
 <p>
-The better way is to have one config.pl file that just set the environment
-setting:
+That's better than the first option, but it's still not
+perfect as you can't switch easily from an environment to another without
+rewriting the <code>config.yml</code> file.
 </p>
 
+<p>
+The better way is to have one config.yml file with default global settings,
+like the following:
+</p>
 
 <pre class="prettyprint">
-    # appdir/config.pl
-    set environment => 'development';
-</pre>    
+    # appdir/config.yml
+    logger: 'file'
+    layout: 'main'
+</pre>
 
 <p>
-And then write as many environment file as you like in appdir/environements.
-That way, you just have to change the value of appdir/config.pl to switch to
-another environment.
+And then write as many environment file as you like in <code>appdir/environements</code>.
+That way, the appropriate environment config file will be loaded according to the
+running environment (if none specified, it will be <code>development</code>).
 </p>
 
 <p>
-Note that you can also overide the config.pl enviroment value by using the
-<code>--environment</code> commandline switch.
+Note that you can change the running environment using the --environment
+commandline switch.
 </p>
 
 <p>
-If the setting `environment' is set, Dancer will try to load the corresponding 
-environment file (appdir/environments/$environment.pl).
+Typically, you'll want to set the following values in a development config
+file:
 </p>
 
+<pre class="prettyprint">
+    # appdir/environments/development.yml
+    log: 'debug'
+    access_log: 1
+</pre>
+
 <p>
-If the setting `environment' is not defined, no environment file will be
-loaded.
+And in a production one:
 </p>
+
+<pre class="prettyprint">
+    # appdir/environments/production.yml
+    log: 'warning'
+    access_log: 0
+</pre>
 
 <h2>LOGGING</h2>
 
@@ -287,12 +303,11 @@ releases new methods.
 
 <p>
 In order to enable the logging system for your application, you first have to
-start the logger engine in your config.pl (or directly within your application
-code), do:
+start the logger engine in your config.yml
 </p>
 
 <pre class="prettyprint">
-    logger => 'file'; 
+    logger: 'file'
 </pre>    
 
 <p>
@@ -301,9 +316,9 @@ Then you can choose which kind of messages you want to actually log:
 
 
 <pre class="prettyprint">
-    set log => 'debug';     # will log debug, warning and errors
-    set log => 'warning';   # will log warning and errors
-    set log => 'error';     # will log only errors
+    log: 'debug'     # will log debug, warning and errors
+    log: 'warning'   # will log warning and errors
+    log: 'error'     # will log only errors
 </pre>    
 
 <p>
