@@ -1,4 +1,3 @@
-* { margin: 0 }
 html, body {
     height: 100%;
     background-color: #3c516e;
@@ -80,7 +79,7 @@ a:hover {
 }
 
 #content {
-    background: #e8eaed url('/images/dancer-content-bg.png') no-repeat bottom right;
+    background: #fff url('/images/dancer-content-bg.png') no-repeat top right;
     border-left: 4px solid #fff;
     border-right: 6px solid #eeb938;
     color: #444;
