@@ -35,11 +35,11 @@
   <div id="content">
     <% content %>
   </div>
+  <div id="push"></div>
+</div>
 
-  <div id="footer">
+<div id="footer">
     Dancer is copyright &copy; 2009 <a href="http://twitter.com/sukria">Alexis Sukrieh</a> - <a href="http://github.com/sukria/Dancer">Fork on GitHub</a> - <a href="http://github.com/sukria/perldancer-website">This website is free software</a>
-  </div>
-
 </div>
 
 </body>
