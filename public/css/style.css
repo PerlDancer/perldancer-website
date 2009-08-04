@@ -64,6 +64,7 @@ a:hover {
 
 #content {
     background: #e8eaed url('/images/dancer-content-bg.png') no-repeat bottom right;
+    border-left: 4px solid #fff;
     border-right: 6px solid #eeb938;
     color: #444;
     margin-left: 260px;
@@ -92,10 +93,13 @@ h2 {
     font-weight: normal;
     font-family: sans-serif;
     margin-top: 0;
+    color: #3c516e;
+    border-bottom: 1px solid #eeb938;
 }
 
 h3 { 
     letter-spacing: 4.5px;
+    color: #3c516e;
     font-size:16px;
     letter-spacing:3px;
     line-height:1.25;
