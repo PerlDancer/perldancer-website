@@ -3,7 +3,7 @@
 use Dancer;
 use Template;
 
-my @pages = qw(quickstart documentation contribute about example);
+my @pages = qw(quickstart documentation contribute about example download);
 
 get '/' => sub {
     debug "GET /";
