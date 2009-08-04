@@ -40,7 +40,7 @@ a:hover {
     margin-left: 5px;
     padding-left: 4px;
     background-color: #eee;
-    font-size:24px;
+    font-size:20px;
     letter-spacing:3px;
     line-height:1.25;
     text-transform:uppercase;
@@ -49,7 +49,6 @@ a:hover {
 #footer {
    font-size: 12px;
    color: #eee;
-   width: 700px;
    margin-top: 20px;
    bottom: 4px;
 }
@@ -104,14 +103,14 @@ h3 {
     letter-spacing:3px;
     line-height:1.25;
     text-transform:uppercase;
-    font-weight: normal;
     font-family: sans-serif;
     margin-top: 0;
 }
 p {
-    width: 700px;
     font-family:'georgia','bitstream vera serif',serif;
-    font-size: 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 700px;
 }
 
 code, pre { 
