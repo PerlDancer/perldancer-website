@@ -1,11 +1,25 @@
-<h2>Dancer's complete Documentation</h2>
+<h2>Dancer's Documentation</h2>
 
-<p>
-This documentation was written for Dancer <a
-href="http://search.cpan.org/~sukria/Dancer-0.9901/">0.9001</a>
-</p>
+<h3>Contents</h3>
 
-<h3>Usage</h3>
+<ol>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#named-matching">Named Matching</a></li>
+<li><a href="#wildcard-matching">Wildcards Matching</a></li>
+<li><a href="#regexp-matching">Regular-Expression Matching</a></li>
+<li><a href="#running">Running the Webserver</a></li>
+<li><a href="#skipping">Action Skipping</a></li>
+<li><a href="#response">Action Responses</a></li>
+<li><a href="#before">Before Filters</a></li>
+<li><a href="#configuration">Configuration and Environments</a></li>
+<li><a href="#logging">Logging</a></li>
+<li><a href="#views">Views</a></li>
+<li><a href="#static">Static Files</a></li>
+<li><a href="#settings">Settings</a></li>
+<li><a href="#dependencies">Dependencies</a></li>
+</ol>
+
+<a name="usage"> <h3>Usage</h3></a>
 
 <p>
 As soon as Dancer is imported to a script, that script becomes a webapp.  All
@@ -52,7 +66,7 @@ possible to mix them up. Don't expect to have a working application if you mix
 different kinds of route!
 </p>
 
-<h3>Named Matching</h3>
+<a name="named-matching"> <h3>Named Matching</h3></a>
 
 <p>
 A route pattern can contain one or more tokens (a word prefixed with ':'). Each
@@ -67,7 +81,7 @@ be set in the params hashref.
     };
 </pre>
 
-<h3>WILDCARDS MATCHING </h3>
+<a name="wildcard-matching"> <h3>WILDCARDS MATCHING </h3></a>
 
 <p>
 A route can contain a wildcard (represented by a '*'). Each wildcard match will
@@ -82,7 +96,7 @@ be returned in an arrayref, accessible via the `splat' keyword.
     };
 </pre>    
 
-<h3>REGULAR EXPRESSION MATCHING</h3>
+<a name="regexp-matching"> <h3>REGULAR EXPRESSION MATCHING</h3></a>
 
 <p>
 A route can be defined with a Perl regular expression. The syntax is assumed to
@@ -108,7 +122,7 @@ be defined explicitly with the keyword <code>r</code>, like the following:
     };
 </pre>    
 
-<h3>RUNNING THE WEBSERVER</h3>
+<a name="running"> <h3>RUNNING THE WEBSERVER</h3></a>
 
 <p>
 Once the script is ready, you can run the webserver just by running the
@@ -125,7 +139,7 @@ script. The following options are supported:
 
 </ul>
 
-<h2>ACTION SKIPPING</h2>
+<a name="skipping"> <h3>ACTION SKIPPING</h3></a>
 
 <p>
 An action can choose not to serve the current request and ask Dancer to process
@@ -148,7 +162,7 @@ This is done with the <code>pass</code> keyword, like in the following example
     };
 </pre>    
 
-<h2>ACTION RESPONSES</h2>
+<a name="response"> <h3>ACTION RESPONSES</h3></a>
 
 <p>
 The action's return value is always considered to be the content to render. So
@@ -160,7 +174,8 @@ In order to change the default behaviour of the rendering of an action, you can
 use the following keywords.
 </p>
 
-<h3>status</h3>
+
+<h4>status</h4>
 
 <p>
 By default, an action will produce an <code>HTTP 200 OK</code> status code, meaning
@@ -188,7 +203,7 @@ The status keyword receives the name of the status to render, it can be either
 an HTTP code or its alias, as defined in <code>Dancer::HTTP</code>.
 </p>
 
-<h3>content_type</h3>
+<h4>content_type</h4>
 
 <p>
 You can also change the content type rendered in the same maner, with the
@@ -204,7 +219,7 @@ keyword <code>content_type</code>
     };
 </pre>    
 
-<h3>Before filters</h3>
+<a name="before"> <h3>Before filters</h3></a>
 
 <p>
 Before filters are evaluated before each request within the context of the
@@ -230,7 +245,7 @@ The request keyword returns the current CGI object representing the incoming req
 See the documentation of the <code>CGI</code> module for details.
 </p>
 
-<h2>CONFIGURATION AND ENVIRONMENTS</h2>
+<a name="configuration"> <h3>CONFIGURATION AND ENVIRONMENTS</h3></a>
 
 <p>
 Configuring a Dancer application can be done in many ways. The easiest one (and
@@ -293,7 +308,7 @@ And in a production one:
     access_log: 0
 </pre>
 
-<h2>LOGGING</h2>
+<a name="logging"> <h3>LOGGING</h3></a>
 
 <p>
 It's possible to log messages sent by the application. In the current version,
@@ -327,9 +342,7 @@ environment. The log message contains the time it was written, the PID of the
 current process, the message and the caller information (file and line).
 </p>
 
-<h2>USING TEMPLATES</h2>
-
-<h2>VIEWS </h2>
+<a name="views"> <h3>VIEWS </h3></a>
 
 <p>
 It's possible to render the action's content with a template, this is called a
@@ -392,9 +405,8 @@ A layout can be used like the following:
     };
 </pre>    
 
-<h2>STATIC FILES</h2>
 
-<h3>STATIC DIRECTORY</h3>
+<a name="static"> <h3>STATIC FILES</h3></a>
 
 <p>
 Static files are served from the ./public directory. You can specify a
@@ -412,7 +424,7 @@ Note that the public directory name is not included in the URL. A file
 <code>example.com/css/style.css</code>.
 </p>
 
-<h3>MIME-TYPES CONFIGURATION</h3>
+<h4>MIME-TYPES CONFIGURATION</h4>
 
 <p>
 By default, Dancer will automatically detect the mime-types to use for 
@@ -434,7 +446,7 @@ text files).
 This configures the 'text/foo' content type for any file matching '*.foo'.
 </p>
 
-<h3>STATIC FILE FROM A ROUTE HANDLER</h3>
+<h4>STATIC FILE FROM A ROUTE HANDLER</h4>
 
 <p>
 It's possible for a route handler to pass the batton to a static file, like
@@ -461,7 +473,7 @@ Or even if you want your index page to be a plain old index.html file, just do:
     };
 </pre>    
 
-<h2>SETTINGS</h2>
+<a name="settings"> <h3>SETTINGS</h3></a>
 
 <p>
 It's possible to change quite every parameter of the application via the
@@ -477,32 +489,7 @@ A setting is key/value pair assigned by the keyword <code>set</code>:
     set setting_name => 'setting_value';
 </pre>    
 
-<h2>EXAMPLE</h2>
-
-<p>
-This is a possible webapp created with Dancer :
-</p>
-
-<pre class="prettyprint">
-    #!/usr/bin/perl
-    
-    # make this script a webapp
-    use Dancer;
-
-    # declare routes/actions
-    get '/' => sub { 
-        "Hello World";
-    };
-
-    get '/hello/:name' => sub {
-        "Hello ".params->{name}
-    };
-
-    # run the webserver
-    dance;
-</pre>    
-
-<h2>DEPENDENCIES</h2>
+<a name="dependencies"> <h3>DEPENDENCIES</h3></a>
 
 <p>
 Dancer depends on the following modules:
@@ -526,7 +513,7 @@ The following modules are optional
 <li>Template :  needed for the views rendering system</li>
 </ul>
 
-<h2>LICENSE</h2>
+<a name="license"> <h3>LICENSE</h3></a>
 
 This module is free software and is published under the same
 terms as Perl itself.

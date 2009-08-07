@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Starting processes..."
-./perldancer.pl --port=4001 --daemon
-./perldancer.pl --port=4002 --daemon
-./perldancer.pl --port=4003 --daemon
+./perldancer.pl --port=4001 --daemon -e production
+./perldancer.pl --port=4002 --daemon -e production
+./perldancer.pl --port=4003 --daemon -e production
 echo "Done"
