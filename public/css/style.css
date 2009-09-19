@@ -143,3 +143,12 @@ code, pre {
     font-size: 14px;
     font-family: "lucida console","monaco","andale mono","bitstream vera sans mono","consolas",monospace;
 }
+
+pre.shell {
+    border: 1px solid #000;
+    background-color: #333;
+    color: #eee;
+    padding: 6px;
+    -moz-opacity: 0.7;
+    margin-right: 1em;
+}
