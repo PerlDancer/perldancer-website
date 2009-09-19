@@ -20,9 +20,9 @@ dance;
 
 <h2>And dance</h2>
 
-<pre>
-$ sudo cpan HTTP::Server::Simple
+<pre class="shell">
 $ sudo cpan Dancer
+[...]
 $ perl ./hi.pl
 >> Listening on 127.0.0.1:3000
 == Entering the dance floor ...
