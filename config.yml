@@ -1,2 +1,3 @@
-layout: 'main'
-logger: 'file'
+layout: "main"
+logger: "file"
+

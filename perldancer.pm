@@ -1,12 +1,10 @@
 package perldancer;
 use Dancer;
-#use Template;
+use Template;
 
 my @pages = qw(quickstart documentation contribute about example download);
 
 get '/' => sub {
-    my $toto;
-    $toto += "";
     template 'home';
 };
 

@@ -2,7 +2,7 @@
 
 <p>
 This documentation was written for Dancer <a
-href="http://search.cpan.org/~sukria/Dancer-0.9901/">0.9001</a>
+href="http://search.cpan.org/~sukria/Dancer-0.9904/">0.9001</a>
 </p>
 
 <h3>Usage</h3>
@@ -203,6 +203,32 @@ keyword <code>content_type</code>
         # here we can dump the contents of params->{txtfile}
     };
 </pre>    
+
+<a name="errors"></a>
+<h2>Error handling</h2>
+
+<h3>Default Error Pages</h3>
+
+When an error is renderered (the action responded with a status code different
+than 200), Dancer first looks in the public directory for an HTML file matching
+the error code (eg: 500.html or 404.html).
+
+If such a file exists, it's used to render the error, otherwise, a default
+error page will be rendered on the fly.
+
+<h3>Execution Errors</h3>
+
+When an error occurs during the route execution, Dancer will render an error
+page with the HTTP status code 500.
+
+It's possible either to display the content of the error message or to hide it
+with a generic error page.
+
+This is a choice left to the end-user and can be set with the
+<code>show_errors</code> setting.
+
+Note that you can also choose to consider all warnings in your route handlers
+as errors when the setting <code>warnings</code> is set to 1.
 
 <h3>Before filters</h3>
 
