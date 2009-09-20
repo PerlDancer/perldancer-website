@@ -1,0 +1,32 @@
+body {
+    font-family: Lucida,sans-serif;
+}
+
+h1 {
+    color: #AA0000;
+    border-bottom: 1px solid #444;
+}
+
+h2 { color: #444; }
+
+pre {
+    font-family: monospace;
+    font-size: 14px;
+    border-left: 2px solid #777;
+    padding-left: 1em;
+}
+
+#footer {
+    font-size: 10px;
+}
+
+span.key { 
+    color: #449;
+    font-weight: bold;
+    width: 120px;
+    display: inline;
+}
+
+span.value {
+    color: #494;
+}
