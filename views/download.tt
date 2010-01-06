@@ -1,13 +1,9 @@
 <h2>Getting Dancer</h2>
 
-<p>
-<em>Dancer is still in development stage.</em>
-</p>
-
 <h3>Releases</h3>
 
 <p>
-Last release is <a href="/downloads/Dancer-0.9904.tar.gz">0.9904</a>, you can
+Last stable release is <a href="/downloads/Dancer-1.100.tar.gz">1.100</a>, you can
 also check out the <a href="http://search.cpan.org/dist/Dancer/">CPAN page</a>.
 </p>
 

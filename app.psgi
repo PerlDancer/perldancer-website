@@ -1,6 +1,6 @@
 # This is a PSGI application file for Apache+Plack support
-use lib '/home/sukria/Devel/perldancer-website';
-use perldancer-website;
+use lib '/srv/dancer.sukria.net/perldancer-website';
+use perldancer;
 
 use Dancer::Config 'setting';
 setting apphandler  => 'PSGI';

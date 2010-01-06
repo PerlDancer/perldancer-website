@@ -48,6 +48,16 @@ a:hover {
     text-transform:uppercase;
 }
 
+#menu div a {
+    color: #eee;
+}
+
+#menu div {
+font-family: sans-serif;
+    color: #ddd;
+    margin: 1em;
+}
+
 #push, #footer {
     height: 28px;
 }
@@ -152,3 +162,5 @@ pre.shell {
     -moz-opacity: 0.7;
     margin-right: 1em;
 }
+
+
