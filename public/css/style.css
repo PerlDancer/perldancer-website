@@ -81,7 +81,7 @@ font-family: sans-serif;
 
 #container {
     /* height: 500px; */
-    background: #3c516e url('/images/dancer.png') no-repeat bottom left;
+    background: #3c516e url('/images/dancer.png') no-repeat bottom left; 
     min-height: 100%;
     height: auto !important;
     height: 100%;
@@ -89,7 +89,8 @@ font-family: sans-serif;
 }
 
 #content {
-    background: #fff url('/images/dancer-content-bg.png') no-repeat top right;
+    /* background: #fff url('/images/dancer-content-bg.png') no-repeat top right; */
+	background-color: #fff;
     border-left: 4px solid #fff;
     border-right: 6px solid #eeb938;
     color: #444;
