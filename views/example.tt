@@ -23,10 +23,5 @@ get '/:page' => sub {
     template $page;
 };
 
-get '/*' => sub {
-   status 'not_found';
-   template 'not_found';
-};
-
 dance;
 </pre>
