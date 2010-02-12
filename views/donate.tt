@@ -1,0 +1,29 @@
+<h2>Donating to the project</h2>
+
+<p>
+You can support the project by donating to the development team. There is no
+minimum amount, you can give just what you want.
+</p>
+
+<p>
+The money received is mainly used to buy time to the development team. When
+donating, you can also vote for a bug or a feature you'd like to see in the
+next release.
+</p>
+
+<p>
+It can also be used by the development team for paying travel
+costs during Perl conferences, where Dancer would be presented.
+</p>
+
+<p>
+You can donate with PayPal, just by clicking on the following button:
+</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="VZS8P84KGVZXC">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypal.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+</form>
+
