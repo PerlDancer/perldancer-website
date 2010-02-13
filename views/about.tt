@@ -23,7 +23,9 @@ work about Dancer.
 
 <p>
 You can also reach the development team on <code>irc.perl.org</code>, 
-chan <code>#dancer</code>.
+chan <code>#dancer</code>.  If you don't have an IRC client available, you can
+<a href="http://widget.mibbit.com/?settings=285bba04946885da044c7d1e16a79b46&server=irc.perl.org&channel=%23dancer"
+target="_blank">connect using Mibbit web IRC</a>.
 </p>
 
 <h3>Artwork</h3>
