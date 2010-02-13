@@ -10,8 +10,8 @@ $ sudo cpan Dancer
 
 <h2>Creating an application</h2>
 
-<p>Since version 0.9904, an helper is shipped with the distribution
-and lets you create an application with a single command:
+<p>Since version 0.9904, a helper is shipped with the distribution
+which lets you create an application with a single command:
 
 <pre class="shell">
 $ dancer -a mywebapp
@@ -30,7 +30,7 @@ $ dancer -a mywebapp
 </pre>
 
 <p>Everything is ready and works out of the box. It's already a working "Hello
-World" application waiting for being hacked.</p>
+World" application waiting to be  hacked into whatever you like.</p>
 
 <h2>Hacking into the routes</h2>
 
@@ -55,4 +55,9 @@ $ ./mywebapp.pl
 >> Listening on 127.0.0.1:3000
 == Entering the dance floor ...
 </pre>
+
+<p>
+The above shows Dancer acting as a mini web server, but of course Dancer webapps
+can also run from nearly any web server using Plack/PSGI.
+</p>
 
