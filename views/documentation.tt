@@ -11,7 +11,7 @@ make the reading more confortable.
 <ul>
 <li><a href="http://search.cpan.org/dist/Dancer/lib/Dancer.pm">Dancer</a> : 
 	the main documentation, explaining all the details you want about Dancer's syntax.</li>
-<li><a href="http://search.cpan.org/dist/Dancer/lib/Dancer/Cookbook.pod"?Dancer::Cookbook</a> :
+<li><a href="http://search.cpan.org/dist/Dancer/lib/Dancer/Cookbook.pod">Dancer::Cookbook</a> :
         a quick-start guide with lots of examples to get you dancing
         quickly</li>
 <li><a href="http://search.cpan.org/dist/Dancer/lib/Dancer/Config.pm">Dancer::Config</a> : 
