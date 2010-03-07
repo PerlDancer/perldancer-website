@@ -15,7 +15,10 @@ Dancer is free software, it is released under the same terms as Perl itself.
 <h3>Contact</h3>
 
 <p>
-You can reach Alexis by mail at <code>sukria at sukria dot net</code>.
+Feel free to <a href="http://lists.perldancer.org/cgi-bin/listinfo/dancer-users">subscribe the mailing list</a> if you want to contact users and developers of the project.
+</p>
+
+<p>
 It's also possible to use GitHub to submit a patch, see the <a
 href="/contribute">contribute</a> page for more details about collaborating in
 Dancer development.
