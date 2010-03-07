@@ -1,4 +1,5 @@
 log: "warning"
 warnings: 0
 show_errors: 0
+auto_reload: 0
 
