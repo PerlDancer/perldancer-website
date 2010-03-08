@@ -1,3 +1,6 @@
 layout: "main"
 logger: "file"
+cache: 1
+auto_page: 1
+template: "template_toolkit"
 
