@@ -11,17 +11,10 @@ example I could show?
 use Dancer;
 use Template;
 
-my @pages = qw(quickstart documentation contribute about example);
+get '/' => sub { template 'home' };
 
-get '/' => sub {
-    template 'home';
-};
-
-get '/:page' => sub {
-    my ($page) = params->{page};
-    pass and return false unless grep /$page/, @pages;
-    template $page;
-};
+# auto_page takes care of rendering each path that has a corresponding template in 
+# the views dir (/example, /download, /about ... )
 
 dance;
 </pre>
