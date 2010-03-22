@@ -18,6 +18,7 @@ make the reading more comfortable.
 	details about configuration files for your application</li>
 <li><a href="http://search.cpan.org/dist/Dancer/lib/Dancer/Session.pm">Dancer::Session</a> 
 	: detail about session support and usage</li>
+<li><a href="http://search.cpan.org/dist/Dancer/lib/Dancer/Deployment.pod">Dancer::Deployment</a> : details and examples about how to deploy a Dancer application using <a href="http://plackperl.org">Plack</a>.</li>
 </ul>
 
 <p>

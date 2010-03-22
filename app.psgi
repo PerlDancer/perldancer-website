@@ -4,6 +4,7 @@ use perldancer-website;
 
 use Dancer::Config 'setting';
 setting apphandler  => 'PSGI';
+setting environment => 'production';
 Dancer::Config->load;
 
 my $handler = sub {
