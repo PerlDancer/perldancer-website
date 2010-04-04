@@ -3,8 +3,9 @@
 <h3>Releases</h3>
 
 <p>
-Last release is <a href="/downloads/Dancer-1.170.tar.gz">1.170</a>, you can
-also check out the <a href="http://search.cpan.org/dist/Dancer/">CPAN page</a>.
+Last <em>stable</em> release is <a href="/downloads/Dancer-1.150.tar.gz">1.150</a>, you can
+also check out the <a href="http://search.cpan.org/dist/Dancer/">CPAN page</a> for 
+newer releases.
 </p>
 
 <h3>Cutting-edge</h3>
