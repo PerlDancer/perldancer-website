@@ -101,6 +101,14 @@ font-family: sans-serif;
     min-height: 460px;
 }
 
+#content ul {
+	width: 550px;
+}
+
+#content ul li {
+	margin-bottom: 1em;
+}
+
 h1 { 
     letter-spacing: 4.5px;
     font-size:54px;
@@ -143,7 +151,7 @@ h4 {
     font-family: sans-serif;
     margin-top: 0;
 }
-p {
+#content p, #content ul {
     font-family:'georgia','bitstream vera serif',serif;
     font-size: 16px;
     margin-right: 10px;

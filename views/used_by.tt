@@ -1,21 +1,27 @@
-<h2>Web sites using Dancer</h2>
+<h2>Websites using Dancer</h2>
 
 <p>
+<em>This page references all websites powered by Dancer we're aware of. If you have written a website with Dancer and want it to be listed here, please <a href="/about">contact us</a></em>
+</p>
+
+<ul>
+<li>
 Obviously this site is built using Dancer. To see how it works, look no further than the <a href="/example">example</a>.
 To see the whole <a href="http://github.com/sukria/perldancer-website">source code</a>. It is on Github.
-</p>
+</li>
 
-<p>
+<li>
 <a href="http://perl.worldken.org/">CPAN Hubble</a> searching CPAN & Github by Alex Kapranoff.
 Its <a href="http://github.com/kappa/app-cpanhubble">source code</a> is available on Github.
-</p>
+</li>
 
-<p>
+<li>
 <a href="http://lyricsbadger.co.uk/">Lyrics Badger</a> by David Precious.
-</p>
+</li>
 
-<p>
+<li>
 <a href="http://pb.rbfh.de/">Pastedance</a> a pastebin written by Datamuc.
 The <a href="http://github.com/datamuc/Pastedance">source code</a> available on Github.
-</p>
+</li>
+</ul>
 
