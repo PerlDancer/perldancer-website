@@ -1,5 +1,5 @@
 layout: "main"
-logger: "file"
+logger: "console"
 cache: 1
 auto_page: 1
 template: "template_toolkit"

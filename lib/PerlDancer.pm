@@ -1,6 +1,9 @@
-package perldancer;
-use Dancer;
+package PerlDancer;
+
+use Dancer ':syntax';
 use Template;
+
+our $VERSION = '0.1';
 
 get '/' => sub {
     template 'home';
