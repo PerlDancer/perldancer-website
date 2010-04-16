@@ -1,14 +1,14 @@
-<h2>Installing Dancer</h2>
+<h2>Install Dancer</h2>
 
 <p>
-Install Dancer via CPAN:
+Dancer is available as a CPAN module.  Install using the command line:
 </p>
 
 <pre class="shell">
 $ sudo cpan Dancer
 </pre>
 
-<h2>Creating an application</h2>
+<h2>Create a Skeleton Application</h2>
 
 <p>Since version 0.9904, a helper is shipped with the distribution
 which lets you create an application with a single command:
@@ -32,22 +32,38 @@ $ dancer -a mywebapp
 <p>Everything is ready and works out of the box. It's already a working "Hello
 World" application waiting to be  hacked into whatever you like.</p>
 
-<h2>Hacking into the routes</h2>
+<h2>Edit/Add Routes</h2>
+
+<p>Routes define how your Dancer application responds to URLs.  They can be simple string matches, regular expressions, or more complex routes (see the <a href="/documentation">Documentation</a> page).</p>
 
 <pre class="prettyprint">
 # myapp.pm
 use Dancer;
 
+# this route responds to 
 get '/' => sub {
     'Hello world!'
 };
 
-# add other routes here and there...
+# add a new simple route
+get '/testpage' => sub {
+    # whatever gets returned is considered the content.
+    return 'This is my new test page!'
+};
+
+# add a new regular-expression route
+get r( '/stuff/(.*)' ) => sub {
+    my ($id) = splat();
+    # whatever the last thing to be printed can also be the content.
+    print "This is the page for thing id $id";
+};
 
 dance;
 </pre>
 
-<h2>Running the dance</h2>
+<h2>Start the Development Server</h2>
+
+<p>The Dancer helper script created a perl script to start a local server for development/testing - no extra setup necessary!</p>
 
 <pre class="shell">
 $ cd mywebapp
@@ -56,8 +72,20 @@ $ ./mywebapp.pl
 == Entering the dance floor ...
 </pre>
 
+<p>You will need to restart the dev server whenever you change your routes.</p>
+
+<h2>Test Your Application</h2>
+
+<p>To see what the dancer server is doing, visit this URL in your favourite browser:</p>
+<pre class="shell">
+http://127.0.0.1:3000
+</pre>
+
 <p>
 The above shows Dancer acting as a mini web server, but of course Dancer webapps
-can also run from nearly any web server using Plack/PSGI.
+can also run from nearly any web server using Plack/PSGI.  See the Dancer::Deployment documentation for details.
 </p>
 
+<h2>More...</h2>
+
+<p>Now that you have a basic application up and running, read the <a href="/documentation">Documentation</a> for more advanced usage.</p>

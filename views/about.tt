@@ -1,4 +1,4 @@
-<h2>Who's on the dancefloor?</h2>
+<h2>Who's on the Dance Floor?</h2>
 
 <h3>Authors</h3>
 <p>
@@ -9,7 +9,7 @@ and has been written by <a href="http://twitter.com/sukria">Alexis Sukrieh</a>.
 <h3>License</h3>
 
 <p>
-Dancer is free software, it is released under the same terms as Perl itself. 
+Dancer is free software, it is released under the <a href="http://dev.perl.org/licenses/">same terms as Perl itself</a>.
 </p>
 
 <h3>Contact</h3>
