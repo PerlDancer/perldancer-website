@@ -16,17 +16,32 @@ which lets you create an application with a single command:
 <pre class="shell">
 $ dancer -a mywebapp
 + [D] mywebapp 
++ [F] mywebapp/app.psgi
 + [F] mywebapp/config.yml
++ [D] mywebapp/environments
++ [F] mywebapp/environments/development.yml
++ [F] mywebapp/environments/production.yml
 + [D] mywebapp/views
++ [F] mywebapp/views/index.tt
 + [D] mywebapp/views/layouts
 + [F] mywebapp/views/layouts/main.tt
-+ [F] mywebapp/views/index.tt
-+ [D] mywebapp/environments
-+ [F] mywebapp/environments/production.yml
-+ [F] mywebapp/environments/development.yml
-+ [F] mywebapp/mywebapp.pm
 + [F] mywebapp/mywebapp.pl
-+ [F] mywebapp/app.psgi
++ [D] mywebapp/lib
++ [F] mywebapp/lib/mywebapp.pm
++ [D] mywebapp/lib/mywebapp
++ [D] mywebapp/public
++ [D] mywebapp/public/css
++ [F] mywebapp/public/css/style.css
++ [F] mywebapp/public/css/error.css
++ [D] mywebapp/public/images
++ [F] mywebapp/public/404.html
++ [F] mywebapp/public/dispatch.fcgi
++ [F] mywebapp/public/dispatch.cgi
++ [F] mywebapp/public/500.html
++ [D] mywebapp/t
++ [F] mywebapp/t/002_index_route.t
++ [F] mywebapp/t/001_base.t
++ [F] mywebapp/Makefile.PL
 </pre>
 
 <p>Everything is ready and works out of the box. It's already a working "Hello
