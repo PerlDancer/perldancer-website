@@ -1,68 +1,21 @@
-<div id="home_sidebar">
+		<div id="contain-left" class="col">
+			<h3>What is Dancer?</h3>
+			<p>Dancer is a web application framework written in Perl.</p>
+			<h3>Why use Dancer?</h3>
 
-    <a class="action_button" href="/downloads/Dancer-1.150.tar.gz">Download Now!</a>
-    <br/>
+			
+			<ul>
+				<li><strong>Simple</strong> - run an entire web application from a single file with a few lines of code</li>
+				<li><strong>Flexible</strong> - plugins let you only install code that you need.</li>
+				<li><strong>Stand-alone</strong> - deploy without having to install hundreds of modules.</li>
 
-</div>
+				<li><strong>Rapid Development</strong> - includes a develop  ment webserver that picks up changes quickly.</li>
+				<li><strong>Portable</strong> - runs under PSGI/Plack, fastcgi, cgi, mod_perl for easy deployment.</li>
+			</ul>
+			
+		</div>
+		<div id="contain-right" class="col"><h3>Prepare your move... and dance!</h3>
 
-<h2>What is Dancer?</h2>
-
-<p>
-Dancer is a web application framework written in <a href="http://www.perl.org">Perl</a>.
-</p>
-<p>
-Dancer aims to provide the simplest way for writing web applications, and offers the flexibility to scale between a very simple lightweight web service consisting of a few lines of code in a single file, all the way up to a more complex fully-fledged web application with session support, templates for views and layouts, etc.
-</p>
-<p>
-If you don't want to write CGI scripts by hand, and find Catalyst too big or cumbersome for your project, Dancer is what you need.
-</p>
-<p>
-Dancer has few pre-requisites, so your Dancer webapps will be easy to deploy.
-</p>
-<p>
-Dancer apps can be used with a an embedded web server (great for easy testing), and can run under PSGI/Plack for easy deployment in a variety of webserver environments.
-</p>
-
-<div class="callout_bar">
-    <div class="callout">
-        <h2>Getting Help</h2>
-        <ul>
-            <li>
-                <a href="/donate">Documentation</a> - main Dancer documentation
-            </li>
-            <li>
-                <a href="http://rt.cpan.org/Public/Bug/Report.html?Queue=Dancer">Report Bugs</a> - new and existing issues
-            </li>
-            <li>
-                <a href="http://lists.perldancer.org/cgi-bin/listinfo/dancer-users">Mailing List</a> - subscribe or view archives
-            </li>
-            <li>
-                <a href="http://widget.mibbit.com/?settings=285bba04946885da044c7d1e16a79b46&server=irc.perl.org&channel=%23dancer">IRC channel</a> - chat with developers and users
-            </li>
-    </div>
-    <div class="callout">
-        <h2>Who's Using Dancer?</h2>
-        <ul>
-            <li>
-                <a href="http://perl.worldken.org">CPAN Hubble</a> - Searching CPAN and github
-            </li>
-            <li>
-                <a href="http://pb.rbfh.de">Pastedance</a> - a pastebin clone
-            </li>
-            <li>
-                <a href="http://lyricsbadger.co.uk">Lyrics Badger</a> - search engine for lyrics
-            </li>
-            <li>
-                <a href="http://www.imaginaryrobots.net">ImaginaryRobots.net</a> - a personal website
-            </li>
-            <li>
-                <a href="/used_by">more...</a>
-            </li>
-        </ul>
-    </div>
-</div>
-
-<h2>Example Dancer Application</h2>
 
 <pre class="prettyprint">
 #!/usr/bin/perl
@@ -80,3 +33,4 @@ dance;
     <a href="/example">More examples...</a>
 </p>
 
+</div>
