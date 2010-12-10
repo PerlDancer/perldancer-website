@@ -5,8 +5,9 @@ Dancer is available as a CPAN module.  Install using the command line:
 </p>
 
 <pre class="shell">
-$ sudo cpan Dancer
+$s sudo cpan Dancer
 </pre>
+<br />
 
 <h2>Create a Skeleton Application</h2>
 
@@ -42,7 +43,7 @@ $ dancer -a mywebapp
 + mywebapp/t/001_base.t
 + mywebapp/Makefile.PL
 </pre>
-
+<br />
 <p>Everything is ready and works out of the box. It's already a working "Hello
 World" application waiting to be  hacked into whatever you like.</p>
 
@@ -74,7 +75,7 @@ get r( '/stuff/(.*)' ) => sub {
 
 dance;
 </pre>
-
+<br />
 <h2>Start the Development Server</h2>
 
 <p>The Dancer helper script created a perl script to start a local server for development/testing - no extra setup necessary!</p>
@@ -85,7 +86,7 @@ $ ./mywebapp.pl
 >> Listening on 127.0.0.1:3000
 == Entering the dance floor ...
 </pre>
-
+<br />
 <p>You will need to restart the dev server whenever you change your routes.</p>
 
 <h2>Test Your Application</h2>
@@ -94,7 +95,7 @@ $ ./mywebapp.pl
 <pre class="shell">
 http://127.0.0.1:3000
 </pre>
-
+<br />
 <p>
 The above shows Dancer acting as a mini web server, but of course Dancer webapps
 can also run from nearly any web server using Plack/PSGI.  See the Dancer::Deployment documentation for details.
