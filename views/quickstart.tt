@@ -5,7 +5,7 @@ Dancer is available as a CPAN module.  Install using the command line:
 </p>
 
 <pre class="shell">
-$s sudo cpan Dancer
+$ sudo cpan Dancer
 </pre>
 <br />
 
