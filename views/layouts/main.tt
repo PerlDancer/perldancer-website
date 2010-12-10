@@ -27,11 +27,11 @@
 		
 		<!-- START NAV LEFT -->
 		<ul id="nav-left" class="clearme listreset">
-			<li><a href="/overview">overview</a></li>
+			<li><a href="/home">overview</a></li>
 			<li class="nav-sep"></li>
 			<li><a href="/quickstart">quick start</a></li>
 			<li class="nav-sep"></li>
-			<li><a href="/exampls">examples</a></li>
+			<li><a href="/examples">examples</a></li>
 
 		</ul>
 		<!-- END NAV LEFT -->
@@ -43,7 +43,7 @@
 			<li><a href="/contribute">contribute</a></li>
 			<li class="nav-sep"></li>
 
-			<li><a href="">dance floor</a></li>
+			<li><a href="/used_by">dance floor</a></li>
 		</ul>
 		<!-- END NAV RIGHT -->
 			
