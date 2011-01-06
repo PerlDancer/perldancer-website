@@ -63,13 +63,4 @@ either to get or offer help. You can also check out the <a
 href="http://lists.perldancer.org/pipermail/dancer-users/">list archives</a>.
 
 
-<h3>Fix this website</h3>
-<p>
-Yeah, that website is written with <a
-href="http://search.cpan.org/perldoc?Dancer">Dancer</a>, and is free software. That means you
-can grab <a href="http://github.com/sukria/perldancer-website">the source code on GitHub</a> 
-and if you find a typo or something wrong, patch it and request a pull from 
-<a href="http://github.com/sukria">sukria</a>.  That's also a good way to contribute to the project.
-</p>
-
 
