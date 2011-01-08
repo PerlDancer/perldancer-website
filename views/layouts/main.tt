@@ -21,24 +21,20 @@
 	<!-- START HEADER -->
 	<div id="header">
 	
-		<h1><a href="/">Perl Dancer | Perl is fun again</a></h1>
-		<h2>The easiest way to write web applications in Perl</h2>
-
-		
 		<!-- START NAV LEFT -->
 		<ul id="nav-left" class="clearme listreset">
 			<li><a href="/home">overview</a></li>
 			<li class="nav-sep"></li>
 			<li><a href="/quickstart">quick start</a></li>
 			<li class="nav-sep"></li>
-			<li><a href="/example">examples</a></li>
+			<li><a href="/documentation">documentations</a></li>
 
 		</ul>
 		<!-- END NAV LEFT -->
 		
 		<!-- START NAV RIGHT -->
 		<ul id="nav-right" class="clearme listreset">
-			<li><a href="/documentation">docs</a></li>
+			<li><a href="/example">examples</a></li>
 			<li class="nav-sep"></li>
 			<li><a href="/contribute">contribute</a></li>
 			<li class="nav-sep"></li>

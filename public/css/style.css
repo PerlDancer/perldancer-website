@@ -31,47 +31,19 @@ html,body{ background: #2a2a2a url(../images/dcr-bkg-body.jpg) 0 0 repeat-x;}
 	HEADER
 ---------------------------------------------------------------------------------------*/
 #wrapper-header{
-	background: url(../images/dcr-bkg-top.jpg) top center no-repeat;
 }
 	
 	#header{
 		position: relative;
-	 	width: 974px;
-	 	height: 394px;
+	 	width: 900px;
+	 	height: 200px;
+		background: url(/images/header-bg.png) no-repeat top left;
 	 	margin: auto;
 	}
 		
 		/*---------------------------------------------------------------------------------------
 			HEADER - TITLES
 		---------------------------------------------------------------------------------------*/
-		h1{
-			position: absolute;
-			top: 75px;
-			left: 311px;
-			overflow: hidden;
-		}
-	
-		h1,h1 a{
-			width: 351px;
-			height: 246px;
-		}
-		
-		h1 a{
-			display: block;
-			text-indent: -9999px;
-			background: url(../images/dcr-header-logo.png) 0 0 no-repeat;
-		}
-		
-		h2{
-			position: absolute;
-			top: 21px;
-			left: 318px;
-			width: 338px;
-			height: 35px;
-			background: url(../images/dcr-header-h2.png) 0 0 no-repeat;
-			overflow: hidden;
-			text-indent: -9999px;
-		}
 	
 		/*---------------------------------------------------------------------------------------
 			HEADER - NAVIGATION
