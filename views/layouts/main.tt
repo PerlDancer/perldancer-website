@@ -3,8 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<meta name="description" content="the famous Google'six lines..." />
-	<meta name="keywords" content="" />
+	<meta name="description" content="Simple, elegant Perl web framework for
+            fun, rapid web application development"" />
+	<meta name="keywords" content="perl,framework,web" />
 	<meta name="author" content="Pixelefant" />
 	<meta name="robots" content="index,follow" />
 	<meta name="copyright" content="" />
@@ -21,27 +22,28 @@
 	<!-- START HEADER -->
 	<div id="header">
 	
-		<h1><a href="index.html">Perl Dancer | Perl is fun again</a></h1>
+		<h1><a href="/">Perl Dancer | Perl is fun again</a></h1>
 		<h2>The easiest way to write web applications in Perl</h2>
 
 		
 		<!-- START NAV LEFT -->
 		<ul id="nav-left" class="clearme listreset">
-			<li><a href="">overview</a></li>
+			<li><a href="/">overview</a></li>
 			<li class="nav-sep"></li>
-			<li><a href="">quick start</a></li>
+			<li><a href="/quickstart">quick start</a></li>
 
 		</ul>
 		<!-- END NAV LEFT -->
 		
 		<!-- START NAV RIGHT -->
 		<ul id="nav-right" class="clearme listreset">
-			<li><a href="">docs</a></li>
+			<li><a href="/documentation" title="Documentation">docs</a></li>
 			<li class="nav-sep"></li>
-			<li><a href="">contribute</a></li>
+			<li><a href="/contribute" title="Contributing to the
+                        project">contribute</a></li>
 			<li class="nav-sep"></li>
 
-			<li><a href="">dance floor</a></li>
+			<li><a href="/dancefloor" title="Who's using Dancer">dance floor</a></li>
 		</ul>
 		<!-- END NAV RIGHT -->
 			
