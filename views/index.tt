@@ -1,0 +1,49 @@
+<!-- START CONTAIN DBLE COL -->
+<!-- START CONTAIN DBLE COL LEFT-->
+<div id="contain-left" class="col">
+	<h3>What is Dancer?</h3>
+	<p>Dancer is a web application framework written in Perl.</p>
+
+	<h3>Why use Dancer?</h3>
+	
+	<!-- START LIST TYPE VERTICAL -->
+	<ul>
+		<li><strong>Simple</strong> - run an entire web application from a single file with a few lines of code</li>
+		<li><strong>Flexible</strong> - plugins let you only install code that you need.</li>
+
+		<li><strong>Stand-alone</strong> - deploy without having to install hundreds of modules.</li>
+		<li><strong>Rapid Development</strong> - includes a develop  ment webserver that picks up changes quickly.</li>
+		<li><strong>Portable</strong> - runs under PSGI/Plack, fastcgi, cgi, mod_perl for easy deployment.</li>
+	</ul>
+
+	<!-- END LIST TYPE VERTICAL -->
+	
+</div>
+<!-- END CONTAIN DBLE COL LEFT-->
+
+<!-- START CONTAIN DBLE COL RIGHT-->
+<div id="contain-right" class="col">
+
+	<h3>Prepare your move... and dance!</h3>
+	
+	<p>Dancer is a web application framework written in Perl.</p>
+	
+	<ul class="clearme listreset dbc">
+
+		<li>thisis</li>
+		<li>simple</li>
+	</ul>
+	
+	<ul class="clearme listreset dbc">
+		<li><a href="http://search.cpan.org/CPAN/authors/id/X/XS/XSAWYERX/Dancer-1.2003.tar.gz" id="contain-download">v 1.2&nbsp;</a></li>
+		<li class="txtXs">For bleeding edge, clone the Git repository with the following command:
+		<span>$ git clone git://github.com/sukria/Dancer.git</span>
+
+Follow the <a href="">Dancer project</a> on GitHub</li>
+	</ul>
+	
+	
+
+</div>
+<!-- END CONTAIN DBLE COL RIGHT-->
+<!-- END CONTAIN DBLE COL -->

@@ -1,54 +1,80 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="description" content="the famous Google'six lines..." />
+	<meta name="keywords" content="" />
+	<meta name="author" content="Pixelefant" />
+	<meta name="robots" content="index,follow" />
+	<meta name="copyright" content="" />
 
-<head profile="http://gmpg.org/xfn/11">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-<title>Dancer - Effortless Web Framework for Perl</title>
-
-<!-- default skin -->
-<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
-
-<!-- prettify -->
-<link href="/css/prettify.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="/javascripts/prettify.js"></script>
-
-<meta name="generator" content="Dancer 1.0" />
+	<link rel="stylesheet" href="/css/style.css" media="screen" />
+	<!--[if gte IE 7]>
+		<link rel="stylesheet" href="/css/styleIE.css" />
+	<![endif]-->
 </head>
-<body onload="prettyPrint()">
+<body>
+<!-- START WAPPER HEADER -->
+<div id="wrapper-header">
+			
+	<!-- START HEADER -->
+	<div id="header">
+	
+		<h1><a href="index.html">Perl Dancer | Perl is fun again</a></h1>
+		<h2>The easiest way to write web applications in Perl</h2>
 
-<div id="menu">
+		
+		<!-- START NAV LEFT -->
+		<ul id="nav-left" class="clearme listreset">
+			<li><a href="">overview</a></li>
+			<li class="nav-sep"></li>
+			<li><a href="">quick start</a></li>
 
-<ul>
-    <li><a href="/">Overview</a></li>
-    <li><a href="/quickstart">Quick Start</a></li>
-    <li><a href="/example">Example</a></li>
-    <li><a href="/documentation">Documentation</a></li>
-    <li><a href="/download">Download</a></li>
-    <li><a href="/contribute">Contribute</a></li>
-    <li><a href="/used_by">Dancefloor</a></li>
-    <li><a href="/about">About</a></li>
-	<li><a href="/donate">Donate</a></li>
-</ul>
+		</ul>
+		<!-- END NAV LEFT -->
+		
+		<!-- START NAV RIGHT -->
+		<ul id="nav-right" class="clearme listreset">
+			<li><a href="">docs</a></li>
+			<li class="nav-sep"></li>
+			<li><a href="">contribute</a></li>
+			<li class="nav-sep"></li>
 
+			<li><a href="">dance floor</a></li>
+		</ul>
+		<!-- END NAV RIGHT -->
+			
+	</div>
+	<!-- END HEADER -->
+	
+	</div>
+	<!-- END WAPPER HEADER -->
+	
+		
+<div id="wrapper-contain">
+
+	
+	<div id="contain-top"></div>
+	<!-- START MAIN CONTAIN -->
+	<div id="contain" class="clearme">
+	<% content %>		
+	</div>
+	<!-- END MAIN CONTAIN -->
+
+	<div id="contain-bottom"></div>
+	
+	<div id="copyright">Dancer is copyright © 2009-2011 <a href="http://sukria.net/" rel="external">Alexis Sukrieh</a> - <a href="http://github.com/sukria/Dancer/" rel="external">Fork on GitHub</a> - This website is <a href="http://github.com/sukria/perldancer-website/" rel="external">free software</a>.</div>
 
 </div>
 
-<div id="container">
-  <div id="content">
-    <% content %>
-  </div>
-  <div id="push"></div>
-</div>
-
-<div id="footer">
-    Dancer is copyright &copy; 2009 
-    <a href="http://twitter.com/sukria">Alexis Sukrieh</a> - 
-    <a href="http://github.com/sukria/Dancer">Fork on GitHub</a> -
-    <a href="http://github.com/sukria/perldancer-website">This website is free software</a>
-</div>
+<!-- JAVASCRIPTS CALLING -->	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js"></script> 
+<script src="/javascripts/perlDancer.js"></script>
 
 <a href="http://github.com/sukria/Dancer"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+
 
 </body>
 </html>

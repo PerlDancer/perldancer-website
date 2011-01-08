@@ -1,6 +1,7 @@
 layout: "main"
 logger: "console"
 cache: 1
+charset: "UTF-8"
 auto_page: 1
 template: "template_toolkit"
 

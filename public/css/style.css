@@ -1,175 +1,288 @@
-html, body {
-    height: 100%;
-    background-color: #3c516e;
-    margin: 0;
+/*---------------------------------------------------------------------------------------
+	CSS RESET (SOFT)
+---------------------------------------------------------------------------------------*/
+	 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin:0; padding:0; }
+	 table { border-collapse:collapse; border-spacing:0; }
+	 fieldset, img { border:0; }
+	 h1, h2, h3, h4, h5, h6, address, caption { font-style:normal; font-size:100%; font-weight:normal; }
+	 caption, th { text-align:left; }
+	 ol.listreset, .listreset ol, ul.listreset, .listreset ul, .listreset li { margin:0; padding:0; list-style:none; }
+
+
+/*---------------------------------------------------------------------------------------
+	COMMON DECLARATIONS
+---------------------------------------------------------------------------------------*/
+html,body{ background: #2a2a2a url(/images/dcr-bkg-body.jpg) 0 0 repeat-x;}
+.clearme:after{ content: "."; display: block; visibility: hidden; clear: both; height: 0; font-size: 0.1em; line-height: 0;}
+a{ text-decoration: none;}
+
+
+/*---------------------------------------------------------------------------------------
+	HEADER
+---------------------------------------------------------------------------------------*/
+#wrapper-header{
+	background: url(/images/dcr-bkg-top.jpg) top center no-repeat;
+}
+	
+	#header{
+		position: relative;
+	 	width: 974px;
+	 	height: 394px;
+	 	margin: auto;
+	}
+		
+		/*---------------------------------------------------------------------------------------
+			HEADER - TITLES
+		---------------------------------------------------------------------------------------*/
+		h1{
+			position: absolute;
+			top: 75px;
+			left: 311px;
+			overflow: hidden;
+		}
+	
+		h1,h1 a{
+			width: 351px;
+			height: 246px;
+		}
+		
+		h1 a{
+			display: block;
+			text-indent: -9999px;
+			background: url(/images/dcr-header-logo.png) 0 0 no-repeat;
+		}
+		
+		h2{
+			position: absolute;
+			top: 21px;
+			left: 318px;
+			width: 338px;
+			height: 35px;
+			background: url(/images/dcr-header-h2.png) 0 0 no-repeat;
+			overflow: hidden;
+			text-indent: -9999px;
+		}
+	
+		/*---------------------------------------------------------------------------------------
+			HEADER - NAVIGATION
+		---------------------------------------------------------------------------------------*/
+	 	#nav-left,#nav-right{
+	 		position: absolute;
+	 		top: 184px;
+	 		height: 33px;
+	 		background: url(/images/dcr-header-bkg-menu.png) 0 0 no-repeat;
+	 	}
+	 
+	 	#nav-left li,#nav-right li{
+	 		float: left;
+	 		height: 33px;
+	 		text-align: center;
+	 	}
+	 	
+	 	#nav-left li.nav-sep,#nav-right li.nav-sep{
+	 		width: 15px;
+			background: url(/images/dcr-header-bkg-sepmenu.jpg) center center no-repeat;
+	 	}
+	 	
+	 	#nav-left li a,#nav-right li a{
+	 		display: block;
+	 		height: 33px;
+	 		margin: 0 8px;
+	 		font: 17px/33px 'HelveticaNeueLTStd67MediumCon', helvetica, arial, sans-serif;
+	 		color: #767676;
+	 		letter-spacing: 0.02em;
+	 		text-decoration: none;	
+	 	}
+	 	
+	 	#nav-left li a:hover,#nav-right li a:hover{
+	 		color: #333;
+	 	}
+	 
+	 	/*---------------------------------------------------------------------------------------
+			HEADER - NAVIGATION - LEFT
+		---------------------------------------------------------------------------------------*/
+	 	#nav-left{
+	 		left: 0;
+	 		width: 290px;
+	 		padding: 0 0 0 10px;
+	 	}
+	 
+	 	/*---------------------------------------------------------------------------------------
+			HEADER - NAVIGATION - RIGHT
+		---------------------------------------------------------------------------------------*/
+	 	#nav-right{
+	 		left: 674px;
+	 		width: 280px;
+	 		padding: 0 0 0 20px;	
+	 	}	
+
+
+/*---------------------------------------------------------------------------------------
+	MAIN CONTAIN
+---------------------------------------------------------------------------------------*/
+#wrapper-contain{
+	min-height: 630px;
+	height:auto !important;
+	height: 630px;
+	padding: 45px 0 0;
+	background: url(/images/dcr-bkg-bottom.jpg) top center no-repeat;
 }
 
-a { 
-    color: #3c516e;
+#contain-top{
+	width: 960px;
+	height: 30px;
+	margin: auto;
+	background: url(/images/dcr-contain-bkg-top.png) 0 0 repeat-y;
 }
 
-a:hover {
-    text-decoration: underline;
+#contain-bottom{
+	width: 960px;
+	height: 50px;
+	margin: auto;
+	background: url(/images/dcr-contain-bkg-bottom.png) 0 0 repeat-y;
 }
 
-#menu {
-    position: absolute;
-    left: 0px;
-    top: 20px;
-}
-
-#menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#menu ul li a {
-    text-decoration: none;
-    display: block;
-    color: #3c516e;
-}
-
-#menu ul li:hover {
-    background-color: #eeb938;
-    color: #3c516e;
-    border-left:3px solid #fff;
-}
-
-#menu ul li {
-    margin-bottom: 4px;
-    border-left:3px solid #eeb938;
-    margin-left: 5px;
-    padding-left: 4px;
-    background-color: #eee;
-    font-size:20px;
-    letter-spacing:3px;
-    line-height:1.25;
-    text-transform:uppercase;
-}
-
-#menu div a {
-    color: #eee;
-}
-
-#menu div {
-font-family: sans-serif;
-    color: #ddd;
-    margin: 1em;
-}
-
-#push, #footer {
-    height: 28px;
-}
-
-#footer {
-    background: #fff;
-    border-top: 4px solid #444;
-
-    margin-top: 30px;
-    padding-top: 2px;
-
-    font-family:sans-serif;
-    font-size: 12px;
-    color: #999;
-    text-align: center;
-}
-
-#footer a {
-    color: #99b;
-}
-
-#container {
-    /* height: 500px; */
-    background: #3c516e url('/images/dancer.png') no-repeat bottom left; 
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -4em;
-}
-
-#content {
-    /* background: #fff url('/images/dancer-content-bg.png') no-repeat top right; */
-	background-color: #fff;
-    border-left: 4px solid #fff;
-    border-right: 6px solid #eeb938;
-    color: #444;
-    margin-left: 260px;
-    padding-left: 10px;
-    padding-top: 8px;
-    padding-bottom: 2em;
-    min-height: 460px;
-}
-
-#content ul {
-	width: 550px;
-}
-
-#content ul li {
-	margin-bottom: 1em;
-}
-
-h1 { 
-    letter-spacing: 4.5px;
-    font-size:54px;
-    letter-spacing:3px;
-    line-height:1.25;
-    margin: 0;
-    font-family:'georgia','bitstream vera serif',serif; 
-    color: #000;
-}
-
-h2 { 
-    letter-spacing: 4.5px;
-    font-size:20px;
-    letter-spacing:3px;
-    line-height:1.25;
-    text-transform:uppercase;
-    font-weight: normal;
-    font-family: sans-serif;
-    margin-top: 0;
-    color: #3c516e;
-    border-bottom: 1px solid #eeb938;
-}
-
-h3 { 
-    color: #3c516e;
-    font-size:16px;
-    letter-spacing:3px;
-    line-height:1.25;
-    text-transform:uppercase;
-    font-family: sans-serif;
-    margin-top: 0;
-}
-
-h4 { 
-    letter-spacing: 2px;
-    line-height:1.25;
-    color: #3c516e;
-    text-transform:uppercase;
-    font-size:14px;
-    font-family: sans-serif;
-    margin-top: 0;
-}
-#content p, #content ul {
-    font-family:'georgia','bitstream vera serif',serif;
-    font-size: 16px;
-    margin-right: 10px;
-    width: 650px;
-}
-
-code, pre { 
-    font-size: 14px;
-    font-family: "lucida console","monaco","andale mono","bitstream vera sans mono","consolas",monospace;
-}
-
-pre.shell {
-    border: 1px solid #000;
-    background-color: #333;
-    color: #eee;
-    padding: 6px;
-    -moz-opacity: 0.7;
-    margin-right: 1em;
+#contain{
+	position: relative;
+	width: 880px;
+	padding: 0 40px;
+	/*
+min-height: 300px;
+	height:auto !important;
+	height: 300px;
+*/
+	margin: auto;
+	background: url(/images/dcr-contain-bkg-middle.png) 0 0 repeat-y;
 }
 
 
+
+	/*---------------------------------------------------------------------------------------
+		CONTAIN - LEFT
+	---------------------------------------------------------------------------------------*/
+	#contain-left{
+		float: left;
+		width: 308px;
+		padding: 0 30px 0 0;
+		border-right: 1px solid #ededed;
+	}
+	
+	/*---------------------------------------------------------------------------------------
+		CONTAIN - RIGHT
+	---------------------------------------------------------------------------------------*/
+	#contain-right{
+		float: left;
+		width: 510px;
+		padding: 0 0 0 30px;
+		border-left: 1px solid #b4b4b4;
+	}
+	
+	/*---------------------------------------------------------------------------------------
+		CONTAIN - RIGHT - DOUBLE CONTAIN
+	---------------------------------------------------------------------------------------*/
+	#contain .dbc{
+		margin: 0 0 20px;
+	}
+
+	#contain .dbc li{
+		float: left;
+		width: 50%;
+	}
+
+	.txtXs{
+		font: 12px/17px 'HelveticaNeueLTStd55Roman', helvetica, arial, sans-serif;
+	}
+
+	.txtXs span{
+		display: block;
+		padding: 0 0 0 5px;
+		color: #333;
+	}
+
+h3{
+	color: #285c95;
+	font: 30px/45px 'HelveticaNeueLTStd67MediumCon', helvetica, arial, sans-serif;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+p{	
+	margin: 0 0 20px;
+	color: #646464;
+	font: 16px/22px 'HelveticaNeueLTStd55Roman', helvetica, arial, sans-serif;
+}
+
+#contain ul{
+	margin: 0;
+	padding: 0 0 0 10px;
+	color: #646464;
+	font: 14px/20px 'HelveticaNeueLTStd55Roman', helvetica, arial, sans-serif;
+}
+   
+#contain ul li{
+	margin: 0 0 7px;
+}   
+   
+#contain strong{
+	color: #285c95;
+	text-shadow: 1px 1px 0 #fff;
+} 
+
+#contain a#contain-download{
+	display: block;
+	width: 175px;
+	height: 43px;
+	margin: 4px 0 0;
+	padding: 17px 8px 0 0;
+	background: url(/images/dcr-contain-bkg-download.jpg) 0 0 no-repeat;
+	color: #cae131;
+	text-shadow: 1px 1px 0 #000;
+	text-decoration: none;
+	text-align: right;
+}
+
+#contain a#contain-download:hover{
+	background: url("/images/dcr-contain-bkg-download-hover.jpg") 0 0 no-repeat;
+} 
+
+#contain a{
+	color: #285c95; 
+}
+
+#contain a:hover{
+	border-bottom: 1px dotted; 
+}
+
+
+/*---------------------------------------------------------------------------------------
+ 	FOOTER - COPYRIGHTS
+ ---------------------------------------------------------------------------------------*/ 
+#copyright{
+	width: 700px;
+	margin: auto;
+	text-align: center;
+	font: 12px/24px 'HelveticaNeueLTStd55Roman', helvetica, arial, sans-serif;
+	color: #999;
+	text-shadow: 1px 1px 0 #000;
+}
+
+#copyright a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#copyright a:hover{
+	border-bottom: 1px dotted #fff;
+}
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
