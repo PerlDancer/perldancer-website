@@ -45,13 +45,22 @@ that's really great. At the time, the best way to get a review is to request a p
 If you want to support the team, you can also <a href="/donate">donate</a>.
 </p>
 
-<h3>Fix this website</h3>
+<h3>Join us on IRC</h3>
+
 <p>
-Yeah, that website is written with <a
-href="http://search.cpan.org/perldoc?Dancer">Dancer</a>, and is free software. That means you
-can grab <a href="http://github.com/sukria/perldancer-website">the source code on GitHub</a> 
-and if you find a typo or something wrong, patch it and request a pull from 
-<a href="http://github.com/sukria">sukria</a>.  That's also a good way to contribute to the project.
+We have a thriving community in <tt>#dancer</tt> on <tt>irc.perl.org</tt>.
+<a href="/irc">Come join us now</a> and get help, offer feedback, help new
+users...
 </p>
+
+<h3>Join the mailing list</h3>
+
+<p>
+Feel free to <a
+href="http://lists.perldancer.org/cgi-bin/listinfo/dancer-users">subscribe to  the
+mailing list</a> if you want to contact users and developers of the project,
+either to get or offer help. You can also check out the <a
+href="http://lists.perldancer.org/pipermail/dancer-users/">list archives</a>.
+
 
 

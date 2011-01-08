@@ -4,6 +4,9 @@
 <p>
 Dancer was inspired by <a href="http://www.sinatrarb.com">Sinatra</a> 
 and has been written by <a href="http://twitter.com/sukria">Alexis Sukrieh</a>.
+Many more authors now contribute to the project - see the AUTHORS file shipped
+with the distribution for the core team, and thanks to all those who have
+contributed features/patches and assistance via GitHub.
 </p>
 
 <h3>License</h3>
@@ -15,7 +18,8 @@ Dancer is free software, it is released under the same terms as Perl itself.
 <h3>Contact</h3>
 
 <p>
-Feel free to <a href="http://lists.perldancer.org/cgi-bin/listinfo/dancer-users">subscribe the mailing list</a> if you want to contact users and developers of the project. You can also check out the archives <a href="http://lists.perldancer.org/pipermail/dancer-users/">here</a>.
+Feel free to <a
+href="http://lists.perldancer.org/cgi-bin/listinfo/dancer-users">subscribe to the mailing list</a> if you want to contact users and developers of the project. You can also check out the archives <a href="http://lists.perldancer.org/pipermail/dancer-users/">here</a>.
 </p>
 
 <p>
@@ -27,8 +31,7 @@ Dancer development.
 <p>
 You can also reach the development team on <code>irc.perl.org</code>, 
 chan <code>#dancer</code>.  If you don't have an IRC client available, you can
-<a href="http://widget.mibbit.com/?settings=285bba04946885da044c7d1e16a79b46&server=irc.perl.org&channel=%23dancer"
-target="_blank">connect using Mibbit web IRC</a>.
+<a href="/irc">connect using Mibbit web IRC</a>.
 </p>
 
 <h3>Artwork</h3>

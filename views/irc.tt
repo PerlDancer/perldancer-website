@@ -1,0 +1,24 @@
+<h2>#dancer</h2>
+
+<p>
+Chat with us! Point your IRC client of choice to <a
+href="irc://irc.perl.org/dancer">#dancer on irc.perl.org</a>, or click to
+activate the web chat (powered by Mibbit) below.
+</p>
+
+<p>
+<a href="#" onclick="activate_webchat(this);">Join us via web chat</a>
+</p>
+
+
+<iframe name="webchat" width="800" height="500"></iframe>
+
+<script type="text/javascript">
+function activate_webchat(link) {
+    window.frames.webchat.location.href =
+        'http://widget.mibbit.com/?settings=285bba04946885da044c7d1e16a79b46'
+        + '&server=irc.perl.org&channel=%23dancer';
+    link.visibility = 'hidden';
+}
+</script>
+
