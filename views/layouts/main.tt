@@ -13,8 +13,13 @@
 	<!--[if gte IE 7]>
 		<link rel="stylesheet" href="/css/styleIE.css" />
 	<![endif]-->
+	
+	<!-- prettify -->
+	<link href="/css/prettify.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="/javascripts/prettify.js"></script>
+
 </head>
-<body>
+<body onload="prettyPrint()">
 <!-- START WAPPER HEADER -->
 <div id="wrapper-header">
 			

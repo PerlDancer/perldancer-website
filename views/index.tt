@@ -2,18 +2,15 @@
 <!-- START CONTAIN DBLE COL LEFT-->
 <div id="contain-left" class="col">
 	<h3>What is Dancer?</h3>
-	<p>Dancer is a web application framework written in Perl.</p>
+	<p>Dancer is a micro web application framework for Perl</p>
 
-	<h3>Why use Dancer?</h3>
+	<h3>Key-features</h3>
 	
 	<!-- START LIST TYPE VERTICAL -->
 	<ul>
-		<li><strong>Simple</strong> - run an entire web application from a single file with a few lines of code</li>
-		<li><strong>Flexible</strong> - plugins let you only install code that you need.</li>
-
-		<li><strong>Stand-alone</strong> - deploy without having to install hundreds of modules.</li>
-		<li><strong>Rapid Development</strong> - includes a develop  ment webserver that picks up changes quickly.</li>
-		<li><strong>Portable</strong> - runs under PSGI/Plack, fastcgi, cgi, mod_perl for easy deployment.</li>
+		<li><strong>Dead Simple</strong> - Intuitive, minimalist and very expressive syntax</li>
+		<li><strong>Flexible</strong> - PSGI support, plugins and modular design allow for strong scalability</li>
+		<li><strong>Few dependencies</strong> - Dancer depends on as few CPAN modules as possible making it easy to install</li>
 	</ul>
 
 	<!-- END LIST TYPE VERTICAL -->
@@ -26,18 +23,21 @@
 
 	<h3>Prepare your move... and dance!</h3>
 	
-	<p>Dancer is a web application framework written in Perl.</p>
-	
-	<ul class="clearme listreset dbc">
+	<pre class="prettyprint" style="margin-top: 1em; margin-bottom: 2em;">
+#!/usr/bin/env perl
+use Dancer;
 
-		<li>thisis</li>
-		<li>simple</li>
-	</ul>
+get '/hi' =&gt; sub {
+    "Hello World!"
+};
+
+dance;
+</pre>
 	
 	<ul class="clearme listreset dbc">
 		<li><a href="http://search.cpan.org/CPAN/authors/id/X/XS/XSAWYERX/Dancer-1.2003.tar.gz" id="contain-download">v 1.2&nbsp;</a></li>
 		<li class="txtXs">For bleeding edge, clone the Git repository with the following command:
-		<span>$ git clone git://github.com/sukria/Dancer.git</span>
+		<code>$ git clone git://github.com/sukria/Dancer.git</code>
 
 Follow the <a href="">Dancer project</a> on GitHub</li>
 	</ul>
