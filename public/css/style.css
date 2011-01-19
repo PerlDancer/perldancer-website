@@ -8,6 +8,24 @@
 	 caption, th { text-align:left; }
 	 ol.listreset, .listreset ol, ul.listreset, .listreset ul, .listreset li { margin:0; padding:0; list-style:none; }
 
+pre, code, tt {
+    font-size: 14px;
+    color: #000;
+    font-family: 'Andale Mono', Monaco, 'Liberation Mono', 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', monospace;
+}
+
+pre.console {
+    font-size: 14px;
+    color: #eee;
+	background-color: #001;
+    font-family: 'Andale Mono', Monaco, 'Liberation Mono', 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', monospace;
+	padding: 1em;
+	border: 1px solid #fff;
+	margin-top: 1em;
+	margin-bottom: 1em;
+
+}
+
 
 /*---------------------------------------------------------------------------------------
 	COMMON DECLARATIONS

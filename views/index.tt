@@ -23,6 +23,9 @@
 
 	<h3>Prepare your move... and dance!</h3>
 	
+	<ul class="clearme listreset dbc">
+
+<li>
 	<pre class="prettyprint" style="margin-top: 1em; margin-bottom: 2em;">
 #!/usr/bin/env perl
 use Dancer;
@@ -33,13 +36,22 @@ get '/hi' =&gt; sub {
 
 dance;
 </pre>
-	
+	</li>
+
+	<li>
+	<pre class="console">
+$ perl bin/app.pl &
+...
+$ curl http://localhost:3000
+Hello world!
+</pre>
+	</li>
+
+	</ul>
+
 	<ul class="clearme listreset dbc">
 		<li><a href="http://search.cpan.org/CPAN/authors/id/X/XS/XSAWYERX/Dancer-1.2003.tar.gz" id="contain-download">v 1.2&nbsp;</a></li>
-		<li class="txtXs">For bleeding edge, clone the Git repository with the following command:
-		<code>$ git clone git://github.com/sukria/Dancer.git</code>
-
-Follow the <a href="">Dancer project</a> on GitHub</li>
+	<li>You can also follow <a href="http://github.com/sukria/Dancer">Dancer</a> on <a href="http://github.com">GitHub</a> and on <a href="http://twitter.com/PerlDancer">Twitter</a></li>
 	</ul>
 	
 	
