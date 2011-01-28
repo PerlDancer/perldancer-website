@@ -50,7 +50,7 @@ Portuguese.
 </li>
 
 <li>
-<a href="http://perl.worldken.org/">CPAN Hubble</a> searching CPAN & GitHub by 
+<a href="http://perl.worldken.org/">CPAN Hubble</a> searching CPAN &amp; GitHub by 
 Alex Kapranoff.
 Its <a href="http://github.com/kappa/app-cpanhubble">source code</a> is 
 available on Github.
@@ -78,4 +78,3 @@ is a basic Dancer-powered site written by David Precious.
 </li>
 
 </ul>
-
