@@ -4,7 +4,7 @@
 	<h3>What is Dancer?</h3>
 	<p>Dancer is a micro web application framework for Perl</p>
 
-	<h3>Key-features</h3>
+	<h3>Key features</h3>
 	
 	<!-- START LIST TYPE VERTICAL -->
 	<ul>
@@ -21,7 +21,7 @@
 <!-- START CONTAIN DBLE COL RIGHT-->
 <div id="contain-right" class="col">
 
-	<h3>Prepare your move... and dance!</h3>
+	<h3>Prepare your moves... and dance!</h3>
 	
 	<ul class="clearme listreset dbc">
 
