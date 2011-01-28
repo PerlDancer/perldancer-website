@@ -11,7 +11,7 @@ It will help you understand the basics of Dancer.
 You can also find interesting and working examples in the 
 <a
 href="http://search.cpan.org/dist/Dancer/lib/Dancer/Cookbook.pod">Cookbook</a>.
-There are lots of recipes in there to help you hanlde common patterns in web
+There are lots of recipes in there to help you handle common patterns in web
 development.  The <a
 href="http://search.cpan.org/dist/Dancer/lib/Dancer/Tutorial.pod">Tutorial</a>
 also helps if you like to learn by example.
