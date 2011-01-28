@@ -34,6 +34,11 @@ html,body{ background: #2a2a2a url(/images/dcr-bkg-body.jpg) 0 0 repeat-x;}
 .clearme:after{ content: "."; display: block; visibility: hidden; clear: both; height: 0; font-size: 0.1em; line-height: 0;}
 a{ text-decoration: none;}
 
+body {
+	color: #424242;
+    /* font-family: 'Linux Libertine', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif; */
+	font-family: sans-serif;
+}
 
 /*---------------------------------------------------------------------------------------
 	HEADER
@@ -207,10 +212,6 @@ min-height: 300px;
 		width: 50%;
 	}
 
-	.txtXs{
-		font: 12px/17px 'HelveticaNeueLTStd55Roman', helvetica, arial, sans-serif;
-	}
-
 	.txtXs span{
 		display: block;
 		padding: 0 0 0 5px;
@@ -225,15 +226,11 @@ h3{
 
 p{	
 	margin: 0 0 20px;
-	color: #646464;
-	font: 16px/22px 'HelveticaNeueLTStd55Roman', helvetica, arial, sans-serif;
 }
 
 #contain ul{
 	margin: 0;
 	padding: 0 0 0 10px;
-	color: #646464;
-	font: 14px/20px 'HelveticaNeueLTStd55Roman', helvetica, arial, sans-serif;
 }
    
 #contain ul li{

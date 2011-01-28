@@ -1,63 +1,101 @@
-<h2>Installing Dancer</h2>
+<h3>Installing Dancer</h3>
 
 <p>
-Install Dancer via CPAN:
+For easy an automatic installation of Dancer, we recommend using <a href="http://search.cpan.org/perldoc?cpanm">cpanminus</a>:
 </p>
 
-<pre class="shell">
-$ sudo cpan Dancer
-</pre>
-
-<h2>Creating an application</h2>
-
-<p>Since version 0.9904, a helper is shipped with the distribution
-which lets you create an application with a single command:
-
-<pre class="shell">
-$ dancer -a mywebapp
-+ [D] mywebapp 
-+ [F] mywebapp/config.yml
-+ [D] mywebapp/views
-+ [D] mywebapp/views/layouts
-+ [F] mywebapp/views/layouts/main.tt
-+ [F] mywebapp/views/index.tt
-+ [D] mywebapp/environments
-+ [F] mywebapp/environments/production.yml
-+ [F] mywebapp/environments/development.yml
-+ [F] mywebapp/mywebapp.pm
-+ [F] mywebapp/mywebapp.pl
-+ [F] mywebapp/app.psgi
-</pre>
-
-<p>Everything is ready and works out of the box. It's already a working "Hello
-World" application waiting to be  hacked into whatever you like.</p>
-
-<h2>Hacking into the routes</h2>
-
-<pre class="prettyprint">
-# myapp.pm
-use Dancer;
-
-get '/' => sub {
-    'Hello world!'
-};
-
-# add other routes here and there...
-
-dance;
-</pre>
-
-<h2>Running the dance</h2>
-
-<pre class="shell">
-$ cd mywebapp
-$ ./mywebapp.pl
->> Listening on 127.0.0.1:3000
-== Entering the dance floor ...
+<pre class="console">
+curl -L http://cpanmin.us | perl - --sudo Dancer
 </pre>
 
 <p>
-The above shows Dancer acting as a mini web server, but of course Dancer webapps
-can also run from nearly any web server using Plack/PSGI.
+Of course, your can use any other CPAN client to do so, or even <a href="http://search.cpan.org/perldoc?Dancer">install it by hand</a>.
 </p>
+
+<h3>A word about version numbers</h3>
+
+<p>
+Dancer is maintained in two parallel branches: the first one, with an even
+minor number is the stable branch (or <em>frozen</em>). Its API is stable and
+we publish new releases only for bug fixes and documentation updates. 
+</p>
+
+<p>
+The other release branch (with an odd minor number) is the <em>development</em>
+one, used to publish frequently new features, API deprecation and any kind of
+changes we want to make.
+</p>
+
+<p>
+For production matters, we recommend using the latest <em>stable</em> version.
+Although we do take care to produce top-quality releases, even with the
+<em>development</em> series, you should avoid it in production because of
+potential API breaks.
+</p>
+
+<h3>Creating an application</h3>
+
+<p>
+A Dancer application can be as simple as a oneliner, but you may want to start
+with a complete structure for more complex applications. To help you do so,
+dancer is shipped with a helper that can scaffold a new skeleton for you.
+</p>
+
+<pre class="console">
+$ dancer -a MyWeb::App
++ MyWeb-App
++ MyWeb-App/bin
++ MyWeb-App/bin/app.pl
++ MyWeb-App/config.yml
++ MyWeb-App/environments
++ MyWeb-App/environments/development.yml
++ MyWeb-App/environments/production.yml
++ MyWeb-App/views
++ MyWeb-App/views/index.tt
++ MyWeb-App/views/layouts
++ MyWeb-App/views/layouts/main.tt
++ MyWeb-App/lib
++ MyWeb-App/lib/MyWeb
++ MyWeb-App/lib/MyWeb/App.pm
++ MyWeb-App/public
++ MyWeb-App/public/css
++ MyWeb-App/public/css/style.css
++ MyWeb-App/public/css/error.css
++ MyWeb-App/public/images
++ MyWeb-App/public/500.html
++ MyWeb-App/public/404.html
++ MyWeb-App/public/dispatch.fcgi
++ MyWeb-App/public/dispatch.cgi
++ MyWeb-App/public/javascripts
++ MyWeb-App/public/javascripts/jquery.js
++ MyWeb-App/Makefile.PL
++ MyWeb-App/t
++ MyWeb-App/t/002_index_route.t
++ MyWeb-App/t/001_base.t
+</pre>
+
+<p>Everything is ready and works out of the box (with a nice design, jQuery and
+environment-related configurations). 
+</p>
+
+<h3>Starting to dance</h3>
+
+<pre class="console">
+$ cd MyWeb-App
+$ ./bin/app.pl
+&gt;&gt; Dancer server 16622 listening on http://0.0.0.0:3000
+== Entering the development dance floor ...
+</pre>
+
+<p>
+Note that a Dancer startup script is also a <a
+href="http://plackperl.org">PSGI</a> application, so you can power it with any
+Plack backend, like plackup:
+</p>
+
+<pre class="console">
+$ cd MyWeb-App
+$ plackup ./bin/app.pl
+HTTP::Server::PSGI: Accepting connections at http://0:5000/
+</pre>
 

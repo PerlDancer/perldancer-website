@@ -39,7 +39,7 @@ dance;
 	</li>
 
 	<li>
-	<pre class="console">
+	<pre style="margin-top: 1em;">
 $ perl bin/app.pl &
 ...
 $ curl http://localhost:3000
@@ -50,7 +50,7 @@ Hello world!
 	</ul>
 
 	<ul class="clearme listreset dbc">
-		<li><a href="http://search.cpan.org/CPAN/authors/id/X/XS/XSAWYERX/Dancer-1.2003.tar.gz" id="contain-download">v 1.2&nbsp;</a></li>
+		<li><a href="http://search.cpan.org/CPAN/authors/id/S/SU/SUKRIA/Dancer-1.2004.tar.gz" id="contain-download">v 1.2&nbsp;</a></li>
 	<li>You can also follow <a href="http://github.com/sukria/Dancer">Dancer</a> on <a href="http://github.com">GitHub</a> and on <a href="http://twitter.com/PerlDancer">Twitter</a></li>
 	</ul>
 	
