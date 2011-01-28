@@ -36,9 +36,10 @@ a{ text-decoration: none;}
 
 body {
 	color: #424242;
-    /* font-family: 'Linux Libertine', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif; */
-	font-family: sans-serif;
+    font-family: 'Linux Libertine', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif; 
+	font-size: 16px;
 }
+
 
 /*---------------------------------------------------------------------------------------
 	HEADER

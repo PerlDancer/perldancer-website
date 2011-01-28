@@ -8,6 +8,7 @@ For easy an automatic installation of Dancer, we recommend using <a href="http:/
 curl -L http://cpanmin.us | perl - --sudo Dancer
 </pre>
 
+<p>
 Of course, your can use any other CPAN client to do so, or even <a href="http://search.cpan.org/perldoc?Dancer">install it by hand</a>.
 </p>
 
