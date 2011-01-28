@@ -1,4 +1,4 @@
-<h2>Websites using Dancer</h2>
+<h3>Websites using Dancer</h3>
 
 <p>
 <em>This page references all websites powered by Dancer we're aware of. If you have written a website with Dancer and want it to be listed here, please <a href="/about">contact us</a></em>
@@ -8,6 +8,13 @@
 <li>
 Obviously this site is built using Dancer. To see how it works, look no further than the <a href="/example">example</a>.
 To see the whole <a href="http://github.com/sukria/perldancer-website">source code</a>. It is on Github.
+</li>
+
+<li>
+The <a href="http://advent.perldancer.org">PerlDancer Advent Calendar</a> has
+been written entirely with Dancer, using the POD format for writing artciles.
+The source code of the application is <a
+href="https://github.com/PerlDancer/advent-calendar-2010">avalaible on GitHub</a>.
 </li>
 
 <li>

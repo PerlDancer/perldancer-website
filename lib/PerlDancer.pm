@@ -6,7 +6,7 @@ use Template;
 our $VERSION = '0.1';
 
 get '/' => sub {
-    template 'home';
+    template 'index';
 };
 
 get '/donate/thanks' => sub {

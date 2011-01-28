@@ -1,0 +1,14 @@
+#jstweets {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	font: 12px/24px 'HelveticaNeueLTStd55Roman', helvetica, arial, sans-serif;
+	color: #999;
+	text-shadow: 1px 1px 0 #000;
+
+}
+
+#jstweets a {
+	color: #ffffff;
+	text-decoration: underline;
+}

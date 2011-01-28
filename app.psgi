@@ -1,7 +1,8 @@
 # PSGI application bootstraper for Dancer
-load_app 'PerlDancer';
+use Dancer;
+use lib path(dirname(__FILE__), 'lib');
+use PerlDancer;
 
-use Dancer::Config 'setting';
 setting apphandler  => 'PSGI';
 Dancer::Config->load;
 

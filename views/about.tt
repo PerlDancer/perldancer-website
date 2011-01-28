@@ -1,5 +1,3 @@
-<h2>Who's on the dancefloor?</h2>
-
 <h3>Authors</h3>
 <p>
 Dancer was inspired by <a href="http://www.sinatrarb.com">Sinatra</a> 
@@ -32,13 +30,4 @@ Dancer development.
 You can also reach the development team on <code>irc.perl.org</code>, 
 chan <code>#dancer</code>.  If you don't have an IRC client available, you can
 <a href="/irc">connect using Mibbit web IRC</a>.
-</p>
-
-<h3>Artwork</h3>
-
-<p>
-The artwork on this website has been made with Creative Commons material.
-The dancer pictures are based on photos made by <a
-href="http://www.flickr.com/photos/misselisabeth/">misselisabeth</a>. Click
-here for <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">license details</a> about the artwork material on this website. 
 </p>
