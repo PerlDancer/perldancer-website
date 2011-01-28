@@ -30,7 +30,7 @@
 #!/usr/bin/env perl
 use Dancer;
 
-get '/hi' =&gt; sub {
+get '/' =&gt; sub {
     "Hello World!"
 };
 
@@ -42,7 +42,7 @@ dance;
 	<pre style="margin-top: 1em;">
 $ perl bin/app.pl &
 ...
-$ curl http://localhost:3000
+$ curl http://localhost:3000/
 Hello world!
 </pre>
 	</li>
