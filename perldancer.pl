@@ -1,4 +1,4 @@
 #!/usr/bin/perl
 use Dancer;
-use perldancer;
+load_app 'PerlDancer';
 dance;

@@ -1,10 +1,9 @@
-<h2>Who's on the dancefloor?</h2>
-
 <h3>Authors</h3>
 <p>
 Dancer was inspired by <a href="http://www.sinatrarb.com">Sinatra</a> 
 and has been written by <a href="http://twitter.com/sukria">Alexis Sukrieh</a>.
-Many more authors now contribute to the project - see the AUTHORS file shipped
+Many more authors now contribute to the project - see the 
+<a href="http://search.cpan.org/dist/Dancer/AUTHORS">AUTHORS</a> file shipped
 with the distribution for the core team, and thanks to all those who have
 contributed features/patches and assistance via GitHub.
 </p>
@@ -19,7 +18,10 @@ Dancer is free software, it is released under the same terms as Perl itself.
 
 <p>
 Feel free to <a
-href="http://lists.perldancer.org/cgi-bin/listinfo/dancer-users">subscribe to the mailing list</a> if you want to contact users and developers of the project. You can also check out the archives <a href="http://lists.perldancer.org/pipermail/dancer-users/">here</a>.
+href="http://lists.perldancer.org/cgi-bin/listinfo/dancer-users">subscribe to 
+the mailing list</a> if you want to contact users and developers of the project. 
+You can also <a href="http://lists.perldancer.org/pipermail/dancer-users/">read
+the list archives</a>.
 </p>
 
 <p>
@@ -32,13 +34,4 @@ Dancer development.
 You can also reach the development team on <code>irc.perl.org</code>, 
 chan <code>#dancer</code>.  If you don't have an IRC client available, you can
 <a href="/irc">connect using Mibbit web IRC</a>.
-</p>
-
-<h3>Artwork</h3>
-
-<p>
-The artwork on this website has been made with Creative Commons material.
-The dancer pictures are based on photos made by <a
-href="http://www.flickr.com/photos/misselisabeth/">misselisabeth</a>. Click
-here for <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">license details</a> about the artwork material on this website. 
 </p>

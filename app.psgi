@@ -1,10 +1,9 @@
 # PSGI application bootstraper for Dancer
-use lib '/srv/dancer.sukria.net/perldancer-website';
-use perldancer-website;
+use Dancer;
+use lib path(dirname(__FILE__), 'lib');
+use PerlDancer;
 
-use Dancer::Config 'setting';
 setting apphandler  => 'PSGI';
-setting environment => 'production';
 Dancer::Config->load;
 
 my $handler = sub {

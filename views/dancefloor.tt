@@ -1,0 +1,52 @@
+<h3>Websites using Dancer</h3>
+
+<p>
+<em>This page lists all websites powered by Dancer we're aware of. If you have 
+written a website with Dancer and want it to be listed here, please 
+<a href="/about">contact us</a></em>
+</p>
+
+<ul>
+<li>
+Obviously this site is built using Dancer. To see how it works, look no further 
+than the <a href="/example">example</a>, or see the whole
+<a href="http://github.com/sukria/perldancer-website">source code on GitHub</a>.
+</li>
+
+<li>
+The <a href="http://advent.perldancer.org">PerlDancer Advent Calendar</a> has
+been written entirely with Dancer, using the POD format for writing articles.
+The source code of the application is <a
+href="https://github.com/PerlDancer/advent-calendar-2010">available on GitHub</a>.
+</li>
+
+<li>
+<a href="http://perl.worldken.org/">CPAN Hubble</a> searching CPAN & GitHub by 
+Alex Kapranoff.
+Its <a href="http://github.com/kappa/app-cpanhubble">source code</a> is 
+available on Github.
+</li>
+
+<li>
+<a href="http://lyricsbadger.co.uk/">Lyrics Badger</a> by David Precious.
+</li>
+
+<li>
+<a href="http://pb.rbfh.de/">Pastedance</a> a pastebin written by
+<a href="http://search.cpan.org/~data/">Danijel Tašov</a>.
+The <a href="http://github.com/datamuc/Pastedance">source code</a> available on 
+GitHub.
+</li>
+
+<li>
+<a href="http://stupidtwitterstats.com/">Stupid Twitter Stats</a> is a tiny 
+webapp that shows some stats about a Twitter account.
+</li>
+
+<li>
+<a href="http://www.ijedomestics.co.uk/">IJE Domestic Appliance Repairs</a>
+is a basic Dancer-powered site written by David Precious.
+</li>
+
+</ul>
+
