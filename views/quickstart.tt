@@ -1,7 +1,8 @@
 <h3>Installing Dancer</h3>
 
 <p>
-For easy an automatic installation of Dancer, we recommend using <a href="http://search.cpan.org/perldoc?cpanm">cpanminus</a>:
+For easy and automatic installation of Dancer, we recommend using 
+<a href="http://search.cpan.org/perldoc?cpanm">cpanminus</a>:
 </p>
 
 <pre class="console">
@@ -9,7 +10,8 @@ curl -L http://cpanmin.us | perl - --sudo Dancer
 </pre>
 
 <p>
-Of course, your can use any other CPAN client to do so, or even <a href="http://search.cpan.org/perldoc?Dancer">install it by hand</a>.
+Of course, your can use any other CPAN client to do so, or even 
+<a href="http://search.cpan.org/perldoc?Dancer">install it by hand</a>.
 </p>
 
 <h3>A word about version numbers</h3>
@@ -36,7 +38,7 @@ potential API breaks.
 <h3>Creating an application</h3>
 
 <p>
-A Dancer application can be as simple as a oneliner, but you may want to start
+A Dancer application can be as simple as a one-liner, but you may want to start
 with a complete structure for more complex applications. To help you do so,
 dancer is shipped with a helper that can scaffold a new skeleton for you.
 </p>
