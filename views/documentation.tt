@@ -25,7 +25,7 @@ The DSL's reference API is documentend in
 
 <p>
 Dancer is PSGI-compatible, that means you can virtually deploy your app
-anywhere. We wanted to help ou users as much as possible, so we've gathered as
+anywhere. We wanted to help our users as much as possible, so we've gathered as
 much details as possible in a 
 <a href="http://search.cpan.org/dist/Dancer/lib/Dancer/Deployment.pod">Deployment Guide</a>, 
 in order to provide working configuration examples.
