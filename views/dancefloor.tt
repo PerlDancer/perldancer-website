@@ -6,7 +6,8 @@ written a website with Dancer and want it to be listed here, please
 <a href="/about">contact us</a></em>
 </p>
 
-<ul>
+<ul class="spacy">
+
 <li>
 Obviously this site is built using Dancer. To see how it works, look no further 
 than the <a href="/example">example</a>, or see the whole
@@ -41,6 +42,17 @@ GitHub.
 <li>
 <a href="http://stupidtwitterstats.com/">Stupid Twitter Stats</a> is a tiny 
 webapp that shows some stats about a Twitter account.
+</li>
+
+<li>
+<a href="http://www.ijedomestics.co.uk/">IJE Domestic Appliance Repairs</a>
+is a basic Dancer-powered site written by David Precious.
+</li>
+
+<li>
+<a href="http://perl-ecosystem.org/">Perl Ecosystem Group</a>, official website
+of the organization: "bridging the gap between business and the open source
+Perl community".
 </li>
 
 </ul>
