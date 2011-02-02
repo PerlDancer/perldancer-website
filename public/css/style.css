@@ -286,19 +286,11 @@ p{
 	text-decoration: none;
 }
 
-#copyright a:hover{
+#copyright a:hover {
 	border-bottom: 1px dotted #fff;
 }
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+ul.spacy li {
+    margin-bottom: 1em;
+}
    
