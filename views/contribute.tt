@@ -5,7 +5,8 @@ Dancer is a modern Perl project, while it's already usable to build small
 websites (like this one) it's still in development. There are many ways to contribute.
 </p>
 
-<h3>Promote</h3>
+<a name="promotion"></a>
+<h3>Promotion - help spread the word!</h3>
 
 <p>
 There are many, many frameworks out there, marketing can make a difference.
@@ -13,6 +14,7 @@ If you like Dancer, tell the world about it, blog it, tweet it. This is a very
 valuable contribution to the project.
 </p>
 
+<a name="using"></a>
 <h3>Use it</h3>
 
 <p>
@@ -21,6 +23,7 @@ running by yourself, and maybe, you will find something to enhance or will
 commit some ideas to the crew.
 </p>
 
+<a name="bugs"></a>
 <h3>Report bugs</h3>
 
 <p>
@@ -34,6 +37,7 @@ href="http://rt.cpan.org/Public/Bug/Report.html?Queue=Dancer">rt.cpan.org
 queue</a> are fine too.
 </p>
 
+<a name="patches"></a>
 <h3>Submit Patches</h3>
 
 <p>
@@ -50,7 +54,7 @@ requests via GitHub are much easier for us to track and apply, and thus have a
 much better chance of being applied!)
 </p>
 
-
+<a name="donate"></a>
 <h3>Donate</h3>
 
 <p>
@@ -59,6 +63,7 @@ donations will be used to support development efforts, for instance paying for
 travel to conferences etc.
 </p>
 
+<a name="irc"></a>
 <h3>Join us on IRC</h3>
 
 <p>
@@ -67,6 +72,7 @@ We have a thriving community in <tt>#dancer</tt> on <tt>irc.perl.org</tt>.
 users...
 </p>
 
+<a name="mailing-list"></a>
 <h3>Join the mailing list</h3>
 
 <p>
