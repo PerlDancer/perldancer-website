@@ -5,7 +5,8 @@ Dancer is a modern Perl project, while it's already usable to build small
 websites (like this one) it's still in development. There are many ways to contribute.
 </p>
 
-<h3>Promote</h3>
+<a name="promotion"></a>
+<h3>Promotion - help spread the word!</h3>
 
 <p>
 There are many, many frameworks out there, marketing can make a difference.
@@ -13,6 +14,7 @@ If you like Dancer, tell the world about it, blog it, tweet it. This is a very
 valuable contribution to the project.
 </p>
 
+<a name="using"></a>
 <h3>Use it</h3>
 
 <p>
@@ -21,15 +23,21 @@ running by yourself, and maybe, you will find something to enhance or will
 commit some ideas to the crew.
 </p>
 
+<a name="bugs"></a>
 <h3>Report bugs</h3>
 
 <p>
 So you're using it and you've found a bug, that's great! Yes, Great. Because a
-bug found is a bug in the way of being fixed. <a
-href="http://rt.cpan.org/Public/Bug/Report.html?Queue=Dancer">Report it</a>, 
-but take care it's not yet filled before.
+bug found is a bug in the way of being fixed. Please do <a
+href="https://github.com/sukria/Dancer/issues">report it</a> - reports via the
+<a href="https://github.com/sukria/Dancer/issues">GitHub issues</a> system are
+preferred as our development is coordinated on GitHub, but bug reports to the 
+<a
+href="http://rt.cpan.org/Public/Bug/Report.html?Queue=Dancer">rt.cpan.org 
+queue</a> are fine too.
 </p>
 
+<a name="patches"></a>
 <h3>Submit Patches</h3>
 
 <p>
@@ -39,12 +47,23 @@ that's really great. At the time, the best way to get a review is to request a p
 <a href="http://github.com/sukria">sukria</a>.
 </p>
 
+<p>
+(If you're not a GitHub user or don't want the hassle of forking the repo,
+patches submitted via email to <a href="#mailing-list">the mailing list</a> 
+are appreciated too, but pull requests via GitHub are much easier for us to 
+track and apply, and thus have a much better chance of being applied!)
+</p>
+
+<a name="donate"></a>
 <h3>Donate</h3>
 
 <p>
-If you want to support the team, you can also <a href="/donate">donate</a>.
+If you want to support the team, you can also <a href="/donate">donate</a> -
+donations will be used to support development efforts, for instance paying for
+travel to conferences etc.
 </p>
 
+<a name="irc"></a>
 <h3>Join us on IRC</h3>
 
 <p>
@@ -53,6 +72,7 @@ We have a thriving community in <tt>#dancer</tt> on <tt>irc.perl.org</tt>.
 users...
 </p>
 
+<a name="mailing-list"></a>
 <h3>Join the mailing list</h3>
 
 <p>

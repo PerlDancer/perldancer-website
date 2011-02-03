@@ -61,3 +61,146 @@ Hello world!
 </div>
 <!-- END CONTAIN DBLE COL RIGHT-->
 <!-- END CONTAIN DBLE COL -->
+
+
+<div id="testimonials"">
+<h3>What people say about Dancer...</h3>
+
+<!-- adjust height of this div to fit longest quote -->
+<div style="height: 100px;">
+<p>
+<cite>
+It's fast! It's simple! It's minimalistic! I really like it! Thanks. 
+</cite>
+- Łukasz Metys Lewandowski 
+</p>
+
+<p style="display: none;">
+<cite>
+Got my webservice up and running in 1 day with no knowledge about Dancer
+whatsover.[...] Dancer is excellent for middle size websites or web services. 
+It doesn't get in your way, and supports a [...] lot of backend for deploying 
+and running your application.
+The transition from developing a prototype to having a production
+ready app is very smooth.
+</cite> 
+- Damien Krotkine
+</p>
+
+<p style="display: none;">
+<cite>
+Dancer is a breath of fresh air in the convoluted world of Perl web frameworks.
+I have a lot vested in CGI::Application, another fine framework, but Dancer has
+really caught my fancy for future web apps.
+</cite>
+- punkish
+</p>
+
+<p style="display: none;">
+<cite>
+I like how dancer doesn't force you to code in any specific way, it provides the
+right amount of syntactic sugar to get your app up and running in double quick
+time - but doesn't get in the way when you want to do something else.
+
+It's nice and light, and can be deployed in many environments. Thumbs up from
+me! 
+</cite>
+- James Aitken
+</p>
+
+<p style="display: none;">
+<cite>
+In the end I went with Dancer and I'm loving it so far - some more docs 
+on the idiomatic way to deal with user creation, authentication and 
+roles might be nice but I think I figured it all out pretty quickly.
+</cite>
+- Simon Wistow
+</p>
+
+<p style="display: none;">
+<cite>
+Of all the light-weight frameworks, Dancer was the nicest to
+work with when I went through to evaluate them...
+</cite>
+- Daniel Pittman
+</p>
+
+<p style="display: none;">
+<cite>
+I’m really enjoying using Perl’s Dancer for building lightweight web
+applications. It’s heavily inspired by Ruby’s Sinatra framework, but clearly
+Perlish.
+</cite>
+- Joshua Barratt's <a
+  href="http://serialized.net/2010/08/deploying-self-contained-perl-dancer-applications/">blog
+  post</a>
+</p>
+
+
+<p style="display: none;">
+<cite>Just downloaded and ran #Perl Dancer. Really curious about it. It looks
+amazing.</cite> - <a
+href="http://twitter.com/#!/juliofraire/status/30888830613585921">@juliofraire</a>
+</p>
+
+<p style="display: none;">
+<cite>
+Trying out @PerlDancer as a basis for building web apps. Very nice.</cite>
+- <a href="http://twitter.com/#!/talexb/status/27076726110552064">@talexb</a>
+</p>
+
+<p style="display: none;">
+<cite>
+Hacking around using @PerlDancer and enjoying it immensely.
+<cite>
+- <a href="http://twitter.com/#!/deepakg/status/16131603503779840">deepakg</a>
+</p>
+
+<p style="display: none;">
+<cite>
+@PerlDancer is the easiest way to write webapps. One day from idea to
+implemention. Fantastic work.
+</cite> - <a
+  href="http://twitter.com/#!/alexkalderimis/status/9747953946198016">alexkalderimis</a>
+</p>
+
+<p style="display: none;">
+<cite>
+For a simple framework I suggest Dancer. Great thing, it made me stop hating web
+development.</cite>
+- <a
+  href="http://www.reddit.com/r/perl/comments/d38u2/ask_perl_i_want_to_write_a_minimalist_piece_of/c0x8vmu">
+tsjr on reddit</a>
+</p>
+
+
+<p style="display: none;">
+<cite>
+...there's finally a web framework that works for me. It's called Dancer, and 
+as redundant as this might sound; Dancer, is an effortless web framework. [...]
+It took me more time studying Dancer's features and specs, than the time it 
+took for me to write the whole mini-blog app.
+</cite>
+- <a href="http://log.gnusosa.net/more-dance">Carlos Ivan Sosa (gnusosa)</a>
+</p>
+
+
+</div>
+</div>
+
+<script>
+$(document).ready(function(){
+    $('#testimonials P');
+    setInterval(function(){
+        $('#testimonials P').filter(':visible').fadeOut(1000,function(){
+            if($(this).next('P').size()){
+                $(this).next().fadeIn(750);
+            }
+            else{
+                $('#testimonials P').eq(0).fadeIn(750);
+            }
+        });
+    },8000);    
+});
+</script>
+
