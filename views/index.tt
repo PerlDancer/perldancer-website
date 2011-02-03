@@ -63,8 +63,9 @@ Hello world!
 <!-- END CONTAIN DBLE COL -->
 
 
-<div id="testimonials"">
-<h3>What people say about Dancer...</h3>
+<div id="testimonials" style="">
+	
+	<h3>What people say about Dancer...</h3>
 
 <!-- adjust height of this div to fit longest quote -->
 <div style="height: 100px;">
@@ -137,6 +138,12 @@ Perlish.
 </p>
 
 
+<p style="display: none">
+<cite>Just wrapped up an eight hour scrum task in 90 minutes. I'm really 
+enjoying using Dancer. Awesome, awesome, awesome! -- talexb
+</cite>
+</p>
+
 <p style="display: none;">
 <cite>Just downloaded and ran #Perl Dancer. Really curious about it. It looks
 amazing.</cite> - <a
@@ -200,7 +207,7 @@ $(document).ready(function(){
                 $('#testimonials P').eq(0).fadeIn(750);
             }
         });
-    },8000);    
+    },12000);    
 });
 </script>
 
