@@ -51,9 +51,8 @@ Hello world!
 
 	<ul class="clearme listreset dbc">
 		<li><a href="http://search.cpan.org/CPAN/authors/id/S/SU/SUKRIA/Dancer-1.2004.tar.gz" id="contain-download">v 1.2&nbsp;</a></li>
-	<li>You can also follow <a
-        href="http://github.com/sukria/Dancer">Dancer</a> on <a
-        href="http://github.com/sukria/PerlDancer">GitHub</a> and on <a href="http://twitter.com/PerlDancer">Twitter</a></li>
+	<li>You can also follow Dancer on <a
+        href="http://github.com/sukria/Dancer">GitHub</a> and on <a href="http://twitter.com/PerlDancer">Twitter</a></li>
 	</ul>
 	
 	
