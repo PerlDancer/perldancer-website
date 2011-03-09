@@ -27,6 +27,29 @@ Dancer, and provides a very cool service for free!
 </li>
 
 <li>
+<a href="http://sck.to/">sck.to</a> is a Shorten URL Service that uses Dancer,
+Redis, NGINX and Plackup. It can be plugged in any Customer shorten services via
+API, and already successfuly plugged into Drupal on
+<a href="http://qa.celogeek.com">qa.celogeek.com</a>.
+</li>
+
+<li>
+<a href="http://perl-ecosystem.org/">Perl Ecosystem Group</a>, official website
+of the organization: "bridging the gap between business and the open source
+Perl community".
+</li>
+
+<li>
+<a href="http://www.the-blend.net/">The-Blend.net</a> blends new music, artists
+and reviews to make music a fun, comfortable and beautiful thing.
+</li>
+
+<li>
+<a href="http://www.livro-aberto.net/">Livro-Aberto</a> is a website in
+Portuguese.
+</li>
+
+<li>
 <a href="http://perl.worldken.org/">CPAN Hubble</a> searching CPAN & GitHub by 
 Alex Kapranoff.
 Its <a href="http://github.com/kappa/app-cpanhubble">source code</a> is 
@@ -52,22 +75,6 @@ webapp that shows some stats about a Twitter account.
 <li>
 <a href="http://www.ijedomestics.co.uk/">IJE Domestic Appliance Repairs</a>
 is a basic Dancer-powered site written by David Precious.
-</li>
-
-<li>
-<a href="http://perl-ecosystem.org/">Perl Ecosystem Group</a>, official website
-of the organization: "bridging the gap between business and the open source
-Perl community".
-</li>
-
-<li>
-<a href="http://www.the-blend.net/">The-Blend.net</a> blends new music, artists
-and reviews to make music a fun, comfortable and beautiful thing.
-</li>
-
-<li>
-<a href="http://www.livro-aberto.net/">Livro-Aberto</a> is a website in
-Portuguese.
 </li>
 
 </ul>
