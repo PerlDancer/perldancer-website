@@ -27,9 +27,9 @@ Dancer, and provides a very cool service for free!
 </li>
 
 <li>
-<a href="http://sck.to/">sck.to</a> is a Shorten URL Service that uses Dancer,
-Redis, NGINX and Plackup. It can be plugged in any Customer shorten services via
-API, and already successfuly plugged into Drupal on
+<a href="http://sck.to/">sck.to</a> is a Shorten URL Service by Celogeek that
+uses Dancer, Redis, NGINX and Plackup. It can be plugged in any Customer
+shorten services via API, and already successfuly plugged into Drupal on
 <a href="http://qa.celogeek.com">qa.celogeek.com</a>.
 </li>
 
@@ -75,10 +75,6 @@ webapp that shows some stats about a Twitter account.
 <li>
 <a href="http://www.ijedomestics.co.uk/">IJE Domestic Appliance Repairs</a>
 is a basic Dancer-powered site written by David Precious.
-</li>
-
-<li>
-<a href="http://sck.to">sck.to</a> a Shorten URL system By Celogeek. Powered by Dancer, Redis and Nginx.
 </li>
 
 </ul>
