@@ -8,9 +8,12 @@ use List::Util;
 our $VERSION = '0.1';
 
 get '/' => sub {
+    my $testimonials_yml = 
+        Dancer::FileUtils::read_file_content('testimonials.yml');
+
     template 'index' => { 
         latest => latest_version(),
-        testimonials => [ List::Util::shuffle(_get_testimonials()) ],
+        testimonials => [ List::Util::shuffle(from_yaml($testimonials_yml)) ],
     };
 };
 
