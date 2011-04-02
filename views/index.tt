@@ -50,7 +50,8 @@ Hello world!
 	</ul>
 
 	<ul class="clearme listreset dbc">
-		<li><a href="http://search.cpan.org/CPAN/authors/id/S/SU/SUKRIA/Dancer-1.3003.tar.gz" id="contain-download">v 1.3&nbsp;</a></li>
+		<li><a href="<% latest.download_url %>" id="contain-download">
+                <% latest.short_version %>&nbsp;</a></li>
 	<li>You can also follow Dancer on <a
         href="http://github.com/sukria/Dancer">GitHub</a> and on <a href="http://twitter.com/PerlDancer">Twitter</a></li>
 	</ul>
