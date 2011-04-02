@@ -1,0 +1,94 @@
+---
+source: "Łukasz Metys Lewandowski"
+text: "It's fast! It's simple! It's minimalistic! I really like it! Thanks."
+---
+source: "Michael G Schwern (@schwern)"
+source_url: "http://twitter.com/#!/schwern/status/38484901841870848"
+text: "Dancer is the first web framework that hasn't given me an aneurysm. #perl"
+---
+source: "Damian Krotkine"
+text: |
+    Got my webservice up and running in 1 day with no knowledge about Dancer
+    whatsover.[...] Dancer is excellent for middle size websites or web services. 
+    It doesn't get in your way, and supports a [...] lot of backend for deploying 
+    and running your application.
+    The transition from developing a prototype to having a production
+    ready app is very smooth.
+---
+source: "punkish"
+text: |
+    Dancer is a breath of fresh air in the convoluted world of Perl web frameworks.
+    I have a lot vested in CGI::Application, another fine framework, but Dancer has
+    really caught my fancy for future web apps.
+---
+source: "James Aitken"
+text: |
+    I like how dancer doesn't force you to code in any specific way, it provides 
+    the right amount of syntactic sugar to get your app up and running in double
+    quick time - but doesn't get in the way when you want to do something else.
+
+    It's nice and light, and can be deployed in many environments. Thumbs up from
+    me!
+---
+source: "Simon Wistow"
+text: |
+    In the end I went with Dancer and I'm loving it so far - some more docs 
+    on the idiomatic way to deal with user creation, authentication and 
+    roles might be nice but I think I figured it all out pretty quickly.
+---
+source: Daniel Pittman
+text: |
+    Of all the light-weight frameworks, Dancer was the nicest to
+    work with when I went through to evaluate them...
+---
+source: Joshua Barratt
+source_url: http://serialized.net/2010/08/deploying-self-contained-perl-dancer-applications/
+text: |
+    I’m really enjoying using Perl’s Dancer for building lightweight web
+    applications. It’s heavily inspired by Ruby’s Sinatra framework, but clearly
+    Perlish.
+---
+source: talexb
+text: |
+    Just wrapped up an eight hour scrum task in 90 minutes. I'm really 
+    enjoying using Dancer. Awesome, awesome, awesome!
+---
+source: "@juliofraire"
+source_url: http://twitter.com/#!/juliofraire/status/30888830613585921
+text: |
+    Just downloaded and ran #Perl Dancer. Really curious about it. It looks
+    amazing.
+---
+source: talexb
+source_url: http://twitter.com/#!/talexb/status/27076726110552064
+text: |
+    Trying out @PerlDancer as a basis for building web apps. Very nice.
+---
+source: Schwern
+text: Dancer is the first web framework I haven't wanted to pee on :-) 
+---
+source: deepakg
+source_url: http://twitter.com/#!/deepakg/status/16131603503779840
+text: |
+    Hacking around using @PerlDancer and enjoying it immensely.
+---
+source: alexkalderimis
+source_url: http://twitter.com/#!/alexkalderimis/status/9747953946198016
+text: |
+    @PerlDancer is the easiest way to write webapps. One day from idea to
+    implemention. Fantastic work.
+---
+source: tsjr
+source_url: http://www.reddit.com/r/perl/comments/d38u2/ask_perl_i_want_to_write_a_minimalist_piece_of/c0
+text: |
+    For a simple framework I suggest Dancer. Great thing, it made me stop 
+    hating web development.
+---
+source: Carlos Ivan Sosa (gnusosa)
+source_url: http://log.gnusosa.net/more-dance
+text: |
+    ...there's finally a web framework that works for me. It's called Dancer, and 
+    as redundant as this might sound; Dancer, is an effortless web framework. [...]
+    It took me more time studying Dancer's features and specs, than the time it 
+    took for me to write the whole mini-blog app.
+---

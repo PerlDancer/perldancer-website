@@ -3,11 +3,17 @@ package PerlDancer;
 use Dancer ':syntax';
 use Template;
 use LWP::Simple ();
+use List::Util;
 
 our $VERSION = '0.1';
 
 get '/' => sub {
-    template 'index', { latest => latest_version() };
+    my $testimonials_yml = 
+        Dancer::FileUtils::read_file_content('testimonials.yml');
+    template 'index' => { 
+        latest => latest_version(),
+        testimonials => [ List::Util::shuffle(from_yaml($testimonials_yml)) ],
+    };
 };
 
 get '/donate/thanks' => sub {
