@@ -226,3 +226,5 @@ $(document).ready(function(){
 });
 </script>
 
+<!-- Hackish mouseover pre-load -->
+<img src="/images/dcr-contain-bkg-download-hover.jpg" style="display:none">
