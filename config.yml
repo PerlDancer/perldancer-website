@@ -5,3 +5,6 @@ charset: "UTF-8"
 auto_page: 1
 template: "template_toolkit"
 
+# How long to cache information about the latest version, to avoid hitting
+# search.cpan.org too often
+cache_latest_version: 600
