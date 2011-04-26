@@ -293,4 +293,13 @@ p{
 ul.spacy li {
     margin-bottom: 1em;
 }
-   
+
+
+/* The list of github contributors on the "about" page */
+.github_gravatar {
+  margin: 0 2px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  background-color: #efefef;
+}
+
