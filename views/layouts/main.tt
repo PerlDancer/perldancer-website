@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title><% if title %><% title %><% else %>PerlDancer - The easiest way to write web applications with Perl<% end %></title>
-	<meta name="description" content="PerlDancer is a micro web-application framework for Perl, designed to be as effortless as possible for the developer. With PerlDancer, web development is fun again. It's a very expresive DSL for writing web applications with tons of plugins and a very dynamic community." />
+	<meta name="description" content="PerlDancer is a micro web-application framework for Perl, designed to be as effortless as possible for the developer. With PerlDancer, web development is fun again. It's a very expressive DSL for writing web applications with tons of plugins and a very dynamic community." />
 	<meta name="keywords" content="Perl, Dancer, PerlDancer, framework, micro framework, web, web application, webapps" />
 	<meta name="author" content="Alexis Sukrieh" />
 	<meta name="robots" content="index,follow" />
