@@ -293,13 +293,61 @@ p{
 ul.spacy li {
     margin-bottom: 1em;
 }
-
-
+/*---------------------------------------------------------------------------------------
+ 	About Page - Github Contributors
+ ---------------------------------------------------------------------------------------*/ 
 /* The list of github contributors on the "about" page */
 .github_gravatar {
-  margin: 0 2px;
-  padding: 4px;
-  border: 1px solid #ccc;
-  background-color: #efefef;
+	margin: 0 2px;
+	padding: 4px;
+	border: 1px solid #ccc;
+	background-color: #efefef;
+	cursor:hand;
+	cursor:pointer;
 }
-
+.github_gravatar.gravatar_hover {
+	border-color:#888;
+}
+/* The Github Information popup */
+.github_info {
+	position: absolute;
+	display:none;
+	width:350px;
+	height:102px;
+	border:#666 solid 1px;
+	padding:6px;
+	background: url('/images/dcr-contain-bkg-middle.png') -15px 0 repeat-y;
+	box-shadow:rgba(0,0,0,0.7) 0px 0px 10px;
+	-webkit-border-radius: 10px 10px 10px 0px;
+	-moz-border-radius: 10px 10px 10px 0px;
+	-o-border-radius: 10px 10px 10px 0px;
+	border-radius: 10px 10px 10px 0px;
+	z-index:100000;
+	cursor:hand;
+	cursor:pointer;
+}
+.github_info .github_info_row {
+	float:left;
+	height:18px;
+	margin-left:6px;
+	margin-top:3px;
+	margin-bottom:3px;
+	width:300px;	
+}
+.github_info .github_info_row a {
+	color: #285c95;
+}
+.github_info .github_info_row a:hover {
+	text-decoration:underline;
+}
+.github_info .github_info_row .info_td1 {
+	padding:3px;
+	font-weight:bold;
+	color: #285c95;
+	font: 'HelveticaNeueLTStd67MediumCon', helvetica, arial, sans-serif;
+	text-shadow: 1px 1px 0 #fff;
+}
+.github_info .github_info_row .info_td2 {
+	padding:3px;
+	font-style: italic;
+}

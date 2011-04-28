@@ -95,6 +95,7 @@
 
 
 <script type="text/javascript">
+/*<![CDATA[*/
 $.getJSON("http://twitter.com/statuses/user_timeline.json?screen_name=perldancer&count=1&callback=?",
 		function(data){
 		$.each(data, function(i,item){
@@ -105,17 +106,6 @@ $.getJSON("http://twitter.com/statuses/user_timeline.json?screen_name=perldancer
 			$("#jstweets").append(' <span>'+ct +'</span> ');
 			});
 		});
-
-$.getJSON("http://github.com/api/v2/json/repos/show/sukria/dancer/contributors/anon?callback=?",
-    function(data){
-        $.each(data.contributors, function(i,user){
-            if (user.gravatar_id && user.name) {
-                var image = '<img src="http://gravatar.com/avatar/' + user.gravatar_id + '.jpg?s=48&d=identicon" alt="' + user.name + '" title="' + user.name + '" class="github_gravatar">';
-                $("#github_contributors").append(image);
-            }
-        });
-    });
-
 </script>
 
 </body>
