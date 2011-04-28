@@ -40,3 +40,52 @@ You can also reach the development team on <code>irc.perl.org</code>,
 chan <code>#dancer</code>.  If you don't have an IRC client available, you can
 <a href="/irc">connect using Mibbit web IRC</a>.
 </p>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+$(document).ready( function () {
+	var contribs;
+	$.getJSON("http://github.com/api/v2/json/repos/show/sukria/dancer/contributors?callback=?",
+		function(data){
+			contribs = data.contributors;
+			$.each(contribs, function(i,user){
+				if (user.gravatar_id && user.name) {
+					var image = '<img src="http://gravatar.com/avatar/' + user.gravatar_id + '.jpg?s=48&d=identicon" alt="' + user.name + '" title="' + user.name + '" class="github_gravatar" id="'+ user.gravatar_id +'">';
+					$("#github_contributors").append(image);
+				}
+			});
+		});
+	$('.github_gravatar').live('mouseenter', function() {
+		$(this).addClass('gravatar_hover');
+	}).live('mouseleave', function() {
+		$(this).removeClass('gravatar_hover');
+	});
+	$('.github_gravatar').live('click', function(event) {
+		var $this = $(this);
+		if (! $('.github_info').length) {
+			$('<div/>', { 'class': 'github_info' }).appendTo('body');
+			$('.github_info').append('<div class="close_btt"></div><div class="github_info_row"><span class="info_td1" >Name:</span><span class="info_td2" id="github_name"></span></div><div class="github_info_row"><span class="info_td1" >Contributions:</span><span class="info_td2" id="github_contributions"></div><div class="github_info_row"></span><span class="info_td1" >Location:</span><span class="info_td2" id="github_location"></span></div><div class="github_info_row"><span class="info_td1" >Blog:</span><span class="info_td2" id="github_blog"></span></div>');
+		}
+		$.each(contribs, function (i,user) {
+			if (user.gravatar_id == $this.attr('id')) {
+				if (user.name) { $('.github_info').find('span#github_name').html('<a target="_blank" href="https://github.com/' + user.login + '">' + user.name + '</a>'); }
+				if (user.location) { $('.github_info').find('span#github_location').text(user.location); }
+				if (user.blog) { $('.github_info').find('span#github_blog').html('<a target="_blank" href="' + user.blog + '">' + user.blog + '</a>'); }
+				if (user.contributions) { $('.github_info').find('span#github_contributions').text(user.contributions); }
+				<!-- "open PRs" will, maybe, be added in the future -->
+			}
+		});
+		$('.github_info').css('top', (event.pageY - 114) + 'px');
+		if ((event.pageX + 365) > $(window).width()) {
+			$('.github_info').css('left', ($(window).width() - 365) + 'px');
+		} else {
+			$('.github_info').css('left', event.pageX + 'px');
+		}
+		$('.github_info').fadeIn(600);
+		$('.github_info').live('click', function () {
+			$(this).fadeOut(600);
+		});
+	});
+});
+/*]]>*/
+</script>
