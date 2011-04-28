@@ -106,7 +106,7 @@ $.getJSON("http://twitter.com/statuses/user_timeline.json?screen_name=perldancer
 			});
 		});
 
-$.getJSON("http://github.com/api/v2/json/repos/show/sukria/dancer/contributors?callback=?",
+$.getJSON("http://github.com/api/v2/json/repos/show/sukria/dancer/contributors/anon?callback=?",
     function(data){
         $.each(data.contributors, function(i,user){
             if (user.gravatar_id && user.name) {
