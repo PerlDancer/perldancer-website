@@ -323,8 +323,6 @@ ul.spacy li {
 	-o-border-radius: 10px 10px 10px 0px;
 	border-radius: 10px 10px 10px 0px;
 	z-index:100000;
-	cursor:hand;
-	cursor:pointer;
 }
 .github_info .github_info_row {
 	float:left;
@@ -350,4 +348,28 @@ ul.spacy li {
 .github_info .github_info_row .info_td2 {
 	padding:3px;
 	font-style: italic;
+}
+.github_info_close_btt {
+	position:absolute;
+	top:5px; right:5px;
+	width:15px; height:15px;
+	background-color:#BBB;
+	color:#666;
+	border:#666 solid 2px;
+	font-family:Monospace;
+	font-weight:bold;
+	padding-bottom:5px;
+	padding-left:5px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+	cursor:hand;
+	cursor:pointer;
+}
+.github_info_close_btt_hover {
+	background-color:#666;
+	color:#BBB;
+	border:#BBB solid 2px;
+	box-shadow:#000 0px 0px 5px;
 }

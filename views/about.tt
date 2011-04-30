@@ -45,7 +45,7 @@ chan <code>#dancer</code>.  If you don't have an IRC client available, you can
 /*<![CDATA[*/
 $(document).ready( function () {
 	var contribs;
-	$.getJSON("http://github.com/api/v2/json/repos/show/sukria/dancer/contributors?callback=?",
+	$.getJSON("https://github.com/api/v2/json/repos/show/sukria/dancer/contributors/anon?callback=?",
 		function(data){
 			contribs = data.contributors;
 			$.each(contribs, function(i,user){
@@ -64,7 +64,7 @@ $(document).ready( function () {
 		var $this = $(this);
 		if (! $('.github_info').length) {
 			$('<div/>', { 'class': 'github_info' }).appendTo('body');
-			$('.github_info').append('<div class="close_btt"></div><div class="github_info_row"><span class="info_td1" >Name:</span><span class="info_td2" id="github_name"></span></div><div class="github_info_row"><span class="info_td1" >Contributions:</span><span class="info_td2" id="github_contributions"></div><div class="github_info_row"></span><span class="info_td1" >Location:</span><span class="info_td2" id="github_location"></span></div><div class="github_info_row"><span class="info_td1" >Blog:</span><span class="info_td2" id="github_blog"></span></div>');
+			$('.github_info').append('<div class="github_info_close_btt">x</div><div class="github_info_row"><span class="info_td1" >Name:</span><span class="info_td2" id="github_name"></span></div><div class="github_info_row"><span class="info_td1" >Contributions:</span><span class="info_td2" id="github_contributions"></div><div class="github_info_row"></span><span class="info_td1" >Location:</span><span class="info_td2" id="github_location"></span></div><div class="github_info_row"><span class="info_td1" >Blog:</span><span class="info_td2" id="github_blog"></span></div>');
 		}
 		$.each(contribs, function (i,user) {
 			if (user.gravatar_id == $this.attr('id')) {
@@ -82,8 +82,13 @@ $(document).ready( function () {
 			$('.github_info').css('left', event.pageX + 'px');
 		}
 		$('.github_info').fadeIn(600);
-		$('.github_info').live('click', function () {
-			$(this).fadeOut(600);
+		$('.github_info_close_btt').live('click', function () {
+			$(this).parents('.github_info').fadeOut(600);
+		});
+		$('.github_info_close_btt').live('mouseenter', function() {
+			$(this).addClass('github_info_close_btt_hover');
+		}).live('mouseleave', function() {
+			$(this).removeClass('github_info_close_btt_hover');
 		});
 	});
 });
