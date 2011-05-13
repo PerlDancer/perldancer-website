@@ -18,6 +18,10 @@ get '/donate/thanks' => sub {
     template 'thanks';
 };
 
+get '/testimonials' => sub {
+    template 'testimonials-display', { testimonials => [ _get_testimonials() ] };
+};
+
 
 # Find the latest stable version on Github.  Cache it for 10 minutes, to avoid
 # hitting it every single time

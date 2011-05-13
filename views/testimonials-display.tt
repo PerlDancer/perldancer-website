@@ -1,0 +1,19 @@
+<h3>What people say about Dancer...</h3>
+
+<% FOREACH testimonial = testimonials %>
+    <p>
+    <cite><% testimonial.text %></cite> -
+    <% IF testimonial.source_url %>
+        <a href="<% testimonial.source_url %>"><% testimonial.source %></a>
+    <% ELSE %>
+        <% testimonial.source %>
+    <% END %>
+    </p>
+<% END %>
+
+<h3>What do <strong>you</strong> think?</h3>
+
+<p>
+We'd love to hear what you think of Dancer!  Let us know, <a href="/irc">via
+IRC</a>, on the mailing list, by smoke signals - whatever you like!
+</p>
