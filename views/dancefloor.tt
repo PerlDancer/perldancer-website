@@ -77,4 +77,11 @@ webapp that shows some stats about a Twitter account.
 is a basic Dancer-powered site written by David Precious.
 </li>
 
+<li>
+<a href="http://www.stargit.net/">StarGit</a> is an interactive application
+to let you explore your community on GitHub, making it possible for a Github 
+user to see his or her ego-centered network, like with InMaps for LinkedIn 
+users.  StarGit was created by <a href="http://lumberjaph.net/">Franck Cuny</a>
+and <a href="http://ofnodesandedges.com/">Alexi Jacomy</a>. 
+
 </ul>
