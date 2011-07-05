@@ -70,22 +70,25 @@ sub _get_testimonials {
 }
 
 sub _get_dancefloor_sites {
-    my @dancefloor_sites = from_yaml(
-        scalar Dancer::FileUtils::read_file_content(
-            Dancer::FileUtils::path( setting('appdir'), 'dancefloor.yml' )
-        )
-    );
+    my $dancefloor_sites_yaml = Dancer::FileUtils::read_file_content(
+        Dancer::FileUtils::path( setting('appdir'), 'dancefloor.yml' )
+    ) or die "Failed to read sites from config";
+    my @dancefloor_sites = from_yaml($dancefloor_sites_yaml)
+        or die "Failed to parse sites YAML";
+
     my $webthumb_api = from_yaml(
-        scalar Dancer::FileUtils::read_file_content(
+            scalar  Dancer::FileUtils::read_file_content(
             Dancer::FileUtils::path( setting('appdir'), 'webthumb-api.yml')
         )
-    );
+    ) or die "Failed to read webthumb API details from config";
+
     my $wt = WebService::Bluga::Webthumb->new(%$webthumb_api);
     for my $site (@dancefloor_sites) {
         # Work out the URL to a thumbnail
-        $site->{thumb_url} = $wt->easy_thumb($site->{url});
+        $site->{thumb_url} = $wt->easy_thumb($site->{url})
+            if $site->{url};
     }
-    return [ sort rand @dancefloor_sites ];
+    return [ sort { rand } @dancefloor_sites ];
 }
 
 
