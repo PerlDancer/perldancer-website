@@ -80,7 +80,6 @@ sub _get_dancefloor_sites {
             Dancer::FileUtils::path( setting('appdir'), 'webthumb-api.yml')
         )
     );
-    debug "API details" => $webthumb_api;
     my $wt = WebService::Bluga::Webthumb->new(%$webthumb_api);
     for my $site (@dancefloor_sites) {
         # Work out the URL to a thumbnail
