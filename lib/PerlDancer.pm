@@ -78,7 +78,7 @@ sub _get_dancefloor_sites {
         )
     );
     my @sites = from_yaml($dancefloor_yml);
-    my $wt = WebService::Bluga::Webthumb->new(
+    my $wt = WebService::Bluga::Webthumb->new(%$webthumb_api);
     for my $site (@sites) {
         # Work out the URL to a thumbnail
         $site->{thumb_url} = $wt->easy_thumb($site->{url});
