@@ -22,6 +22,10 @@ get '/testimonials' => sub {
     template 'testimonials-display', { testimonials => [ _get_testimonials() ] };
 };
 
+get '/dancefloor' => sub {
+    template 'dancefloor', { sites => _get_dancefloor_sites() };
+};
+
 
 # Find the latest stable version on Github.  Cache it for 10 minutes, to avoid
 # hitting it every single time
@@ -61,6 +65,27 @@ sub _get_testimonials {
     );
     return from_yaml($testimonials_yml);
 }
+
+sub _get_dancefloor_sites {
+    my @dancefloor_sites = from_yaml(
+        Dancer::FileUtils::read_file_content(
+            Dancer::FileUtils::path( setting('appdir'), 'dancefloor.yml' )
+        )
+    );
+    my $webthumb_api = from_yaml(
+        Dancer::FileUtils::read_file_content(
+            Dancer::FileUtils::path( setting('appdir'), 'webthumb-api.yml')
+        )
+    );
+    my @sites = from_yaml($dancefloor_yml);
+    my $wt = WebService::Bluga::Webthumb->new(
+    for my $site (@sites) {
+        # Work out the URL to a thumbnail
+        $site->{thumb_url} = $wt->easy_thumb($site->{url});
+    }
+    return [ sort rand @dancefloor_sites ];
+}
+
 
 
 true;
