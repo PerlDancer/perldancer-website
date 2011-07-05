@@ -1,0 +1,91 @@
+---
+url: "http://www.perldancer.org/"
+title: "PerlDancer website"
+description: |
+    Unsurprisingly this site is built using Dancer.  See the whole
+    <a href="http://github.com/sukria/perldancer-website">
+    source code on GitHub</a>.
+--- 
+url: "http://advent.perldancer.org/"
+title: "PerlDancer Advent Calendar"
+description: |
+    The PerlDancer Advent Calendar is written entirely with Dancer, using the
+    POD format for articles.  The source code of the application is
+    <a href="https://github.com/PerlDancer/advent-calendar-2010">available on
+    GitHub</a>
+---
+url: "http://www.moonfroot.com/"
+title: "MoonFruit"
+description: |
+    Moonfruit is proudly built on Dancer, and provides a very cool service for
+    free!
+---
+url: "http://sck.to/"
+title: "sck.to"
+description: |
+    An URL-shortening service by Celogeek using Dancer, Redis, Nginx and
+    Plackup.  It provides an API to integrate with other software, and is
+    already successfully plugged in to Drupal on <a
+    href="http://qa.celogeek.com/">qa.celogeek.com</a>
+---
+url: "http://perl-ecosystem.org/"
+title: "Perl Ecosystem Group"
+description: |
+    Official website of the Perl Ecosystem Group, bridging the gap between
+    business and the open source Perl community.
+---
+url: "http://www.the-blend.net/"
+title: "The-Blend.net"
+description: |
+    Blends new music, artists and reviews to make music a fun, comfortable and
+    beautiful thing.
+---
+url: "http://www.livro-aberto.net/"
+title: "Livro-Aberto"
+description: |
+    A website in Portuguese.
+---
+url: "http://perl.worldken.org/"
+title: "CPAN Hubble"
+description: |
+    Searching CPAN and GitHub by Alexx Kapranoff.
+    Its <a href="http://github.com/kappa/app-cpanhubble">source code</a> is
+    available on Github.
+---
+url: "http://www.lyricsbadger.co.uk/"
+title: "Lyrics Badger"
+description: |
+    A lyrics search engine, powered by Dancer and Lyrics::Fetcher.
+---
+url: "http://paste.perldancer.org/"
+title: "PasteDance"
+description: |
+    A pastebin written by <a href="http://search.cpan.org/~data/">Danijel
+    Tašov</a>.
+    The <a href="http://github.com/datamuc/Pastedance">source code</a> is 
+    available on GitHub.
+---
+url: "http://stupidtwitterstats.com/"
+title: "Stupid Twitter Stats"
+description: |
+    A webapp that shows some stats about a Twitter account.
+---
+url: "http://www.ijedomestics.co.uk/"
+title: "IJE Domestic Appliance Repairs"
+description: |
+    A small business website powered by Dancer and written by David Precious
+---
+url: "http://www.stargit.com/"
+title: "StarGit"
+description: |
+    an interactive application to let you explore your community on GitHub, 
+    making it possible for a GitHub user to see his or her ego-centered network,
+    like with InMaps for LinkedIn users.  StarGit was created by 
+    <a href="http://lumberjaph.net/">Franck Cuny</a>
+    and <a href="http://ofnodesandedges.com/">Alexi Jacomy</a>.
+---
+url: "http://www.softwaresolutionservicesinc.com/"
+title: "Software Solution Services"
+description: "A Minnesota-based technology consulting firm"
+---
+
