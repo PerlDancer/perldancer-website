@@ -24,7 +24,9 @@ get '/testimonials' => sub {
 };
 
 get '/dancefloor' => sub {
-    template 'dancefloor', { sites => _get_dancefloor_sites() };
+    my $sites = _get_dancefloor_sites();
+    debug "Sites are", $sites;
+    template 'dancefloor-display', { sites => _get_dancefloor_sites() };
 };
 
 
@@ -69,15 +71,16 @@ sub _get_testimonials {
 
 sub _get_dancefloor_sites {
     my @dancefloor_sites = from_yaml(
-        Dancer::FileUtils::read_file_content(
+        scalar Dancer::FileUtils::read_file_content(
             Dancer::FileUtils::path( setting('appdir'), 'dancefloor.yml' )
         )
     );
     my $webthumb_api = from_yaml(
-        Dancer::FileUtils::read_file_content(
+        scalar Dancer::FileUtils::read_file_content(
             Dancer::FileUtils::path( setting('appdir'), 'webthumb-api.yml')
         )
     );
+    debug "API details" => $webthumb_api;
     my $wt = WebService::Bluga::Webthumb->new(%$webthumb_api);
     for my $site (@dancefloor_sites) {
         # Work out the URL to a thumbnail
