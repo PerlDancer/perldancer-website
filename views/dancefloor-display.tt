@@ -1,0 +1,19 @@
+<h3>Websites using Dancer</h3>
+
+<p>
+<em>This page lists all websites powered by Dancer we're aware of. If you have 
+written a website with Dancer and want it to be listed here, please 
+<a href="/about">contact us</a></em>
+</p>
+
+<% FOREACH site = sites %>
+
+<div class="dancefloor-site">
+<a href="<% site.url %>"><img src="<% site.thumb_url %>"></a>
+<br />
+<p><b><a href="<% site.url %>"><% site.title %></a></b></p>
+<p><% site.description %></p>
+</div>
+
+<% END %>
+
