@@ -25,7 +25,6 @@ get '/testimonials' => sub {
 
 get '/dancefloor' => sub {
     my $sites = _get_dancefloor_sites();
-    debug "Sites are", $sites;
     template 'dancefloor-display', { sites => _get_dancefloor_sites() };
 };
 
