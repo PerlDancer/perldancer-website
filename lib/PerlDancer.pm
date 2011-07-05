@@ -4,6 +4,7 @@ use Dancer ':syntax';
 use Template;
 use LWP::Simple ();
 use List::Util;
+use WebService::Bluga::Webthumb;
 
 our $VERSION = '0.1';
 
@@ -77,9 +78,8 @@ sub _get_dancefloor_sites {
             Dancer::FileUtils::path( setting('appdir'), 'webthumb-api.yml')
         )
     );
-    my @sites = from_yaml($dancefloor_yml);
     my $wt = WebService::Bluga::Webthumb->new(%$webthumb_api);
-    for my $site (@sites) {
+    for my $site (@dancefloor_sites) {
         # Work out the URL to a thumbnail
         $site->{thumb_url} = $wt->easy_thumb($site->{url});
     }
