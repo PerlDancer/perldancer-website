@@ -373,3 +373,11 @@ ul.spacy li {
 	border:#BBB solid 2px;
 	box-shadow:#000 0px 0px 5px;
 }
+
+.dancefloor-site {
+    float: left;
+    width: 200px;
+    border: 1px solid #008;
+    padding: 10px;
+}
+
