@@ -376,8 +376,13 @@ ul.spacy li {
 
 .dancefloor-site {
     float: left;
-    width: 200px;
+    width: 250px;
+    height: 300px;
     border: 1px solid #008;
     padding: 10px;
+    margin: 10px;
+    overflow: auto;
 }
+.dancefloor-site IMG { margin: auto }
+.dancefloor-site P>B { margin: auto }
 
