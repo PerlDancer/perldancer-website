@@ -78,11 +78,11 @@ description: |
 url: "http://www.stargit.net/"
 title: "StarGit"
 description: |
-    an interactive application to let you explore your community on GitHub, 
-    making it possible for a GitHub user to see his or her ego-centered network,
-    like with InMaps for LinkedIn users.  StarGit was created by 
+    an interactive application to explore your community on GitHub, 
+    making it possible for a GitHub user to see his/her ego-centered network,
+    like with InMaps for LinkedIn users. Created by 
     <a href="http://lumberjaph.net/">Franck Cuny</a>
-    and <a href="http://ofnodesandedges.com/">Alexi Jacomy</a>.
+    and <a href="http://ofnodesandedges.com/">Alexis Jacomy</a>.
 ---
 url: "http://www.softwaresolutionservicesinc.com/"
 title: "Software Solution Services"
