@@ -127,5 +127,14 @@ text: |
     students because the learning curve would have been too steep. I think Dancer
     has changed the game and beginners *can* learn Perl web development using
     Dancer. (We'll find out at the beginner's class I'm giving at YAPC in Riga:) 
-
+--- 
+source: linportal
+source_url: http://www.reddit.com/r/perl/comments/jbh25/happy_birthday_dancer_two_years_of_the_perl/c2aqamw
+text: |
+    Perl Dancer is amazing! If you're into web development, definitely give
+    Dancer a look, you might be surprised how fun and productive web development
+    can be these days. Dancer is two things packed together: it stays out of
+    your way if you like that, but also provides you with very powerful
+    primitives to get the complex web tasks done in just a few lines of code.
+    Highly recommended to both novices and experts!
 
