@@ -116,4 +116,16 @@ text: |
     I just spent yesterday with Perl Dancer and was able to get a website 
     going for my Dad's software consulting company in no time at all!
     Thanks for all your efforts on Dancer it is pretty awesome.
+--- 
+source: Andrew Solomon on cpanratings
+source_url: http://cpanratings.perl.org/dist/Dancer#9050
+text: |
+    [...] the words that come to mind are "quick", "small", "simple" and "clean". 
+    There's a close alignment of the packages and methods with the concepts one 
+    has in mind when doing web development.
+    Formerly a Perl teacher, I never taught web development to the first-year
+    students because the learning curve would have been too steep. I think Dancer
+    has changed the game and beginners *can* learn Perl web development using
+    Dancer. (We'll find out at the beginner's class I'm giving at YAPC in Riga:) 
+
 
