@@ -2,6 +2,27 @@
 
 
 <p><strong>
+<a href="http://www.slideshare.net/asukrieh/perl-dancer-fpw-2010-4482016">
+Perl Dancer, FPW 2010</a>
+</strong>
+</p>
+
+<p>
+Given by Alexis Sukrieh at French Perl Workshop, 11th June 2010, Calais
+</p>
+
+<object id="__sse4482016" width="595" height="497"> <param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=fpw2010-perldancer-100612140837-phpapp01&stripped_title=perl-dancer-fpw-2010-4482016&userName=asukrieh" /> <param name="allowFullScreen" value="true"/> <param name="allowScriptAccess" value="always"/> <embed name="__sse4482016" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=fpw2010-perldancer-100612140837-phpapp01&stripped_title=perl-dancer-fpw-2010-4482016&userName=asukrieh" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="595" height="497"></embed> </object>
+
+<p>You can also view and download this in
+<a href="/slides/perl-dancer-fpw-2010.odp">OpenOffice ODP format</a>.</p>
+
+
+
+<hr />
+
+
+
+<p><strong>
 <a href="http://www.slideshare.net/xSawyer/perl-dancer-for-python-programmers" title="Perl Dancer for Python programmers">
 Perl Dancer for Python programmers</a>
 </strong></p>
@@ -17,7 +38,11 @@ You can also view and download this in
 <a href="/slides/dancer-for-python-programmers.pdf">PDF format</a>
 </p>
 
-<hr>
+
+
+<hr />
+
+
 
 <p><strong>
 <a href="http://www.slideshare.net/hashashin/dancing-tutorial">
@@ -38,7 +63,10 @@ You can also view and download this in
 <a href="/slides/dancing-tutorial.pdf">PDF format</a></p>
 
 
-<hr>
+
+<hr />
+
+
 
 
 <p><strong>Modern PerlCommerce</strong></p>
