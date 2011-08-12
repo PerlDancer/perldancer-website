@@ -15,11 +15,10 @@ my @pages = qw(
     used_by
 );
 
-plan tests => scalar(@pages) * 2;
+plan tests => scalar(@pages);
 
 for my $page (@pages) {
     my $req = [GET => "/$page"];
 
-    response_exists $req;
     response_status_is $req, 200;
 }
