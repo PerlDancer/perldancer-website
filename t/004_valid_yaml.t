@@ -20,7 +20,7 @@ for my $testimonial (@testimonials) {
 
 # Valid dancefloor page entries
 my @dancefloor_sites = YAML::LoadFile('dancefloor.yml');
-ok(@dancefloor, "Loaded " . scalar @dancefloor_sites . " sites");
+ok(@dancefloor_sites, "Loaded " . scalar @dancefloor_sites . " sites");
 my $sitenum;
 for my $site (@dancefloor_sites) {
     $sitenum++;
