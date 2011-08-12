@@ -1,10 +1,13 @@
-<h3>Here are slides from talks given about Dancer</h3>
+<h3>Presenting Dancer - slides from Dancer talks around the world</h3>
 
-<h4>Dancer for Python programmers</h4>
 
-<address>(this was given at PyWeb IL, Oct 4th)</address>
+<p><strong>
+<a href="http://www.slideshare.net/xSawyer/perl-dancer-for-python-programmers" title="Perl Dancer for Python programmers">
+Perl Dancer for Python programmers</a>
+</strong></p>
 
-<div style="width:425px" id="__ss_5369570"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/xSawyer/perl-dancer-for-python-programmers" title="Perl Dancer for Python programmers">Perl Dancer for Python programmers</a></strong><object id="__sse5369570" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=dancer-101006033841-phpapp01&stripped_title=perl-dancer-for-python-programmers&userName=xSawyer" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5369570" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=dancer-101006033841-phpapp01&stripped_title=perl-dancer-for-python-programmers&userName=xSawyer" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object></div>
+<p>(Given by Sawyer at PyWebIL, Oct 4th in Israel)</p>
+<object id="__sse5369570" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=dancer-101006033841-phpapp01&stripped_title=perl-dancer-for-python-programmers&userName=xSawyer" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5369570" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=dancer-101006033841-phpapp01&stripped_title=perl-dancer-for-python-programmers&userName=xSawyer" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object>
 
 <p>
 You can also view and download this in 
@@ -13,7 +16,29 @@ You can also view and download this in
 
 <hr>
 
-<h4>Modern PerlCommerce</h4>
+<p><strong>
+<a href="http://www.slideshare.net/hashashin/dancing-tutorial">
+Dancing Tutorial</a></strong></p>
+
+<p>
+Given by Alberto Simoes at Braga Geek Nights, March 1st. 2011
+</p>
+
+
+<object id="__sse7100858" width="595" height="497"> <param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=dancer-110301061249-phpapp01&stripped_title=dancing-tutorial&userName=hashashin" /> <param name="allowFullScreen" value="true"/> <param name="allowScriptAccess" value="always"/>
+<embed name="__sse7100858" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=dancer-110301061249-phpapp01&stripped_title=dancing-tutorial&userName=hashashin" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="595" height="497">
+</embed>
+</object> 
+
+<p>
+You can also view and download this in 
+<a href="/slides/dancing-tutorial.pdf">PDF format</a></p>
+
+
+<hr>
+
+
+<p><strong>Modern PerlCommerce</strong></p>
 
 <p>
 Given at YAPC::Europe 2011 by Stefan Hornburg (racke)
