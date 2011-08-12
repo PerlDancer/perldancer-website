@@ -18,8 +18,21 @@ for my $testimonial (@testimonials) {
         "testimonial $tnum has text");
 }
 
-
-
+# Valid dancefloor page entries
+my @dancefloor_sites = YAML::LoadFile('dancefloor.yml');
+ok(@dancefloor, "Loaded " . scalar @dancefloor_sites . " sites");
+my $sitenum;
+for my $site (@dancefloor_sites) {
+    $sitenum++;
+    ok ref $site eq 'HASH',
+        "Site $sitenum is a hashref";
+    ok exists $site->{url},
+        "Site $sitenum has an URL";
+    ok exists $site->{title},
+        "Site $sitenum has a title";
+    ok exists $site->{description},
+        "Site $sitenum has a description";
+}
 
 
 done_testing;
