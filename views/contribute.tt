@@ -1,17 +1,37 @@
 <h3>Dance with us</h3>
 
 <p>
-Dancer is a modern Perl project, while it's already usable to build small
-websites (like this one) it's still in development. There are many ways to contribute.
+Dancer is a modern Perl project - it's already in use in many production
+deployments (see the <a href="/dancefloor">Dancefloor</a> page for some
+examples) but is still being actively developed and improved.
 </p>
+
+<p>
+There are many ways you could contribute to help make Dancer even better:
+</p>
+
 
 <a name="promotion"></a>
 <h3>Promotion - help spread the word!</h3>
 
 <p>
 There are many, many frameworks out there, marketing can make a difference.
-If you like Dancer, tell the world about it, blog it, tweet it. This is a very
-valuable contribution to the project.
+If you like Dancer, tell the world about it:
+
+<ul>
+<li>blog about it!</li>
+<li>tweet about  it!</li>
+<li><a href="http://cpanratings.perl.org/dist/Dancer">Rate Dancer on CPAN
+Ratings</a></li>
+<li><a href="http://metacpan.org/release/Dancer">Click +1 on MetaCPAN</a></li>
+<li><a href="https://github.com/sukria/Dancer">&quot;Watch&quot; the project on
+GitHub</a></li>
+<li>Dancer-related presentations at conferences etc (see the <a
+href="/slides">slides page</a> for inspiration)
+</ul>
+
+<p>
+Promotion and marketing is a very valuable contribution to the project.
 </p>
 
 <a name="using"></a>
@@ -22,6 +42,12 @@ Of course, using Dancer is the best way to help the project, you will see it
 running by yourself, and maybe, you will find something to enhance or will
 commit some ideas to the crew.
 </p>
+
+<p>
+If you're using Dancer, please feel free to let us know so we can list you on
+the <a href="/dancefloor">Dancefloor page</a>!
+</p>
+
 
 <a name="bugs"></a>
 <h3>Report bugs</h3>
@@ -34,7 +60,7 @@ href="https://github.com/sukria/Dancer/issues">report it</a> - reports via the
 preferred as our development is coordinated on GitHub, but bug reports to the 
 <a
 href="http://rt.cpan.org/Public/Bug/Report.html?Queue=Dancer">rt.cpan.org 
-queue</a> are fine too.
+queue</a> or on the mailing list are fine too.
 </p>
 
 <a name="patches"></a>
