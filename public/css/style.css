@@ -104,7 +104,7 @@ body {
 	 	}
 	 	
 	 	#nav-left li.nav-sep,#nav-right li.nav-sep{
-	 		width: 15px;
+	 		width: 12px;
 			background: url(/images/dcr-header-bkg-sepmenu.jpg) center center no-repeat;
 	 	}
 	 	
@@ -112,7 +112,7 @@ body {
 	 		display: block;
 	 		height: 33px;
 	 		margin: 0 8px;
-	 		font: 17px/33px 'HelveticaNeueLTStd67MediumCon', helvetica, arial, sans-serif;
+	 		font: 15px/33px 'HelveticaNeueLTStd67MediumCon', helvetica, arial, sans-serif;
 	 		color: #767676;
 	 		letter-spacing: 0.02em;
 	 		text-decoration: none;	

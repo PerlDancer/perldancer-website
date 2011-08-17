@@ -43,7 +43,11 @@
 		<ul id="nav-left" class="clearme listreset">
 			<li><a href="/quickstart">Quick Start</a></li>
 			<li class="nav-sep"></li>
-			<li><a href="/documentation">Documentation</a></li>
+			<li><a href="/documentation">Docs</a></li>
+                        <li class="nav-sep"></li>
+                        <li><a href="/about">About</a><li>
+                        <li class="nav-sep"></li>
+                        <li><a href="/irc">IRC</a></li>
 		</ul>
 		<!-- END NAV LEFT -->
 		
@@ -55,7 +59,7 @@
 			<li><a href="/dancefloor">Dancers</a></li>
 			<li class="nav-sep"></li>
 
-			<li><a href="/about">About</a></li>
+                        <li><a href="/slides">Slides</a></li>
 		</ul>
 		<!-- END NAV RIGHT -->
 			
