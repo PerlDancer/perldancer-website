@@ -14,26 +14,6 @@ Of course, you can use any other CPAN client to do so, or even
 <a href="http://search.cpan.org/perldoc?Dancer">install it by hand</a>.
 </p>
 
-<h3>A word about version numbers</h3>
-
-<p>
-Dancer is maintained in two parallel branches: the first one, with an even
-minor number is the stable branch (or <em>frozen</em>). Its API is stable and
-we publish new releases only for bug fixes and documentation updates. 
-</p>
-
-<p>
-The other release branch (with an odd minor number) is the <em>development</em>
-one, used to publish frequently new features, API deprecation and any kind of
-changes we want to make.
-</p>
-
-<p>
-For production matters, we recommend using the latest <em>stable</em> version.
-Although we do take care to produce top-quality releases, even with the
-<em>development</em> series, you should avoid it in production because of
-potential API breaks.
-</p>
 
 <h3>Creating an application</h3>
 
@@ -100,4 +80,17 @@ $ cd MyWeb-App
 $ plackup ./bin/app.pl
 HTTP::Server::PSGI: Accepting connections at http://0:5000/
 </pre>
+
+<p>
+See <a href="http://p3rl.org/Dancer::Deployment">Dancer::Deployment</a> for
+more ways to deploy your Dancer applications.
+</p>
+
+<h3>Learning more moves</h3>
+
+<p>
+Resources to learn more:
+</p>
+
+<% INCLUDE 'includes/doc-list.tt' %>
 

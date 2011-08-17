@@ -1,0 +1,15 @@
+<ul>
+    <li><a href="http://p3rl.org/Dancer::Introduction">Dancer::Introduction</a>
+    - a gentle introduction to Dancer</li>
+    <li><a href="http://p3rl.org/Dancer::Tutorial">Dancer::Tutorial</a> - a
+    walkthrough creating an example application</a></li>
+    <li><a href="http://p3rl.org/Dancer::Cookbook">Dancer::Cookbook</a> -
+    examples for achieving common tasks with Dancer</li>
+    <li><a href="http://p3rl.org/Dancer">Dancer</a> - main documentation,
+    listing all the Dancer DSL keywords</li>
+    <li><a href="http://p3rl.org/Dancer::Plugins">Dancer::Plugins</a> - a list
+    of some recommended plugins to extend Dancer with useful features</li>
+    <li><a href="http://p3rl.org/Dancer::Deployment">Dancer::Deployment</a> -
+    how to deploy your app</li>
+</ul>
+
