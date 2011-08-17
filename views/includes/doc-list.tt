@@ -11,5 +11,7 @@
     of some recommended plugins to extend Dancer with useful features</li>
     <li><a href="http://p3rl.org/Dancer::Deployment">Dancer::Deployment</a> -
     how to deploy your app</li>
+    <li><a href="http://p3rl.org/Task::Dancer">Task::Dancer</a> - comprehensive
+    list of Dancer plugins, template/session/logger engines etc on the CPAN</li>
 </ul>
 
