@@ -20,6 +20,12 @@ description: |
     Moonfruit is proudly built on Dancer, and provides a very cool service for
     free!
 ---
+url: "http://www.uk2.net/"
+title: "UK2"
+description: |
+    UK2 use Dancer to power in-house REST API applications, along with
+    holding pages and webdiversion for hundreds of thousands of customer domains.
+---
 url: "http://www.thegamecrafter.com/"
 title: "The Game Crafter"
 description: |
