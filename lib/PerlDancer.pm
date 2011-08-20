@@ -12,6 +12,7 @@ get '/' => sub {
     template 'index' => { 
         latest => latest_version(),
         testimonials => [ List::Util::shuffle(_get_testimonials()) ],
+        last_tweet => latest_tweet(),
     };
 };
 
@@ -90,6 +91,22 @@ sub _get_dancefloor_sites {
     return [ sort { rand } @dancefloor_sites ];
 }
 
+# TODO: I should probably use Net::Twitter / Net::Twitter::Lite or something
+# here, but this is quick and easy and gets the job done.
+{
+    my $last_tweet;
+    my $last_tweet_checked;
+    
+    sub latest_tweet {
+        return $last_tweet if $last_tweet and time - $last_tweet_checked < 300;
 
+        my $url = "http://api.twitter.com/1/statuses/user_timeline.json"
+            . "?screen_name=PerlDancer&include_rts=1&count=1";
+        my $json = LWP::Simple::get($url) or return "Unavailable";
+        my $tweets = from_json($json);
+        $last_tweet_checked = time;
+        return $last_tweet  = $tweets->[0]->{text};
+    }
+}
 
 true;

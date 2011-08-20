@@ -83,7 +83,7 @@
 	<div id="contain-bottom"></div>
 	
 <div class="twitter" id="jstweets">
-<a href="http://twitter.com/PerlDancer/">On Twitter</a>: 
+<a href="http://twitter.com/PerlDancer/">On Twitter</a>: <% last_tweet %> 
 </div>
 
 	<div id="copyright">Dancer is copyright © 2009-2011 <a href="http://sukria.net/" rel="external">Alexis Sukrieh</a> - <a href="http://github.com/sukria/Dancer/" rel="external">Fork on GitHub</a> - This website is <a href="http://github.com/sukria/perldancer-website/" rel="external">free software</a>.</div>
@@ -97,20 +97,6 @@
 
 <a href="http://github.com/sukria/Dancer"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
 
-
-<script type="text/javascript">
-/*<![CDATA[*/
-$.getJSON("http://twitter.com/statuses/user_timeline.json?screen_name=perldancer&count=1&callback=?",
-		function(data){
-		$.each(data, function(i,item){
-			ct = item.text;
-			ct = ct.replace(/http:\/\/\S+/g,  '<a href="$&" >$&</a>');
-			ct = ct.replace(/\s(@)(\w+)/g,    ' @<a href="http://twitter.com/$2" >$2</a>');
-			ct = ct.replace(/\s(#)(\w+)/g,    ' #<a href="http://search.twitter.com/search?q=%23$2" >$2</a>');
-			$("#jstweets").append(' <span>'+ct +'</span> ');
-			});
-		});
-</script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
