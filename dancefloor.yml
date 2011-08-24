@@ -38,6 +38,11 @@ title: "Szpak Photography"
 description: |
     Photography studio and services in Letchworth, Hertfordshire
 ---
+url: "http://www.ijedomestics.co.uk/"
+title: "IJE Domestic Appliance Repairs"
+description: |
+    A small business website powered by Dancer and written by David Precious
+---
 url: "http://perlresume.org/"
 title: "Perl Résumé"
 description: |
@@ -57,6 +62,10 @@ title: "Perl Ecosystem Group"
 description: |
     Official website of the Perl Ecosystem Group, bridging the gap between
     business and the open source Perl community.
+---
+url: "http://www.softwaresolutionservicesinc.com/"
+title: "Software Solution Services"
+description: "A Minnesota-based technology consulting firm"
 ---
 url: "http://www.the-blend.net/"
 title: "The-Blend.net"
@@ -94,11 +103,6 @@ title: "Stupid Twitter Stats"
 description: |
     A webapp that shows some stats about a Twitter account.
 ---
-url: "http://www.ijedomestics.co.uk/"
-title: "IJE Domestic Appliance Repairs"
-description: |
-    A small business website powered by Dancer and written by David Precious
----
 url: "http://www.stargit.net/"
 title: "StarGit"
 description: |
@@ -106,10 +110,6 @@ description: |
     similar to InMaps for LinkedIn users. Created by 
     <a href="http://lumberjaph.net/">Franck Cuny</a>
     and <a href="http://ofnodesandedges.com/">Alexis Jacomy</a>.
----
-url: "http://www.softwaresolutionservicesinc.com/"
-title: "Software Solution Services"
-description: "A Minnesota-based technology consulting firm"
 ---
 url: "http://howfuckedismuni.com/"
 title: "How F**ked is Muni"
