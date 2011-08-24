@@ -38,6 +38,12 @@ title: "Szpak Photography"
 description: |
     Photography studio and services in Letchworth, Hertfordshire
 ---
+url: "http://perlresume.org/"
+title: "Perl Résumé"
+description: |
+    Your Perl Résumé generated automatically based on your CPAN experience,
+    activity and impact. Website by <a href="http://showmetheco.de/">vti</a>.
+---
 url: "http://sck.to/"
 title: "sck.to"
 description: |
