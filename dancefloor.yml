@@ -103,8 +103,7 @@ url: "http://www.stargit.net/"
 title: "StarGit"
 description: |
     an interactive application to explore your community on GitHub, 
-    making it possible for a GitHub user to see his/her ego-centered network,
-    like with InMaps for LinkedIn users. Created by 
+    similar to InMaps for LinkedIn users. Created by 
     <a href="http://lumberjaph.net/">Franck Cuny</a>
     and <a href="http://ofnodesandedges.com/">Alexis Jacomy</a>.
 ---
