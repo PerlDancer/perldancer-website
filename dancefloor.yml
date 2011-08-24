@@ -53,9 +53,9 @@ url: "http://sck.to/"
 title: "sck.to"
 description: |
     An URL-shortening service by Celogeek using Dancer, Redis, Nginx and
-    Plackup.  It provides an API to integrate with other software, and is
-    already successfully plugged in to Drupal on <a
-    href="http://qa.celogeek.com/">qa.celogeek.com</a>
+    Plackup. Provides an API to integrate with other software, and is
+    already used with Drupal 
+    on <a href="http://qa.celogeek.com/">qa.celogeek.com</a>
 ---
 url: "http://perl-ecosystem.org/"
 title: "Perl Ecosystem Group"
