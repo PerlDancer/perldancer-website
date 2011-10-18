@@ -95,8 +95,10 @@ You can also view and download this in
 <p><strong>Modern PerlCommerce</strong></p>
 
 <p>
-Given at YAPC::Europe 2011 by Stefan Hornburg (racke)
+Given at <a href="http://pghpw.org/ppw2011/">Pittsburgh Perl Workshop 2011</a> by Stefan Hornburg (Racke)
 </p>
+<object id="__sse9656888" width="425" height="355"> <param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=perlcommerce-beamer-111012060740-phpapp02&stripped_title=modern-perlcommerce&userName=linuxia" /> <param name="allowFullScreen" value="true"/> <param name="allowScriptAccess" value="always"/> <embed name="__sse9656888" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=perlcommerce-beamer-111012060740-phpapp02&stripped_title=modern-perlcommerce&userName=linuxia" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed> </object>
 
-<a href="/slides/perlcommerce-beamer.pdf">PDF format</a>
-
+<p>
+You can also view and download this in <a href="/slides/perlcommerce-beamer.pdf">PDF format</a>
+</p>
