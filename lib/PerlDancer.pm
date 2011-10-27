@@ -33,8 +33,10 @@ hook before_template_render => sub {
     shift->{last_tweet} = latest_tweet();
 };
 
-# Find the latest stable version on Github.  Cache it for 10 minutes, to avoid
-# hitting it every single time
+# Find the latest stable version on Github.  Cache it for a while, to avoid
+# hitting it every single time.  (If we're trying to fetch up to date info and
+# fail, return the cached version, even if it's a bit stale; more useful to
+# return the last version, which is most likely still the latest, than just die.
 {
     my ($latest_version, $last_check);
     sub latest_version {
@@ -44,9 +46,11 @@ hook before_template_render => sub {
             return $latest_version;
         }
 
-        my $versions = from_json(LWP::Simple::get(
+        my $json = LWP::Simple::get(
             'http://search.cpan.org/api/dist/Dancer'
-        ));
+        ) or return $latest_version;
+
+        my $versions = from_json($json) or return $latest_version;
         my ($latest) = grep { $_->{latest} } @{ $versions->{releases} };
         my $url = join '/', 'http://search.cpan.org/CPAN/authors/id',
             substr($latest->{cpanid}, 0, 1),
