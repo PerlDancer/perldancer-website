@@ -11,7 +11,7 @@ title: "PerlDancer Advent Calendar"
 description: |
     The PerlDancer Advent Calendar is written entirely with Dancer, using the
     POD format for articles.  The source code of the application is
-    <a href="https://github.com/PerlDancer/advent-calendar-2010">available on
+    <a href="https://github.com/PerlDancer/advent-calendar">available on
     GitHub</a>
 ---
 url: "http://www.moonfruit.com/"
