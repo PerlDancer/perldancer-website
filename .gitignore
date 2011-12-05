@@ -5,3 +5,4 @@ Makefile
 Makefile.old
 public/downloads/*.tar.gz
 MYMETA.*
+webthumb-api.yml
