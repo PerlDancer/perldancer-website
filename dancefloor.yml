@@ -60,7 +60,8 @@ url: "http://perl-ecosystem.org/"
 title: "Perl Ecosystem Group"
 description: |
     Official website of the Perl Ecosystem Group, bridging the gap between
-    business and the open source Perl community.
+    business and the open source Perl community. The source code
+    is <a href="http://github.com/szabgab/peg">available on Github</a>.
 ---
 url: "http://www.softwaresolutionservicesinc.com/"
 title: "Software Solution Services"
