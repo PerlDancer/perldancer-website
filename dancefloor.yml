@@ -48,6 +48,7 @@ title: "Perl Résumé"
 description: |
     Your Perl Résumé generated automatically based on your CPAN experience,
     activity and impact. Website by <a href="http://showmetheco.de/">vti</a>.
+    Source on <a href="https://github.com/vti/perlresume.org">Github</a>.
 ---
 url: "http://sck.to/"
 title: "sck.to"
