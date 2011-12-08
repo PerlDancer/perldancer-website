@@ -60,20 +60,20 @@ body {
 		---------------------------------------------------------------------------------------*/
 		h1{
 			position: absolute;
-			top: 75px;
-			left: 311px;
+			top: 35px;
+			left: 370px;
 			overflow: hidden;
 		}
 	
 		h1,h1 a{
-			width: 351px;
-			height: 246px;
+			width: 300px;
+			height:300px;
 		}
 		
 		h1 a{
 			display: block;
 			text-indent: -9999px;
-			background: url(/images/dcr-header-logo.png) 0 0 no-repeat;
+			background: url(/images/dcr-header-bauble.png) 0 0  no-repeat;
 		}
 		
 		h2{
