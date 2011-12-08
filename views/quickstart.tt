@@ -1,3 +1,12 @@
+<h3>Quick Start</h3>
+
+<p>
+Getting started with Dancer is easy - we hope you'll be surprised how simple,
+fun and flexible building a website in Perl with Dancer can be.  Even if you're
+a newcomer to Perl, you should find the simple things easy, and hard things
+possible.
+</p>
+
 <h3>Installing Dancer</h3>
 
 <p>
@@ -93,4 +102,33 @@ Resources to learn more:
 </p>
 
 <% INCLUDE 'includes/doc-list.tt' %>
+
+
+<h3>New to Perl, too?</h3>
+
+<p>
+If you're looking to learn to use Perl, we hope that the simplicity and ease of
+getting started with Dancer will be very helpful to you; however, you'll
+probably also want to find some decent tutorials and resources to learn about
+Perl itself.  Do be wary of some of the results which Google will turn up -
+there's some very outdated and inadvisable tutorials out there.
+</p>
+
+<p>
+The following is a short, non-exhaustive list of resources which are likely to
+be of use to Perl beginners:
+</p>
+
+<ul>
+<li><a href="http://perl-tutorial.org/">Perl tutorials at perl-tutorial.org</a>
+- a site listing various modern Perl tutorials</li>
+<li><a href="http://learn.perl.org/">learn.perl.org</a></li>
+<li><a href="http://learn.perl.org/books/beginning-perl/">Beginning Perl</a> - a
+book by Simon Cozens, available completely free online</li>
+<li><a href="http://szabgab.com/beginner-perl-maven.html">Beginner Perl
+Maven</a> - video tutorial/lectures by Gabor Szabo - over 70 lectures and
+exercises, more than 3 hours of presentations</li>
+<li><a href="http://perldoc.perl.org/">perldoc</a> - the Perl documentation
+online</li>
+</ul>
 
