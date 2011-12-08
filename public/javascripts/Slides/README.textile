@@ -1,0 +1,116 @@
+h1. Slides, A Slideshow Plugin for jQuery
+
+Slides is a crazy simple slideshow plugin for jQuery. With features like looping, auto play, fade or slide transition effects, crossfading, image preloading, and auto generated pagination.
+
+With Slides you'll never see multiple slides fly by. Slides elegantly just slides from one slide to the next. Awesome.
+
+Check out "http://slidesjs.com/":http://slidesjs.com/ for full instructions and examples.
+
+Give it a try and if you have a question or find a bug <a href="http://github.com/nathansearles/slides/issues">hit me up</a> at GitHub or <a href="mailto:nsearles@gmail.com">shoot me an email</a>..
+
+Slides is compatible with all modern web browsers including; Internet Explorer 7/8/9, Firefox 3+, Chrome, Safari and Mobile Safari. And it'll even work in our old friend IE6.
+
+h2. Info
+
+Developed by "Nathan Searles":mailto:nsearles@gmail.com, "http://nathansearles.com":http://nathansearles.com
+
+For updates, follow Nathan Searles on "Twitter":http://twitter.com/nathansearles
+
+Slides is licensed under the "Apache license":http://www.apache.org/licenses/LICENSE-2.0.
+
+h2. Examples and Instructions
+
+These examples are also included in the download.
+
+* "http://slidesjs.com/":http://slidesjs.com/
+* "Images with captions":http://slidesjs.com/examples/images-with-captions/
+* "Linking":http://slidesjs.com/examples/linking/
+* "Product":http://slidesjs.com/examples/product/
+* "Multiple slideshows":http://slidesjs.com/examples/multiple/
+* "Simple (unstyled)":http://slidesjs.com/examples/simple/
+* "Standard":http://slidesjs.com/examples/standard/
+
+h2. Todo
+
+Here's a list of soon to be added features. If you have a feature request let me know by either submitting an <a href="http://github.com/nathansearles/slides/issues">issue</a> or <a href="mailto:nsearles@gmail.com">by email</a>.
+
+* New: Play/pause button
+* New: Tutorial on how to create a custom slideshow using Slides
+* Fix: Bug when slideshow only has one slide
+
+h2. Changelog
+* 1.1.8
+** Fixed: bug with preloading image and starting at slide other then the first
+
+* 1.1.7 
+** Added currentClass default, thanks arronmabrey!
+
+* 1.1.6 
+** Fixed: bug with slidesLoaded function
+
+* 1.1.5 
+** New: option called slidesLoaded, a function that is called when Slides is fully loaded
+
+* 1.1.4
+** Fixed: Minor bug with loading image not being removed
+** Added: animationStart() now gets passed the current slide number
+** Updated: Examples now use jQuery 1.5.1
+
+* 1.1.3
+** New: Support for jQuery's easing plugin
+*** Added: fadeEasing and slideEasing defaults
+** Cleaned up JavaScript using http://jshint.com
+** Fixed: Minor bug with hoverPause
+
+* 1.1.2
+** Changed: Width and Height is set in the CSS rather then the JavaScript
+** New: Added some helpful comments to example CSS
+** Fixed: Flash of slide content in IE
+** Updated: Better loading structure
+
+* 1.1.1
+** New: Width and height is now a required attribute
+*** This fixes numerous issues with blank slides and height
+** New: Rewrote image loading
+*** Now supports multiple parent elements
+*** Fixed other minor bugs
+** Fixed: Images should no longer flicker in IE
+
+* 1.1.0
+** Fixed: Issue with images and captions example in IE6/7
+
+* 1.0.9
+** Fixed: Using fade effect, crossfade and autoheight now works properly
+
+* 1.0.8
+** Fixed: IE6/7 JavaScript error related to the pagination
+
+* 1.0.7
+** New: Link to a slide from a slide. Check out /examples/Linking/ in the download
+** New: Deeplinking example added. Check out /examples/Linking/ in the download
+** Changed: Pagination no longer uses rel attribute, it now just uses href with hash
+
+* 1.0.6
+** Changed: Pagination now targets the rel attribute versus using :eq()
+
+* 1.0.5
+** New: Current slide number passed to animationComplete()
+
+* 1.0.4
+** Fixed: start option bug
+** New: error correction for start option
+
+* 1.0.3
+** Fixed: bugs related to auto height
+** New: animationStart() and animationComplete() added
+
+* 1.0.2
+** Fixed: bug with static pagination
+
+* 1.0.1
+** New: boolean to auto generated Next/Prev buttons
+** Width attribute is no longer set for main element
+** Fixed: pagination bug, it was set to false, should be true by default
+
+* 1.0
+** Initial release

@@ -21,33 +21,127 @@
 <!-- START CONTAIN DBLE COL RIGHT-->
 <div id="contain-right" class="col">
 
-	<h3>Prepare your moves... and dance!</h3>
-	
-	<ul class="clearme listreset dbc">
+<div style="height: 260px;">
 
-<li>
-	<pre class="prettyprint" style="margin-top: 1em; margin-bottom: 2em;">
-#!/usr/bin/env perl
-use Dancer;
 
-get '/' =&gt; sub {
-    "Hello World!"
+<style>
+#slideshow P, #slideshow LI   { font-size: 11px; }
+#slideshow PRE { font-size: 10px; }
+#slideshow P { padding: 0px; margin: 0px; }
+</style>
+
+<div id="slideshow">
+
+<div>
+            <h3>Prepare your moves... and dance!</h3>
+            
+            <ul class="clearme listreset dbc">
+
+    <li>
+            <pre class="prettyprint" style="margin-top: 1em; margin-bottom: 2em;">
+    #!/usr/bin/env perl
+    use Dancer;
+
+    get '/' =&gt; sub {
+        "Hello World!"
+    };
+
+    dance;
+    </pre>
+            </li>
+
+            <li>
+            <pre style="margin-top: 1em;">
+    $ perl bin/app.pl &
+    ...
+    $ curl http://localhost:3000/
+    Hello world!
+    </pre>
+            </li>
+
+            </ul>
+
+    <p>
+    Getting started with Dancer is easy!
+    </p>
+
+</div><!-- end slide1 div -->
+
+<div style="display:none">
+    <h3>Wide template support</h3>
+
+    <p>
+    Dancer can be used with a wide variety of templating systems:
+    </p>
+
+    <ul>
+        <li>Template Toolkit</li>
+        <li>Template::Flute</li>
+        <li>HTML::Template</li>
+        <li>Template::Tiny</li>
+    </ul>
+
+</div><!-- end slide2 div -->
+
+<div style="display:none">
+    <h3>Easy database interaction</h3>
+
+        <p><strong>ORM with DBIx::Class</strong></p>
+        <p>Dancer::Plugin::DBIC provides easy database access using DBIx::Class:</p>
+<pre class="prettyprint">
+get '/profile/:id' => sub {
+    my $user = schema->resultset('Users')->find(params->{id});
+    ....
 };
-
-dance;
 </pre>
-	</li>
 
-	<li>
-	<pre style="margin-top: 1em;">
-$ perl bin/app.pl &
-...
-$ curl http://localhost:3000/
-Hello world!
+        <p><strong>Or easy DBI database access</strong></p>
+        <p>Dancer::Plugin::Database manages your database connections, providing an
+        augmented DBI database handle for you to use:</p>
+<pre class="prettyprint">
+get '/profile/:id' => sub {
+    my $user = database->quick_select('Users', { id => $params->{id} });
+    ...
+};
 </pre>
-	</li>
+    
+    <p>Either way, we've got you covered.</p>
 
-	</ul>
+</div>
+
+<div style="display: none">
+    <h3>Easy session support</h3>
+    <p>
+    Session support is in-built, with a wide choice of session storage methods:
+    </p>
+
+    <ul>
+    <li>YAML/Storable files on disc</li>
+    <li>Memcache</li>
+    <li>DBI</li>
+    <li>MongoDB</li>
+    <li>KiokuDB</li>
+    <li>Encrypted cookies</li>
+    </ul>
+</div>
+
+<div style="display: none">
+    <h3>Happy Christmas!</h3>
+    <p>Season's greetings from the Dancer team - wishing you a joyful Christmas
+    and a happy and prosperous New Year.
+    </p>
+
+    <p>
+    Why not check out our <a href="http://advent.perldancer.org/">2011 Advent
+    Calendar</a>?
+    </p>
+</div>
+
+
+</div><!-- end slideshow div -->
+
+</div><!-- end slide panel holder div -->
+
 
 	<ul class="clearme listreset dbc">
 		<li><a href="<% latest.download_url %>" id="contain-download">
@@ -55,7 +149,6 @@ Hello world!
 	<li>You can also follow Dancer on <a
         href="http://github.com/sukria/Dancer">GitHub</a> and on <a href="http://twitter.com/PerlDancer">Twitter</a></li>
 	</ul>
-	
 	
 
 </div>
@@ -92,6 +185,7 @@ Hello world!
 
 <script>
 $(document).ready(function(){
+    / * set up testimonials rotation */
     $('#testimonials P');
     setInterval(function(){
         $('#testimonials P').filter(':visible').fadeOut(1000,function(){
@@ -103,8 +197,26 @@ $(document).ready(function(){
             }
         });
     },12000);    
+ 
+    /* And set up slideshow rotation */
+    $('#slideshow DIV');
+    setInterval(function(){
+        $('#slideshow DIV').filter(':visible').fadeOut(1000,function(){
+            if($(this).next('DIV').size()){
+                $(this).next().fadeIn(750);
+            }
+            else{
+                $('#slideshow DIV').eq(0).fadeIn(750);
+            }
+        });
+    },12000);    
+       
 });
 </script>
 
+
 <!-- Hackish mouseover pre-load -->
 <img src="/images/dcr-contain-bkg-download-hover.jpg" style="display:none">
+
+
+
