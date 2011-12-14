@@ -77,15 +77,40 @@
     <h3>Wide template support</h3>
 
     <p>
-    Dancer can be used with a wide variety of templating systems:
+    Dancer can be used with a wide variety of templating systems, including:
     </p>
     <br />
+    
+    <ul class="clearme listreset dbc">
+    <li>
+
     <ul>
         <li>Template Toolkit</li>
         <li>Template::Flute</li>
         <li>HTML::Template</li>
         <li>Template::Tiny</li>
+        <li>Mason</li>
+        <li>Template::Alloy</li>
     </ul>
+    </li>
+
+    <li>
+    <ul>
+        <li>HTML::CTPP2</li>
+        <li>Tenjin</li>
+        <li>Text::Haml</li>
+        <li>Text::Caml</li>
+        <li>Mojo::Template</li>
+        <li>Template::Declare</li>
+    </ul>
+    </li>
+    </ul>
+
+    <p>
+    Support for many more template engines is available, and it's easy to write
+    a Dancer::Template::* wrapper to add support for your favourite
+    engine if it's not already available.
+    </p>
 
 </div><!-- end slide2 div -->
 
