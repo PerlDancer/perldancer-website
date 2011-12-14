@@ -2,7 +2,7 @@
 <!-- START CONTAIN DBLE COL LEFT-->
 <div id="contain-left" class="col">
 	<h3>What is Dancer?</h3>
-	<p>Dancer is a micro web application framework for Perl</p>
+	<p>Dancer is a simple but powerful web application framework for Perl</p>
 
 	<h3>Key features</h3>
 	
@@ -34,6 +34,11 @@
 
 <div>
             <h3>Prepare your moves... and dance!</h3>
+
+            <p>
+            Dancer has been designed as a Perl web framework which is easy and
+            intuitive to get to grips with - this is how easy it can be:
+            </p>
             
             <ul class="clearme listreset dbc">
 
@@ -62,7 +67,8 @@
             </ul>
 
     <p>
-    Getting started with Dancer is easy!
+    Getting started with Dancer is easy, but it provides everything you need to
+    write your web applications with ease!
     </p>
 
 </div><!-- end slide1 div -->
@@ -73,7 +79,7 @@
     <p>
     Dancer can be used with a wide variety of templating systems:
     </p>
-
+    <br />
     <ul>
         <li>Template Toolkit</li>
         <li>Template::Flute</li>
