@@ -1,3 +1,15 @@
 This is the code of the Dancer's website 
 
 http://dancer.sukria.net/
+
+Better known as http://perldancer.org/
+
+
+To enable the dancloor page you need to register on 
+http://webthumb.bluga.net/
+
+and fetch the User ID and API Key from
+http://webthumb.bluga.net/user
+
+copy webthumb-api.yml.skel to webthumb-api.yml
+and write in the values in that file.
