@@ -9,7 +9,7 @@ use WebService::Bluga::Webthumb;
 our $VERSION = '0.1';
 
 get '/' => sub {
-    template 'index' => { 
+    template 'index' => {
         latest => latest_version(),
         testimonials => [ List::Util::shuffle(_get_testimonials()) ],
     };
@@ -40,7 +40,7 @@ hook before_template_render => sub {
 {
     my ($latest_version, $last_check);
     sub latest_version {
-        if ($latest_version 
+        if ($latest_version
             && time - $last_check < config->{cache_latest_version})
         {
             return $latest_version;
@@ -103,7 +103,7 @@ sub _get_dancefloor_sites {
 {
     my $last_tweet;
     my $last_tweet_checked;
-    
+
     sub latest_tweet {
         return $last_tweet if $last_tweet and time - $last_tweet_checked < 300;
 
