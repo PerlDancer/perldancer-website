@@ -131,6 +131,22 @@ get '/profile/:id' => sub {
     </ul>
 </div>
 
+<div style="display:none">
+    <h3>Extensible with plugins and engines</h3>
+
+    <p>
+    There's a wide range of plugins available on CPAN to provide useful extra
+    features to make writing your applications even eaiser, and support for a
+    wide range of template engines, logging methods, session storage methods,
+    serialisers...
+    </p>
+
+    <p>
+    Just <a href="https://metacpan.org/search?q=Dancer%3A%3APlugin%3A%3A">
+    search CPAN</a> and see!
+    </p>
+</div>
+
 <div style="display: none">
     <h3>Happy Christmas!</h3>
     <p>Season's greetings from the Dancer team - wishing you a joyful Christmas
