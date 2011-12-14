@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title><% if title %><% title %><% else %>Dancer - Perl Web Framework for easy and fun webapp development<% end %></title>
-	<meta name="description" content="PerlDancer is a micro web application framework for Perl, designed to be as effortless as possible for the developer. With PerlDancer, web development is fun again. It's a very expressive DSL for writing web applications with tons of plugins and a very dynamic community." />
+	<meta name="description" content="PerlDancer is a micro perl web framework designed to be as effortless as possible for the developer. With PerlDancer, web development is fun again. It's a very expressive DSL for writing web applications with tons of plugins and a very dynamic community." />
 	<meta name="keywords" content="Perl, Dancer, PerlDancer, framework, web framework, micro framework, web, web application, webapps" />
 	<meta name="author" content="Alexis Sukrieh" />
 	<meta name="robots" content="index,follow" />
@@ -36,7 +36,7 @@
 	<!-- START HEADER -->
 	<div id="header">
 	
-		<h1><a href="/">Perl Dancer | Perl is fun again</a></h1>
+		<h1><a href="/">Dancer - Perl web framework</a></h1>
 		<h2>The easiest way to write web applications in Perl</h2>
 
 		<!-- START NAV LEFT -->
@@ -79,7 +79,7 @@
         <div id="advent" style="text-align: center">
         Happy Christmas from the Dancer team!
         Check out <a href="http://advent.perldancer.org/">our 2011 Advent
-        Calendar</a>!<br />
+        Calendar</a>!<br /><br />
         </div>
 	<% content %>		
 	</div>
@@ -91,7 +91,7 @@
 <a href="http://twitter.com/PerlDancer/">On Twitter</a>: <% last_tweet %> 
 </div>
 
-	<div id="copyright">Dancer is copyright © 2009-2011 <a href="http://sukria.net/" rel="external">Alexis Sukrieh</a> - <a href="http://github.com/sukria/Dancer/" rel="external">Fork on GitHub</a> - This website is <a href="http://github.com/sukria/perldancer-website/" rel="external">free software</a>.</div>
+	<div id="copyright">Dancer Perl web framework is copyright © 2009-2011 <a href="http://sukria.net/" rel="external">Alexis Sukrieh</a> - <a href="http://github.com/sukria/Dancer/" rel="external">Fork on GitHub</a> - This website is <a href="http://github.com/sukria/perldancer-website/" rel="external">free software</a>.</div>
 
 </div>
 
