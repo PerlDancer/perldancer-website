@@ -117,6 +117,12 @@
 <div style="display:none">
     <h3>Easy database interaction</h3>
 
+    <p>
+    If you're using a Perl web framework, you want the easy stuff taken care of
+    for you, so you can write the interesting stuff.  The same applies to
+    database access - it should be simple and non-tedious.
+    </p>
+
         <p><strong>ORM with DBIx::Class</strong></p>
         <p>Dancer::Plugin::DBIC provides easy database access using DBIx::Class:</p>
 <pre class="prettyprint">
@@ -137,6 +143,35 @@ get '/profile/:id' => sub {
 </pre>
     
     <p>Either way, we've got you covered.</p>
+
+</div>
+
+<div style="display: none">
+    <h3>Automatic serialisation for AJAX/APIs</h3>
+
+    <p>Just enable one of the built-in seralizers and any references your routes
+    return will automatically be serialised to JSON, XML, YAML - whatever you
+    need.  Use the Mutable serializer and the format can even be selected by the
+    user making the request based on an &quot;Accept&quot; HTTP header.
+    </p>
+
+<pre class="prettyprint">
+ajax '/getloadavg' => sub {
+    return {
+        timestamp => time(),
+        loadavg   => ( Unix::Uptime->load )[0],
+    };
+};
+</pre>
+
+    <p>The above example simply returns a hashref from the route handler; the
+    serializer takes care of turning it into the desired format (e.g. JSON) and
+    returning it to the user.
+    </p>
+
+    <p>(The example comes from the <a
+    href="http://advent.perldancer.org/2011/14">Dynamic AJAX charting with
+    Dancer</a> 2011 Advent Calendar</a> post.)</p>
 
 </div>
 
