@@ -76,11 +76,6 @@
 	<div id="contain-top"></div>
 	<!-- START MAIN CONTAIN -->
 	<div id="contain" class="clearme">
-        <div id="advent" style="text-align: center">
-        Happy Christmas from the Dancer team!
-        Check out <a href="http://advent.perldancer.org/">our 2011 Advent
-        Calendar</a>!<br /><br />
-        </div>
 	<% content %>		
 	</div>
 	<!-- END MAIN CONTAIN -->
