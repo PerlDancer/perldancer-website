@@ -207,18 +207,6 @@ ajax '/getloadavg' => sub {
     </p>
 </div>
 
-<div style="display: none">
-    <h3>Happy Christmas!</h3>
-    <p>Season's greetings from the Dancer team - wishing you a joyful Christmas
-    and a happy and prosperous New Year.
-    </p>
-
-    <p>
-    Why not check out our <a href="http://advent.perldancer.org/">2011 Advent
-    Calendar</a>?
-    </p>
-</div>
-
 
 </div><!-- end slideshow div -->
 
