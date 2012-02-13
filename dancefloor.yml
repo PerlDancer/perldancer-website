@@ -175,3 +175,7 @@ description: |
 url: "http://ralphschuler.ch/"
 title: "Ralph Schuler"
 description: "Personal website"
+---
+url: "http://fbsdmon.org/"
+title: "FreeBSD Monitor"
+description: "Collect and display FreeBSD and Ports usage statistics"
