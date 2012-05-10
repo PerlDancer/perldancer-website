@@ -47,21 +47,15 @@ hook before_template_render => sub {
         }
 
         my $json = LWP::Simple::get(
-            'http://search.cpan.org/api/dist/Dancer'
+            'http://api.metacpan.org/v0/release/Dancer'
         ) or return $latest_version;
 
-        my $versions = from_json($json) or return $latest_version;
-        my ($latest) = grep { $_->{latest} } @{ $versions->{releases} };
-        my $url = join '/', 'http://search.cpan.org/CPAN/authors/id',
-            substr($latest->{cpanid}, 0, 1),
-            substr($latest->{cpanid}, 0, 2),
-            $latest->{cpanid},
-            $latest->{archive};
-        my ($short_ver) = $latest->{version} =~ /^(\d+\.\d)/;
+        my $response = from_json($json) or return $latest_version;
+        my ($short_ver) = $response->{version} =~ /^(\d+\.\d)/;
         my $result =  {
-            version => $latest->{version},
+            version       => $response->{version},
             short_version => $short_ver,
-            download_url => $url,
+            download_url  => $response->{download_url},
         };
         $latest_version = $result;
         $last_check = time;
