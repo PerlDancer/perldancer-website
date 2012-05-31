@@ -186,3 +186,9 @@ description: |
     Dancer + Pastebin: a simple and elegant pastebin service.
     Make sure to install the 
     <a href="https://metacpan.org/module/App::Nopaste::Service::Dancebin">nopaste plugin</a>.
+---
+url: "https://daystack.com/"
+title: "Daystack"
+description: |
+    A beautifully minimal approach to getting organized - a web-based task
+    manager for lovers of simple.
