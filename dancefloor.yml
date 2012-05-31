@@ -179,3 +179,10 @@ description: "Personal website"
 url: "http://fbsdmon.org/"
 title: "FreeBSD Monitor"
 description: "Collect and display FreeBSD and Ports usage statistics"
+---
+url: "http://danceb.in/"
+title: "Dancebin"
+description: |
+    Dancer + Pastebin: a simple and elegant pastebin service.
+    Make sure to install the 
+    <a href="https://metacpan.org/module/App::Nopaste::Service::Dancebin">nopaste plugin</a>.
