@@ -192,3 +192,15 @@ title: "Daystack"
 description: |
     A beautifully minimal approach to getting organized - a web-based task
     manager for lovers of simple.
+---
+url: "http://www.maxi-tip.cz/"
+title: "Maxi-Tip"
+description: |
+    Czech sports betting site
+---
+url: "http://theanarchistlibrary.org/"
+title: "The Anarchist Library"
+description: |
+    A wiki using the Dancer-powered <a href="https://gitorious.org/amuse-wiki">
+    amuse-wiki</a>
+
