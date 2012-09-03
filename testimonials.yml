@@ -167,3 +167,13 @@ source_url: https://twitter.com/#!/h4ck3rm1k3/status/146881515362582528
 text: |
    Working on Perl Dancer and Extjs, wow, now programming 
    is fun again!
+---
+source: CrowdTilt
+source:url: http://dsog.info/blog/Perl/Hacking/Technology/2012/08/31/why-did-i-choose-perl-for-crowdtilt/
+text: |
+    We needed to move really fast and provide a highly scalable, extensible, and
+    maintainable product to our customers to enable them to pool money together.
+    Using Perl Dancer and CPAN, we were able to prototype our site in a couple
+    of days. That same “protoype” has evolved to the current version of the
+    website over just a few weeks.
+
