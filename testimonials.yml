@@ -176,4 +176,10 @@ text: |
     Using Perl Dancer and CPAN, we were able to prototype our site in a couple
     of days. That same “protoype” has evolved to the current version of the
     website over just a few weeks.
+---
+source: knighthacker on HN
+source_url: http://news.ycombinator.com/item?id=4462124
+text: |
+    Check out Perl Dancer as a web framework for example and you'll 
+    see simplicity.
 
