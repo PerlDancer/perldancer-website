@@ -169,7 +169,7 @@ text: |
    is fun again!
 ---
 source: CrowdTilt
-source:url: http://dsog.info/blog/Perl/Hacking/Technology/2012/08/31/why-did-i-choose-perl-for-crowdtilt/
+source_url: http://dsog.info/blog/Perl/Hacking/Technology/2012/08/31/why-did-i-choose-perl-for-crowdtilt/
 text: |
     We needed to move really fast and provide a highly scalable, extensible, and
     maintainable product to our customers to enable them to pool money together.
