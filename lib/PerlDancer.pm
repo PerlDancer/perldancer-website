@@ -28,6 +28,11 @@ get '/dancefloor' => sub {
     template 'dancefloor-display', { sites => _get_dancefloor_sites() };
 };
 
+get qr{^/(irc|quickstart|documentation|about|contribute|cheatsheet|donate).html$} => sub {
+    my ($page) = splat;
+    forward "/$page"; # autopage
+};
+
 # Add last tweet to template params
 hook before_template_render => sub {
     shift->{last_tweet} = latest_tweet();
