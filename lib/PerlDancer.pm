@@ -33,6 +33,12 @@ get qr{^/(irc|quickstart|documentation|about|contribute|cheatsheet|donate).html$
     forward "/$page"; # autopage
 };
 
+get '/slides/' => sub {
+    my $res = Dancer::Renderer::_autopage_response( Dancer::FileUtils::path( 'slides' ) );
+    $res->header( 'Content-Type' => 'text/html' );
+    $res;
+};
+
 # Add last tweet to template params
 hook before_template_render => sub {
     shift->{last_tweet} = latest_tweet();

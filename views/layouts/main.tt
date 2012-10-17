@@ -59,7 +59,7 @@
 			<li><a href="/dancefloor" title="Who's using Dancer">Dancers</a></li>
 			<li class="nav-sep"></li>
 
-                        <li><a href="/slides" title="Presentation slides">Slides</a></li>
+                        <li><a href="/slides/" title="Presentation slides">Slides</a></li>
 		</ul>
 		<!-- END NAV RIGHT -->
 			
