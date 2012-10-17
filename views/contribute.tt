@@ -2,7 +2,7 @@
 
 <p>
 Dancer is a modern Perl project - it's already in use in many production
-deployments (see the <a href="/dancefloor">Dancefloor</a> page for some
+deployments (see the <a href="/dancefloor.html">Dancefloor</a> page for some
 examples) but is still being actively developed and improved.
 </p>
 
@@ -45,7 +45,7 @@ commit some ideas to the crew.
 
 <p>
 If you're using Dancer, please feel free to let us know so we can list you on
-the <a href="/dancefloor">Dancefloor page</a>!
+the <a href="/dancefloor.html">Dancefloor page</a>!
 </p>
 
 

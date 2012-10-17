@@ -23,7 +23,7 @@ get '/testimonials.html' => sub {
     template 'testimonials-display', { testimonials => [ _get_testimonials() ] };
 };
 
-get '/dancefloor' => sub {
+get '/dancefloor.html' => sub {
     my $sites = _get_dancefloor_sites();
     template 'dancefloor-display', { sites => _get_dancefloor_sites() };
 };
