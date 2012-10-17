@@ -15,7 +15,7 @@ get '/' => sub {
     };
 };
 
-get '/donate/thanks' => sub {
+get '/donate/thanks.html' => sub {
     template 'thanks';
 };
 
