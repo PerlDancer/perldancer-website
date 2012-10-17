@@ -19,7 +19,7 @@ get '/donate/thanks.html' => sub {
     template 'thanks';
 };
 
-get '/testimonials' => sub {
+get '/testimonials.html' => sub {
     template 'testimonials-display', { testimonials => [ _get_testimonials() ] };
 };
 
