@@ -16,11 +16,11 @@ the Git repository with the following command:
 </p>
 
 <pre>
-$ git clone git://github.com/sukria/Dancer.git
+$ git clone git://github.com/PerlDancer/Dancer.git
 </pre>
 
 <p>
-Or even <a href="http://github.com/sukria/Dancer/toggle_watch">follow the Dancer project</a> on GitHub.
+Or even <a href="http://github.com/PerlDancer/Dancer/toggle_watch">follow the Dancer project</a> on GitHub.
 </p>
 
 <p>

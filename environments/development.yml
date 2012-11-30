@@ -1,4 +1,4 @@
-log: "debug"
+log: "core"
 warnings: 1
 show_errors: 1
 

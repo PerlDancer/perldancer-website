@@ -3,7 +3,7 @@ url: "http://www.perldancer.org/"
 title: "PerlDancer website"
 description: |
     Unsurprisingly this site is built using Dancer.  See the whole
-    <a href="http://github.com/sukria/perldancer-website">
+    <a href="http://github.com/PerlDancer/perldancer-website">
     source code on GitHub</a>.
 --- 
 url: "http://advent.perldancer.org/"

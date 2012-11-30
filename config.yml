@@ -4,6 +4,11 @@ cache: 1
 charset: "UTF-8"
 auto_page: 1
 template: "template_toolkit"
+engines:
+    template:
+        template_toolkit:
+            start_tag: '<%'
+            end_tag: '%>'
 
 # How long to cache information about the latest version, to avoid hitting
 # search.cpan.org too often
