@@ -58,25 +58,37 @@ body {
 		/*---------------------------------------------------------------------------------------
 			HEADER - TITLES
 		---------------------------------------------------------------------------------------*/
-		#header h1 {
+		h1{
 			position: absolute;
+                        /* normal (non-Christmas):
 			top: 75px;
 			left: 311px;
+                        */
+                        /* Christmas: */
+                        top: 35px;
+                        left: 370px; 
+
 			overflow: hidden;
 		}
 	
-		#header h1,h1 a {
-			width: 351px;
+		h1,h1 a{
+			/* normal (non-Christmas):
+                        width: 351px;
 			height: 246px;
+                        */
+                        /* Christmas: */
+                        width: 300px;
+                        height: 300px;
 		}
 		
-		#header h1 a {
+		h1 a{
 			display: block;
 			text-indent: -9999px;
-			background: url(/images/dcr-header-logo.png) 0 0 no-repeat;
+			/* background: url(/images/dcr-header-logo.png) 0 0 no-repeat; */
+			background: url(/images/dcr-header-bauble.png) 0 0 no-repeat;
 		}
 		
-		#header h2 {
+		h2{
 			position: absolute;
 			top: 21px;
 			left: 318px;
