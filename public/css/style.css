@@ -58,7 +58,7 @@ body {
 		/*---------------------------------------------------------------------------------------
 			HEADER - TITLES
 		---------------------------------------------------------------------------------------*/
-		h1{
+		#header h1{
 			position: absolute;
                         /* normal (non-Christmas):
 			top: 75px;
@@ -71,7 +71,7 @@ body {
 			overflow: hidden;
 		}
 	
-		h1,h1 a{
+		#header h1,h1 a{
 			/* normal (non-Christmas):
                         width: 351px;
 			height: 246px;
@@ -81,14 +81,14 @@ body {
                         height: 300px;
 		}
 		
-		h1 a{
+		#header h1 a{
 			display: block;
 			text-indent: -9999px;
 			/* background: url(/images/dcr-header-logo.png) 0 0 no-repeat; */
 			background: url(/images/dcr-header-bauble.png) 0 0 no-repeat;
 		}
 		
-		h2{
+		#header h2{
 			position: absolute;
 			top: 21px;
 			left: 318px;
