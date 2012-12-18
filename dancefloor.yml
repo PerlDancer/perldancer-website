@@ -41,6 +41,13 @@ description: |
     Americans find at their public libraries, with a broad range of
     learning resources.
 ---
+url: "http://japanesedictionary.org/"
+title: "Japanese Dictionary"
+description: |
+    JapaneseDictionary.org is a free Japanese-English dictionary site
+    built on top of Dancer. Site allows users to browse pages by letter or
+    search in English, Japanese and romanized forms.
+---
 url: "https://www.crowdtilt.com/"
 title: "CrowdTilt"
 description: |
