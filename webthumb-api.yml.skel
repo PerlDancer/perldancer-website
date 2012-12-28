@@ -1,4 +1,7 @@
+# These are settings passed to WebService::Bluga::Webthumb 
 user: <USER_ID>
 api_key: <API_KEY>
 size: medium
 cache: 14
+cache_dir: "public/images/thumbs"
+cache_url_stub: "/images/thumbs/"
