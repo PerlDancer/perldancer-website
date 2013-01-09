@@ -60,13 +60,13 @@ body {
 		---------------------------------------------------------------------------------------*/
 		#header h1{
 			position: absolute;
-                        /* normal (non-Christmas):
+                        /* normal (non-Christmas): */
 			top: 75px;
-			left: 311px;
-                        */
-                        /* Christmas: */
+			left: 311px; */
+
+                        /* Christmas: 
                         top: 35px;
-                        left: 370px; 
+                        left: 370px; */ 
 
 			overflow: hidden;
 		}
