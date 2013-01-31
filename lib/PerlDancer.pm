@@ -106,7 +106,10 @@ sub _get_dancefloor_sites {
         my $json = LWP::Simple::get($url) or return "Unavailable";
         my $tweets;
         eval { $tweets = from_json($json); };
-        return "Unavailable" if (!$tweets or exists $tweets->{errors});
+        if (!ref $tweets || (ref $tweets eq 'HASH' && exists $tweets->{errors}))
+        {
+            return "Unavailable";
+        }
         $last_tweet_checked = time;
         return $last_tweet  = $tweets->[0]->{text};
     }
