@@ -104,7 +104,9 @@ sub _get_dancefloor_sites {
         my $url = "http://api.twitter.com/1/statuses/user_timeline.json"
             . "?screen_name=PerlDancer&include_rts=1&count=1";
         my $json = LWP::Simple::get($url) or return "Unavailable";
-        my $tweets = from_json($json);
+        my $tweets;
+        eval { $tweets = from_json($json); }
+        return "Unavailable" if (!$tweets or exists $tweets->{errors});
         $last_tweet_checked = time;
         return $last_tweet  = $tweets->[0]->{text};
     }
