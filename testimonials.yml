@@ -182,4 +182,10 @@ source_url: http://news.ycombinator.com/item?id=4462124
 text: |
     Check out Perl Dancer as a web framework for example and you'll 
     see simplicity.
-
+---
+source: Christopher Cashell
+source_url: http://blogs.perl.org/users/christopher_cashell/2013/02/making-the-case-for-better-perl-articles.html
+text: |
+     The heavy hitters are Catalyst, Mojolicious, and Dancer. Any one of them
+     can be used to build a large-scale web application just as easily as Django
+     in Python, or Ruby on Rails.
