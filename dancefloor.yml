@@ -33,6 +33,13 @@ description: |
     industry.  Produce your own card / board games.  Created by JT Smith
     of Plain Black.
 ---
+url: "https://www.crowdtilt.com/"
+title: "CrowdTilt"
+description: |
+    Group-funding campaign site - "makes the pooling of funds between
+    groups simple, social, and fun".  Recently migrated from PHP to Perl and
+    using Dancer.
+---
 url: "http://elibraryusa.state.gov/"
 title: "eLibraryUSA"
 description: |
@@ -53,13 +60,6 @@ description: |
     JapaneseDictionary.org is a free Japanese-English dictionary site
     built on top of Dancer. Site allows users to browse pages by letter or
     search in English, Japanese and romanized forms.
----
-url: "https://www.crowdtilt.com/"
-title: "CrowdTilt"
-description: |
-    Group-funding campaign site - "makes the pooling of funds between
-    groups simple, social, and fun".  Recently migrated from PHP to Perl and
-    using Dancer.
 ---
 url: "http://www.szpakphotography.co.uk/"
 title: "Szpak Photography"
