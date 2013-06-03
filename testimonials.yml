@@ -189,3 +189,18 @@ text: |
      The heavy hitters are Catalyst, Mojolicious, and Dancer. Any one of them
      can be used to build a large-scale web application just as easily as Django
      in Python, or Ruby on Rails.
+---
+source: JT Smith @ The Game Crafter
+source_url: http://advent.perldancer.org/2012/19
+text: |
+    ...everyone I've shown the codebase to can't believe how tiny everything is.
+    You need to write so little code to do so much.
+---
+source: JT Smith @ The Game Crafter
+source_url: http://advent.perldancer.org/2012/19
+text: |
+     I believe so much in Dancer that I've given talks about it at local Perl
+     Monger's groups, have taught a few people how to use it, and have even
+     built my next generation web services framework at Plain Black on top of
+     it.
+
