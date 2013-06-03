@@ -40,6 +40,11 @@ description: |
     groups simple, social, and fun".  Recently migrated from PHP to Perl and
     using Dancer.
 ---
+url: "http://www.posandro.com/"
+title: "POSANDRO (Android Point of Sale application)"
+description: |
+    An Android point of sale application whose back-end is powered by Dancer.
+---
 url: "http://elibraryusa.state.gov/"
 title: "eLibraryUSA"
 description: |
