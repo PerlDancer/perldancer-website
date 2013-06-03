@@ -203,4 +203,19 @@ text: |
      Monger's groups, have taught a few people how to use it, and have even
      built my next generation web services framework at Plain Black on top of
      it.
+---
+source: Will Wolf @ Crowdtilt
+source_url: http://advent.perldancer.org/2012/18
+text: |
+    I loved the simplicity and straight-forwardness of Dancer. It's so
+    dead-simple and just gets out of your way. At a startup, you just want to
+    pick tools that let you hit the ground running, and Dancer definitely gave
+    us that.
+---
+source: Will Wolf @ Crowdtilt
+source_url: http://advent.perldancer.org/2012/18
+text: |
+    The Dancer community has always been responsive to us when we've had
+    questions, or pull requests, or issues. That's really important in any
+    software project or piece of technology you use.
 
