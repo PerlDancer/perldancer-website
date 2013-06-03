@@ -5,7 +5,7 @@ description: |
     Unsurprisingly this site is built using Dancer.  See the whole
     <a href="http://github.com/PerlDancer/perldancer-website">
     source code on GitHub</a>.
---- 
+---
 url: "http://advent.perldancer.org/"
 title: "PerlDancer Advent Calendar"
 description: |
@@ -13,6 +13,12 @@ description: |
     POD format for articles.  The source code of the application is
     <a href="https://github.com/PerlDancer/advent-calendar">available on
     GitHub</a>
+---
+url: "http://www.iannounce.net/"
+title: "iAnnounce"
+description: |
+    iAnnounce is built on Dancer and serves up over 5 million family notices
+    from across the UK, Ireland, Germany and Poland.
 ---
 url: "http://www.moonfruit.com/"
 title: "MoonFruit"
@@ -32,7 +38,7 @@ description: |
     World's first web-to-print company specialising in the table top game
     industry.  Produce your own card / board games.  Created by JT Smith
     of Plain Black.
---- 
+---
 url: "http://elibraryusa.state.gov/"
 title: "eLibraryUSA"
 description: |
@@ -112,7 +118,7 @@ title: "PasteDance"
 description: |
     A pastebin written by <a href="http://search.cpan.org/~data/">Danijel
     Tašov</a>.
-    The <a href="http://github.com/datamuc/Pastedance">source code</a> is 
+    The <a href="http://github.com/datamuc/Pastedance">source code</a> is
     available on GitHub.
 ---
 url: "http://stupidtwitterstats.com/"
@@ -123,8 +129,8 @@ description: |
 url: "http://www.stargit.net/"
 title: "StarGit"
 description: |
-    an interactive application to explore your community on GitHub, 
-    similar to InMaps for LinkedIn users. Created by 
+    an interactive application to explore your community on GitHub,
+    similar to InMaps for LinkedIn users. Created by
     <a href="http://lumberjaph.net/">Franck Cuny</a>
     and <a href="http://ofnodesandedges.com/">Alexis Jacomy</a>.
 ---
@@ -187,7 +193,7 @@ url: "http://danceb.in/"
 title: "Dancebin"
 description: |
     Dancer + Pastebin: a simple and elegant pastebin service.
-    Make sure to install the 
+    Make sure to install the
     <a href="https://metacpan.org/module/App::Nopaste::Service::Dancebin">nopaste plugin</a>.
 ---
 url: "https://daystack.com/"
