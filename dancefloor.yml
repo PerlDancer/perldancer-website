@@ -14,12 +14,6 @@ description: |
     <a href="https://github.com/PerlDancer/advent-calendar">available on
     GitHub</a>
 ---
-url: "http://www.iannounce.net/"
-title: "iAnnounce"
-description: |
-    iAnnounce is built on Dancer and serves up over 5 million family notices
-    from across the UK, Ireland, Germany and Poland.
----
 url: "http://www.moonfruit.com/"
 title: "MoonFruit"
 description: |
@@ -46,6 +40,12 @@ description: |
     and other American Spaces around the world access to information
     Americans find at their public libraries, with a broad range of
     learning resources.
+---
+url: "http://www.iannounce.net/"
+title: "iAnnounce"
+description: |
+    iAnnounce is built on Dancer and serves up over 5 million family notices
+    from across the UK, Ireland, Germany and Poland.
 ---
 url: "http://japanesedictionary.org/"
 title: "Japanese Dictionary"
