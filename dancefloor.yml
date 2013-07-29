@@ -106,13 +106,6 @@ title: "Livro-Aberto"
 description: |
     A website in Portuguese.
 ---
-url: "http://perl.worldken.org/"
-title: "CPAN Hubble"
-description: |
-    Searching CPAN and GitHub by Alexx Kapranoff.
-    Its <a href="http://github.com/kappa/app-cpanhubble">source code</a> is
-    available on Github.
----
 url: "http://www.lyricsbadger.co.uk/"
 title: "Lyrics Badger"
 description: |
@@ -125,23 +118,6 @@ description: |
     Tašov</a>.
     The <a href="http://github.com/datamuc/Pastedance">source code</a> is
     available on GitHub.
----
-url: "http://stupidtwitterstats.com/"
-title: "Stupid Twitter Stats"
-description: |
-    A webapp that shows some stats about a Twitter account.
----
-url: "http://www.stargit.net/"
-title: "StarGit"
-description: |
-    an interactive application to explore your community on GitHub,
-    similar to InMaps for LinkedIn users. Created by
-    <a href="http://lumberjaph.net/">Franck Cuny</a>
-    and <a href="http://ofnodesandedges.com/">Alexis Jacomy</a>.
----
-url: "http://howfuckedismuni.com/"
-title: "How F**ked is Muni"
-description: "Status of San Francisco public transport"
 ---
 url: "http://www.imaginaryrobots.net/"
 title: "Imaginary Robots"
@@ -162,10 +138,6 @@ description: |
 url: "http://pullingshots.ca/"
 title: "pullingshots"
 description: "Photography blog"
----
-url: "http://www.egga.de/"
-title: "Saufmarathon 2011"
-description: "A German marathon of some form :)"
 ---
 url: "http://odyniec.net/"
 title: "odyniec.net - Michal Wojciechowski"
