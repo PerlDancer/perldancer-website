@@ -2,15 +2,15 @@
 <!-- START CONTAIN DBLE COL LEFT-->
 <div id="contain-left" class="col">
 	<h3>What is Dancer?</h3>
-	<p>Dancer is a simple but powerful web application framework for Perl</p>
+	<p>Dancer is a simple but powerful web application framework for Perl.</p>
 
 	<h3>Key features</h3>
 	
 	<!-- START LIST TYPE VERTICAL -->
 	<ul>
-		<li><strong>Dead Simple</strong> - Intuitive, minimalist and very expressive syntax</li>
-		<li><strong>Flexible</strong> - PSGI support, plugins and modular design allow for strong scalability</li>
-		<li><strong>Few dependencies</strong> - Dancer depends on as few CPAN modules as possible making it easy to install</li>
+		<li><strong>Dead Simple</strong> - Intuitive, minimalist and very expressive syntax.</li>
+		<li><strong>Flexible</strong> - PSGI support, plugins and modular design allow for strong scalability.</li>
+		<li><strong>Few dependencies</strong> - Dancer depends on as few CPAN modules as possible making it easy to install.</li>
 	</ul>
 
 	<!-- END LIST TYPE VERTICAL -->
