@@ -40,6 +40,12 @@ description: |
     groups simple, social, and fun".  Recently migrated from PHP to Perl and
     using Dancer.
 ---
+url: "http://politicalweb.org.uk/"
+title: "The Political Web"
+description: |
+    TPW makes it easier for people in the UK to get information about their
+    MP's.
+---
 url: "http://www.posandro.com/"
 title: "POSANDRO (Android Point of Sale application)"
 description: |
@@ -65,6 +71,11 @@ description: |
     JapaneseDictionary.org is a free Japanese-English dictionary site
     built on top of Dancer. Site allows users to browse pages by letter or
     search in English, Japanese and romanized forms.
+---
+url: "http://hannover.pm/"
+title: "Hannover Perl Mongers"
+description: |
+    German Perl Mongers group from Hannover
 ---
 url: "http://www.szpakphotography.co.uk/"
 title: "Szpak Photography"
@@ -189,7 +200,3 @@ description: |
 url: "http://www.usedcarsgroup.com/"
 title: "Used Cars Group"
 description: "A high traffic used cars for sale website in US"
----
-url: "http://hannover.pm/"
-title: "Hannover Perl Mongers"
-description: "German Perl Mongers group from Hannover"
