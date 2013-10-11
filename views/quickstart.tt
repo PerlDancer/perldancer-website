@@ -125,9 +125,8 @@ be of use to Perl beginners:
 <li><a href="http://learn.perl.org/">learn.perl.org</a></li>
 <li><a href="http://learn.perl.org/books/beginning-perl/">Beginning Perl</a> - a
 book by Simon Cozens, available completely free online</li>
-<li><a href="http://szabgab.com/beginner-perl-maven.html">Beginner Perl
-Maven</a> - video tutorial/lectures by Gabor Szabo - over 70 lectures and
-exercises, more than 3 hours of presentations</li>
+<li><a href="http://perlmaven.com/perl-tutorial">Perl
+Maven Tutorial</a> - Perl tutorial by Gabor Szabo</li>
 <li><a href="http://perldoc.perl.org/">perldoc</a> - the Perl documentation
 online</li>
 </ul>
