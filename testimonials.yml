@@ -204,6 +204,14 @@ text: |
      built my next generation web services framework at Plain Black on top of
      it.
 ---
+source: JT Smith @ The Game Crafter
+source_url: http://advent.perldancer.org/2012/19
+text: |
+    When I picked Dancer I wasn't looking for a tool that did everything for me
+    out of the box. I was looking for something I could grow into and build the
+    app the way I wanted to build it. Dancer is easily extensible without
+    getting in my way or limiting me, and that's a big win.
+---
 source: Will Wolf @ Crowdtilt
 source_url: http://advent.perldancer.org/2012/18
 text: |
