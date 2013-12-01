@@ -72,6 +72,47 @@ description: |
     built on top of Dancer. Site allows users to browse pages by letter or
     search in English, Japanese and romanized forms.
 ---
+url: "http://koreandictionary.net/"
+title: "Korean Dictionary"
+description: |
+    KoreanDictionary.net s a free English to Korean dictionary site built
+    on top of Dancer. Site allows users to browse pages by letter or
+    search by English, Korean or Romanization. It currently ranks #1 in
+    Google.
+---
+url: "http://vietnamesedictionary.net/"
+title: "Vietnamese Dictionary"
+description: |
+    VietnameseDictionary.net is a free English to Vietnamese dictionary
+    site built on top of Dancer. Site allows users to browse pages by
+    letter or search by English and Vietnamese.
+---
+url: "http://germandictionary.org/"
+title: "German Dictionary"
+description: |
+    GermanDictionary.org is a free German-English dictionary site built
+    on top of Dancer. Site allows users to browse pages by letter or
+    search by English and German.
+---
+url: "http://spanishdictionary.net/"
+title: "Spanish Dictionary"
+description: |
+    SpanishDictionary.net is a free Spanish-English dictionary site built
+    on top of Dancer. Site allows users to browse pages by letter or
+    search by English and Spanish.
+---
+url: "http://italiandictionary.org/"
+title: "Italian Dictionary"
+description: |
+    ItalianDictionary.org is a free Italian-English dictionary site built
+    on top of Dancer. Site allows users to browse pages by letter or
+    search by English and Italian.
+---
+url: "http://greek-dictionary.org/"
+title: "Korean Dictionary"
+description: |
+    http://www.greek-dictionary.org/
+    Free English to Greek dictionary. Browse by letter. Search by word or phrase.
 url: "http://hannover.pm/"
 title: "Hannover Perl Mongers"
 description: |
