@@ -33,12 +33,12 @@ description: |
     industry.  Produce your own card / board games.  Created by JT Smith
     of Plain Black.
 ---
-url: "https://www.crowdtilt.com/"
-title: "CrowdTilt"
+url: "https://www.tilt.com/"
+title: "Tilt"
 description: |
-    Group-funding campaign site - "makes the pooling of funds between
-    groups simple, social, and fun".  Recently migrated from PHP to Perl and
-    using Dancer.
+    Group-funding campaign site - "Collect money from your group and make
+    something happen.".  Perl Dancer API with front-end site built using ReactJS
+    and Dancer.
 ---
 url: "http://politicalweb.org.uk/"
 title: "The Political Web"
