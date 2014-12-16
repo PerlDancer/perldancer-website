@@ -148,13 +148,6 @@ description: |
     activity and impact. Website by <a href="http://showmetheco.de/">vti</a>.
     Source on <a href="https://github.com/vti/perlresume.org">Github</a>.
 ---
-url: "http://sck.to/"
-title: "sck.to"
-description: |
-    An URL-shortening service by Celogeek using Dancer, Redis, Nginx and
-    Plackup. Provides an API, and is
-    already used with Drupal on <a href="http://qa.celogeek.com/">qa.celogeek.com</a>
----
 url: "http://perl-ecosystem.org/"
 title: "Perl Ecosystem Group"
 description: |
