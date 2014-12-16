@@ -15,6 +15,10 @@ written a website with Dancer and want it to be listed here, please
 <p><b><a href="<% site.url %>"><% site.title %></a></b></p>
 </div>
 <p><% site.description %></p>
+<% IF site.source %>
+  <p>The source code is available <a href="<% site.source %>">here</a>.
+  </p>
+<% END %>
 </div>
 
 <% END %>
