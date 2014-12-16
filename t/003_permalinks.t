@@ -9,10 +9,17 @@ use PerlDancer;
 use Dancer::Test;
 
 my @pages = qw(
-    about contribute 
-    documentation donate example
-    download quickstart
-    used_by
+    quickstart
+    documentation
+    about
+    irc
+    contribute 
+    dancefloor
+    slides
+
+    donate
+    example
+    download 
 );
 
 plan tests => scalar(@pages);
