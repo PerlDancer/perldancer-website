@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-use Test::More tests => 4;
+use Test::More tests => 5;
 use Plack::Test;
 use HTTP::Request::Common;
 
@@ -20,3 +20,5 @@ my $testimonials = $test->request( GET '/testimonials' );
 like $testimonials->content, qr/Dancer is a breath of fresh air in the convoluted world of Perl web frameworks/,
     'at least one testimonial was loaded';
 
+my $dancefloor = $test->request( GET '/dancefloor' );
+like $dancefloor->content, qr/Unsurprisingly this site is built using Dancer/;
