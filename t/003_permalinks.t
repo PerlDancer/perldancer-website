@@ -14,13 +14,16 @@ my @pages = qw(
     about
     irc
     contribute 
-    dancefloor
     slides
 
     donate
     example
     download 
 );
+
+if (-e 'webthumb-api.yml') {
+    push @pages, 'dancefloor';
+}
 
 plan tests => scalar(@pages);
 
