@@ -5,6 +5,7 @@ use Template;
 use LWP::Simple ();
 use List::Util;
 use WebService::Bluga::Webthumb;
+use YAML;
 
 our $VERSION = '0.1';
 
@@ -67,7 +68,7 @@ sub _get_testimonials {
     my $testimonials_yml = Dancer2::FileUtils::read_file_content(
         path( setting('appdir'), 'testimonials.yml' )
     );
-    return from_yaml($testimonials_yml);
+    return YAML::Load($testimonials_yml);
 }
 
 sub _get_dancefloor_sites {
