@@ -1,6 +1,6 @@
 package PerlDancer;
 
-use Dancer ':syntax';
+use Dancer2;
 use Template;
 use LWP::Simple ();
 use List::Util;
@@ -64,22 +64,22 @@ hook before_template_render => sub {
 }
 
 sub _get_testimonials {
-    my $testimonials_yml = Dancer::FileUtils::read_file_content(
-        Dancer::FileUtils::path( setting('appdir'), 'testimonials.yml' )
+    my $testimonials_yml = Dancer2::FileUtils::read_file_content(
+        path( setting('appdir'), 'testimonials.yml' )
     );
     return from_yaml($testimonials_yml);
 }
 
 sub _get_dancefloor_sites {
-    my $dancefloor_sites_yaml = Dancer::FileUtils::read_file_content(
-        Dancer::FileUtils::path( setting('appdir'), 'dancefloor.yml' )
+    my $dancefloor_sites_yaml = Dancer2::FileUtils::read_file_content(
+        path( setting('appdir'), 'dancefloor.yml' )
     ) or die "Failed to read sites from config";
     my @dancefloor_sites = from_yaml($dancefloor_sites_yaml)
         or die "Failed to parse sites YAML";
 
     my $webthumb_api = from_yaml(
-            scalar  Dancer::FileUtils::read_file_content(
-            Dancer::FileUtils::path( setting('appdir'), 'webthumb-api.yml')
+            scalar  Dancer2::FileUtils::read_file_content(
+            path( setting('appdir'), 'webthumb-api.yml')
         )
     ) or die "Failed to read webthumb API details from config";
 

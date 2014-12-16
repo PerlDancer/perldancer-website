@@ -1,4 +1,9 @@
 #!/usr/bin/env perl
-use Dancer;
+
+use strict;
+use warnings;
+use FindBin;
+use lib "$FindBin::Bin/../lib";
+
 use PerlDancer;
-dance;
+PerlDancer->to_app;
