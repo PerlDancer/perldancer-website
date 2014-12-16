@@ -1,10 +1,8 @@
 ---
 url: "http://www.perldancer.org/"
 title: "PerlDancer website"
-description: |
-    Unsurprisingly this site is built using Dancer.  See the whole
-    <a href="http://github.com/PerlDancer/perldancer-website">
-    source code on GitHub</a>.
+description: "Unsurprisingly this site is built using Dancer."
+source: "http://github.com/PerlDancer/perldancer-website"
 ---
 url: "http://advent.perldancer.org/"
 title: "PerlDancer Advent Calendar"
@@ -81,14 +79,14 @@ description: |
 url: "http://japanesedictionary.org/"
 title: "Japanese Dictionary"
 description: |
-    JapaneseDictionary.org is a free Japanese-English dictionary site
+    This is a free Japanese-English dictionary site
     built on top of Dancer. Site allows users to browse pages by letter or
     search in English, Japanese and romanized forms.
 ---
 url: "http://koreandictionary.net/"
 title: "Korean Dictionary"
 description: |
-    KoreanDictionary.net s a free English to Korean dictionary site built
+    This is a free English to Korean dictionary site built
     on top of Dancer. Site allows users to browse pages by letter or
     search by English, Korean or Romanization. It currently ranks #1 in
     Google.
@@ -96,45 +94,42 @@ description: |
 url: "http://vietnamesedictionary.net/"
 title: "Vietnamese Dictionary"
 description: |
-    VietnameseDictionary.net is a free English to Vietnamese dictionary
+    This is a free English to Vietnamese dictionary
     site built on top of Dancer. Site allows users to browse pages by
     letter or search by English and Vietnamese.
 ---
 url: "http://germandictionary.org/"
 title: "German Dictionary"
 description: |
-    GermanDictionary.org is a free German-English dictionary site built
+    This is a free German-English dictionary site built
     on top of Dancer. Site allows users to browse pages by letter or
     search by English and German.
 ---
 url: "http://spanishdictionary.net/"
 title: "Spanish Dictionary"
 description: |
-    SpanishDictionary.net is a free Spanish-English dictionary site built
+    This is a free Spanish-English dictionary site built
     on top of Dancer. Site allows users to browse pages by letter or
     search by English and Spanish.
 ---
 url: "http://italiandictionary.org/"
 title: "Italian Dictionary"
 description: |
-    ItalianDictionary.org is a free Italian-English dictionary site built
+    This is a free Italian-English dictionary site built
     on top of Dancer. Site allows users to browse pages by letter or
     search by English and Italian.
 ---
 url: "http://greek-dictionary.org/"
 title: "Greek Dictionary"
 description: |
-    http://www.greek-dictionary.org/
     Free English to Greek dictionary. Browse by letter. Search by word or phrase.
 url: "http://hannover.pm/"
 title: "Hannover Perl Mongers"
-description: |
-    German Perl Mongers group from Hannover
+description: "German Perl Mongers group from Hannover"
 ---
 url: "http://www.szpakphotography.co.uk/"
 title: "Szpak Photography"
-description: |
-    Photography studio and services in Letchworth, Hertfordshire
+description: "Photography studio and services in Letchworth, Hertfordshire"
 ---
 url: "http://www.ijedomestics.co.uk/"
 title: "IJE Domestic Appliance Repairs"
@@ -146,14 +141,14 @@ title: "Perl Résumé"
 description: |
     Your Perl Résumé generated automatically based on your CPAN experience,
     activity and impact. Website by <a href="http://showmetheco.de/">vti</a>.
-    Source on <a href="https://github.com/vti/perlresume.org">Github</a>.
+source: "https://github.com/vti/perlresume.org"
 ---
 url: "http://perl-ecosystem.org/"
 title: "Perl Ecosystem Group"
 description: |
     Official website of the Perl Ecosystem Group, bridging the gap between
-    business and the open source Perl community. The source code
-    is <a href="http://github.com/szabgab/peg">available on Github</a>.
+    business and the open source Perl community.
+source: "http://github.com/szabgab/peg"
 ---
 url: "http://www.softwaresolutionservicesinc.com/"
 title: "Software Solution Services"
@@ -161,21 +156,18 @@ description: "A Minnesota-based technology consulting firm"
 ---
 url: "http://www.livro-aberto.net/"
 title: "Livro-Aberto"
-description: |
-    A website in Portuguese.
+description: "A website in Portuguese."
 ---
 url: "http://www.lyricsbadger.co.uk/"
 title: "Lyrics Badger"
-description: |
-    A lyrics search engine, powered by Dancer and Lyrics::Fetcher.
+description: "A lyrics search engine, powered by Dancer and Lyrics::Fetcher."
 ---
 url: "http://paste.perldancer.org/"
 title: "PasteDance"
 description: |
     A pastebin written by <a href="http://search.cpan.org/~data/">Danijel
     Tašov</a>.
-    The <a href="http://github.com/datamuc/Pastedance">source code</a> is
-    available on GitHub.
+source: "http://github.com/datamuc/Pastedance"
 ---
 url: "http://www.imaginaryrobots.net/"
 title: "Imaginary Robots"
