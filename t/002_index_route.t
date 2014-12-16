@@ -20,5 +20,8 @@ my $testimonials = $test->request( GET '/testimonials' );
 like $testimonials->content, qr/Dancer is a breath of fresh air in the convoluted world of Perl web frameworks/,
     'at least one testimonial was loaded';
 
-my $dancefloor = $test->request( GET '/dancefloor' );
-like $dancefloor->content, qr/Unsurprisingly this site is built using Dancer/;
+SKIP: {
+    skip 'Needs Webthumb API key', 1 if not -e 'webthumb-api.yml';
+    my $dancefloor = $test->request( GET '/dancefloor' );
+    like $dancefloor->content, qr/Unsurprisingly this site is built using Dancer/;
+}
