@@ -1,6 +1,7 @@
 use Test::More;
 use YAML;
 use strict;
+use warnings;
 
 
 # Valid testimonials:
@@ -36,7 +37,4 @@ for my $site (@dancefloor_sites) {
 
 
 done_testing;
-
-
-
 

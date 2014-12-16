@@ -1,12 +1,15 @@
-use Test::More;
-
-# make sure our permalinks are served 
-
 use strict;
 use warnings;
 
+use Test::More;
+use Plack::Test;
+use HTTP::Request::Common;
+
+# make sure our permalinks are served 
+
 use PerlDancer;
-use Dancer::Test;
+my $app = PerlDancer->to_app;
+my $test = Plack::Test->create($app);
 
 my @pages = qw(
     quickstart
@@ -28,7 +31,6 @@ if (-e 'webthumb-api.yml') {
 plan tests => scalar(@pages);
 
 for my $page (@pages) {
-    my $req = [GET => "/$page"];
-
-    response_status_is $req, 200;
+	my $response = $test->request( GET "/$page" );
+    ok $response->is_success, $page;
 }
