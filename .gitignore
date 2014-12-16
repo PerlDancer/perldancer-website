@@ -7,3 +7,4 @@ public/downloads/*.tar.gz
 MYMETA.*
 webthumb-api.yml
 *.swp
+/public/images/thumbs/*
