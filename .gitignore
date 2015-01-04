@@ -8,3 +8,4 @@ MYMETA.*
 webthumb-api.yml
 *.swp
 /public/images/thumbs/*
+local/
