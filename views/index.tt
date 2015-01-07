@@ -228,7 +228,7 @@ ajax '/getloadavg' => sub {
 
 <div id="testimonials" style="">
 	
-	<h3><a href="/testimonials">What people say about Dancer</a>...</h3>
+	<h3><a href="/testimonials.html">What people say about Dancer</a>...</h3>
 
 <br clear="both" />
 <!-- adjust height of this div to fit longest quote -->

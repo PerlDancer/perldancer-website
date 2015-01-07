@@ -16,17 +16,28 @@ get '/' => sub {
     };
 };
 
-get '/donate/thanks' => sub {
+get '/donate/thanks.html' => sub {
     template 'thanks';
 };
 
-get '/testimonials' => sub {
+get '/testimonials.html' => sub {
     template 'testimonials-display', { testimonials => [ _get_testimonials() ] };
 };
 
-get '/dancefloor' => sub {
+get '/dancefloor.html' => sub {
     my $sites = _get_dancefloor_sites();
     template 'dancefloor-display', { sites => _get_dancefloor_sites() };
+};
+
+get qr{^/(irc|quickstart|documentation|about|contribute|cheatsheet|donate).html$} => sub {
+    my ($page) = splat;
+    forward "/$page"; # autopage
+};
+
+get '/slides/' => sub {
+    my $res = Dancer::Renderer::_autopage_response( Dancer::FileUtils::path( 'slides' ) );
+    $res->header( 'Content-Type' => 'text/html' );
+    $res;
 };
 
 # Add last tweet to template params

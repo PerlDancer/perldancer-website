@@ -2,7 +2,7 @@
 
 <p>
 Dancer is a modern Perl project - it's already in use in many production
-deployments (see the <a href="/dancefloor">Dancefloor</a> page for some
+deployments (see the <a href="/dancefloor.html">Dancefloor</a> page for some
 examples) but is still being actively developed and improved.
 </p>
 
@@ -27,7 +27,7 @@ Ratings</a></li>
 <li><a href="https://github.com/PerlDancer/Dancer2">&quot;Watch&quot; the project on
 GitHub</a></li>
 <li>Dancer-related presentations at conferences etc (see the <a
-href="/slides">slides page</a> for inspiration)
+href="/slides/">slides page</a> for inspiration)
 </ul>
 
 <p>
@@ -45,7 +45,7 @@ commit some ideas to the crew.
 
 <p>
 If you're using Dancer, please feel free to let us know so we can list you on
-the <a href="/dancefloor">Dancefloor page</a>!
+the <a href="/dancefloor.html">Dancefloor page</a>!
 </p>
 
 
@@ -54,7 +54,7 @@ the <a href="/dancefloor">Dancefloor page</a>!
 
 <p>
 We have a thriving community in <tt>#dancer</tt> on <tt>irc.perl.org</tt>.
-<a href="/irc">Come join us now</a> and get help, offer feedback, help new
+<a href="/irc.html">Come join us now</a> and get help, offer feedback, help new
 users...
 </p>
 
@@ -105,7 +105,7 @@ track and apply, and thus have a much better chance of being applied!)
 <h3>Donate</h3>
 
 <p>
-If you want to support the team, you can also <a href="/donate">donate</a> -
+If you want to support the team, you can also <a href="/donate.html">donate</a> -
 donations will be used to support development efforts, for instance paying for
 travel to conferences etc.
 </p>

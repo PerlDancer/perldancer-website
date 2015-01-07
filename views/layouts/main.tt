@@ -41,25 +41,25 @@
 
 		<!-- START NAV LEFT -->
 		<ul id="nav-left" class="clearme listreset">
-			<li><a href="/quickstart" title="Get started quickly">Quick Start</a></li>
+			<li><a href="/quickstart.html" title="Get started quickly">Quick Start</a></li>
 			<li class="nav-sep"></li>
-			<li><a href="/documentation" title="Documentation">Docs</a></li>
+			<li><a href="/documentation.html" title="Documentation">Docs</a></li>
                         <li class="nav-sep"></li>
-                        <li><a href="/about" title="About the Dancer framework">About</a><li>
+                        <li><a href="/about.html" title="About the Dancer framework">About</a><li>
                         <li class="nav-sep"></li>
-                        <li><a href="/irc" title="Talk to us on IRC">IRC</a></li>
+                        <li><a href="/irc.html" title="Talk to us on IRC">IRC</a></li>
 		</ul>
 		<!-- END NAV LEFT -->
 		
 		<!-- START NAV RIGHT -->
 		<ul id="nav-right" class="clearme listreset">
-			<li><a href="/contribute" title="Contributing to the project">Contribute</a></li>
+			<li><a href="/contribute.html" title="Contributing to the project">Contribute</a></li>
 			<li class="nav-sep"></li>
 
-			<li><a href="/dancefloor" title="Who's using Dancer">Dancers</a></li>
+			<li><a href="/dancefloor.html" title="Who's using Dancer">Dancers</a></li>
 			<li class="nav-sep"></li>
 
-                        <li><a href="/slides" title="Presentation slides">Slides</a></li>
+                        <li><a href="/slides/" title="Presentation slides">Slides</a></li>
 		</ul>
 		<!-- END NAV RIGHT -->
 			
