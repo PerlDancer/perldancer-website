@@ -7,7 +7,7 @@
 	<meta name="keywords" content="Perl, Dancer, PerlDancer, framework, web framework, micro framework, web, web application, webapps" />
 	<meta name="author" content="Alexis Sukrieh" />
 	<meta name="robots" content="index,follow" />
-	<meta name="copyright" content="Copyright 2009-2011 Alexis Sukrieh" />
+	<meta name="copyright" content="Copyright 2009-<% this_year %> Alexis Sukrieh" />
         <meta name="google-site-verification" content="XINoghSibCxQxEzULZIDt-a_E0kWTQU7k54qPKwlLMw" />
 
 	<link rel="stylesheet" href="/css/style.css" media="screen" />
@@ -86,7 +86,7 @@
 <a href="http://twitter.com/PerlDancer/">On Twitter</a>: <% last_tweet %> 
 </div>
 
-	<div id="copyright">Dancer Perl web framework is copyright © 2009-2014 <a href="http://sukria.net/" rel="external">Alexis Sukrieh</a> - <a href="http://github.com/PerlDancer/Dancer2/" rel="external">Fork on GitHub</a> - This website is <a href="http://github.com/PerlDancer/perldancer-website/" rel="external">free software</a>.</div>
+	<div id="copyright">Dancer Perl web framework is copyright © 2009-<% this_year %> <a href="http://sukria.net/" rel="external">Alexis Sukrieh</a> - <a href="http://github.com/PerlDancer/Dancer2/" rel="external">Fork on GitHub</a> - This website is <a href="http://github.com/PerlDancer/perldancer-website/" rel="external">free software</a>.</div>
 
 </div>
 

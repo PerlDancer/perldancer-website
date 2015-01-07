@@ -31,7 +31,9 @@ get '/dancefloor' => sub {
 
 # Add last tweet to template params
 hook before_template_render => sub {
-    shift->{last_tweet} = latest_tweet();
+	my $t = shift;
+    $t->{last_tweet} = latest_tweet();
+	$t->{this_year} = 1900 + (localtime)[5];
 };
 
 # Find the latest stable version on Github.  Cache it for a while, to avoid
