@@ -11,23 +11,23 @@
 <p>
 If you want to start writing your first application with Dancer, you certainly
 want to read the 
-<a href="http://search.cpan.org/dist/Dancer/lib/Dancer/Introduction.pod">Introduction guide</a>. 
+<a href="https://metacpan.org/pod/Dancer2::Manual">Dancer Manual guide</a>. 
 It will help you understand the basics of Dancer.
 </p>
 
 <p>
 You can also find interesting and working examples in the 
 <a
-href="http://search.cpan.org/dist/Dancer/lib/Dancer/Cookbook.pod">Cookbook</a>.
+href="https://metacpan.org/pod/Dancer2::Cookbook">Cookbook</a>.
 There are lots of recipes in there to help you handle common patterns in web
 development.  The <a
-href="http://search.cpan.org/dist/Dancer/lib/Dancer/Tutorial.pod">Tutorial</a>
+href="https://metacpan.org/pod/Dancer2::Tutorial">Tutorial</a>
 also helps if you like to learn by example.
 </p>
 
 <p>
 The DSL's reference API is documented in 
-<a href="http://search.cpan.org/dist/Dancer/lib/Dancer.pm">Dancer.pm</a>.
+<a href="https://metacpan.org/pod/Dancer2">Dancer2.pm</a>.
 </p>
 
 
@@ -37,7 +37,7 @@ The DSL's reference API is documented in
 Dancer is PSGI-compatible, that means you can virtually deploy your app
 anywhere. We wanted to help our users as much as possible, so we've gathered as
 many details as possible in a 
-<a href="http://search.cpan.org/dist/Dancer/lib/Dancer/Deployment.pod">Deployment Guide</a>, 
+<a href="https://metacpan.org/pod/Dancer::Deployment">Deployment Guide</a>, 
 in order to provide working configuration examples.
 </p>
 

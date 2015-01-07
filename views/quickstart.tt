@@ -78,7 +78,7 @@ environment-related configurations).
 
 <pre class="console">
 $ cd MyWeb-App
-$ plackup -r bin/app.psg
+$ plackup -r bin/app.psgi
 &gt;&gt; Dancer server 16622 listening on http://0.0.0.0:5000
 == Entering the development dance floor ...
 </pre>
