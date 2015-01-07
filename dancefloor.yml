@@ -3,14 +3,14 @@ url: "http://www.perldancer.org/"
 title: "PerlDancer website"
 description: "Unsurprisingly this site is built using Dancer."
 source: "http://github.com/PerlDancer/perldancer-website"
+dancer: 2
 ---
 url: "http://advent.perldancer.org/"
 title: "PerlDancer Advent Calendar"
 description: |
     The PerlDancer Advent Calendar is written entirely with Dancer, using the
-    POD format for articles.  The source code of the application is
-    <a href="https://github.com/PerlDancer/advent-calendar">available on
-    GitHub</a>
+    POD format for articles.  
+source: "https://github.com/PerlDancer/advent-calendar"
 ---
 url: "http://www.moonfruit.com/"
 title: "MoonFruit"
