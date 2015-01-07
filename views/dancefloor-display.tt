@@ -7,19 +7,17 @@ written a website with Dancer and want it to be listed here, please
 </p>
 
 <% FOREACH site = sites %>
-
-<div class="dancefloor-site">
-<div align="center">
-<a href="<% site.url %>"><img src="<% site.thumb_url %>" align="center"></a>
-<br />
-<p><b><a href="<% site.url %>"><% site.title %></a></b></p>
-</div>
-<p><% site.description %></p>
-<% IF site.source %>
-  <p>The source code is available <a href="<% site.source %>">here</a>.
-  </p>
-<% END %>
-</div>
-
+    <div class="dancefloor-site <% IF site.source %>opensource<% END %> <% IF site.dancer == 2 %>dancer2<% END %>">
+        <div align="center">
+            <a href="<% site.url %>"><img src="<% site.thumb_url %>" align="center"></a>
+            <br />
+            <p><b><a href="<% site.url %>"><% site.title %></a></b></p>
+        </div>
+        <p><% site.description %></p>
+        <% IF site.source %>
+          <p>The source code is available <a href="<% site.source %>">here</a>.
+          </p>
+        <% END %>
+    </div>
 <% END %>
 
