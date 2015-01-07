@@ -50,11 +50,11 @@ hook before_template_render => sub {
         }
 
         my $json = LWP::Simple::get(
-            'http://api.metacpan.org/v0/release/Dancer'
+            'http://api.metacpan.org/v0/release/Dancer2'
         ) or return $latest_version;
 
         my $response = from_json($json) or return $latest_version;
-        my ($short_ver) = $response->{version} =~ /^(\d+\.\d)/;
+        my ($short_ver) = $response->{version} =~ /^(\d+\.\d{3})/;
         my $result =  {
             version       => $response->{version},
             short_version => $short_ver,
