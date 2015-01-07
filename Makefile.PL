@@ -12,7 +12,7 @@ WriteMakefile(
       : ()),
     PL_FILES            => {},
     PREREQ_PM => {
-        'Dancer'      => 0,
+        'Dancer2'     => 0,
         'Test::More'  => 0,
         'YAML'        => 0,
         'LWP::Simple' => 0,
