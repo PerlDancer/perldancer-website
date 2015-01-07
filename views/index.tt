@@ -217,7 +217,7 @@ ajax '/getloadavg' => sub {
 		<li><a href="<% latest.download_url %>" id="contain-download">
                 <% latest.short_version %>&nbsp;</a></li>
 	<li>You can also follow Dancer on <a
-        href="http://github.com/PerlDancer/Dancer">GitHub</a> and on <a href="http://twitter.com/PerlDancer">Twitter</a></li>
+        href="http://github.com/PerlDancer/Dancer2">GitHub</a> and on <a href="http://twitter.com/PerlDancer">Twitter</a></li>
 	</ul>
 	
 
