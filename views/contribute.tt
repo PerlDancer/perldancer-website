@@ -24,7 +24,7 @@ If you like Dancer, tell the world about it:
 <li><a href="http://cpanratings.perl.org/dist/Dancer">Rate Dancer on CPAN
 Ratings</a></li>
 <li><a href="http://metacpan.org/release/Dancer">Click +1 on MetaCPAN</a></li>
-<li><a href="https://github.com/PerlDancer/Dancer">&quot;Watch&quot; the project on
+<li><a href="https://github.com/PerlDancer/Dancer2">&quot;Watch&quot; the project on
 GitHub</a></li>
 <li>Dancer-related presentations at conferences etc (see the <a
 href="/slides">slides page</a> for inspiration)
@@ -76,8 +76,8 @@ href="http://lists.preshweb.co.uk/pipermail/dancer-users/">list archives</a>.
 <p>
 So you're using it and you've found a bug, that's great! Yes, Great. Because a
 bug found is a bug in the way of being fixed. Please do <a
-href="https://github.com/PerlDancer/Dancer/issues">report it</a> - reports via the
-<a href="https://github.com/PerlDancer/Dancer/issues">GitHub issues</a> system are
+href="https://github.com/PerlDancer/Dancer2/issues">report it</a> - reports via the
+<a href="https://github.com/PerlDancer/Dancer2/issues">GitHub issues</a> system are
 preferred as our development is coordinated on GitHub, but bug reports to the 
 <a
 href="http://rt.cpan.org/Public/Bug/Report.html?Queue=Dancer">rt.cpan.org 
@@ -88,10 +88,10 @@ queue</a> or on the mailing list are fine too.
 <h3>Submit Patches</h3>
 
 <p>
-Okay, so you've found a bug and <a href="http://github.com/PerlDancer/Dancer">after
+Okay, so you've found a bug and <a href="http://github.com/PerlDancer/Dancer2">after
 having forked the project</a> on GitHub you have a written patch to submit the fix, 
-that's really great. At the time, the best way to get a review is to request a pull from
-<a href="http://github.com/PerlDancer/">sukria</a>.
+that's really great. At the time, the best way to get a review is to send a pull request
+on GitHub.
 </p>
 
 <p>

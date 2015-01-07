@@ -15,12 +15,12 @@ For easy and automatic installation of Dancer, we recommend using
 </p>
 
 <pre class="console">
-curl -L http://cpanmin.us | perl - --sudo Dancer
+curl -L http://cpanmin.us | perl - --sudo Dancer2
 </pre>
 
 <p>
 Of course, you can use any other CPAN client to do so, or even 
-<a href="http://search.cpan.org/perldoc?Dancer">install it by hand</a>.
+<a href="https://metacpan.org/pod/Dancer2">install it manually</a>.
 </p>
 
 
@@ -33,36 +33,41 @@ dancer is shipped with a helper that can scaffold a new skeleton for you.
 </p>
 
 <pre class="console">
-$ dancer -a MyWeb::App
+$ dancer2 -a MyWeb::App
 + MyWeb-App
++ MyWeb-App/config.yml
++ MyWeb-App/cpanfile
++ MyWeb-App/Makefile.PL
++ MyWeb-App/MANIFEST.SKIP
 + MyWeb-App/bin
 + MyWeb-App/bin/app.pl
-+ MyWeb-App/config.yml
++ MyWeb-App/bin/app.psgi
 + MyWeb-App/environments
 + MyWeb-App/environments/development.yml
 + MyWeb-App/environments/production.yml
++ MyWeb-App/lib/MyWeb
++ MyWeb-App/lib/MyWeb/App.pm
++ MyWeb-App/public
++ MyWeb-App/public/dispatch.cgi
++ MyWeb-App/public/dispatch.fcgi
++ MyWeb-App/public/404.html
++ MyWeb-App/public/500.html
++ MyWeb-App/public/favicon.ico
++ MyWeb-App/public/css
++ MyWeb-App/public/css/error.css
++ MyWeb-App/public/css/style.css
++ MyWeb-App/public/images
++ MyWeb-App/public/images/perldancer-bg.jpg
++ MyWeb-App/public/images/perldancer.jpg
++ MyWeb-App/public/javascripts
++ MyWeb-App/public/javascripts/jquery.js
++ MyWeb-App/t
++ MyWeb-App/t/001_base.t
++ MyWeb-App/t/002_index_route.t
 + MyWeb-App/views
 + MyWeb-App/views/index.tt
 + MyWeb-App/views/layouts
 + MyWeb-App/views/layouts/main.tt
-+ MyWeb-App/lib
-+ MyWeb-App/lib/MyWeb
-+ MyWeb-App/lib/MyWeb/App.pm
-+ MyWeb-App/public
-+ MyWeb-App/public/css
-+ MyWeb-App/public/css/style.css
-+ MyWeb-App/public/css/error.css
-+ MyWeb-App/public/images
-+ MyWeb-App/public/500.html
-+ MyWeb-App/public/404.html
-+ MyWeb-App/public/dispatch.fcgi
-+ MyWeb-App/public/dispatch.cgi
-+ MyWeb-App/public/javascripts
-+ MyWeb-App/public/javascripts/jquery.js
-+ MyWeb-App/Makefile.PL
-+ MyWeb-App/t
-+ MyWeb-App/t/002_index_route.t
-+ MyWeb-App/t/001_base.t
 </pre>
 
 <p>Everything is ready and works out of the box (with a nice design, jQuery and
@@ -73,27 +78,22 @@ environment-related configurations).
 
 <pre class="console">
 $ cd MyWeb-App
-$ ./bin/app.pl
-&gt;&gt; Dancer server 16622 listening on http://0.0.0.0:3000
+$ plackup -r bin/app.psg
+&gt;&gt; Dancer server 16622 listening on http://0.0.0.0:5000
 == Entering the development dance floor ...
 </pre>
 
 <p>
 Note that a Dancer startup script is also a <a
-href="http://plackperl.org">PSGI</a> application, so you can power it with any
-Plack backend, like plackup:
+href="http://plackperl.org">PSGI</a> application.
 </p>
 
-<pre class="console">
-$ cd MyWeb-App
-$ plackup ./bin/app.pl
-HTTP::Server::PSGI: Accepting connections at http://0:5000/
-</pre>
-
+<!--
 <p>
 See <a href="http://p3rl.org/Dancer::Deployment">Dancer::Deployment</a> for
 more ways to deploy your Dancer applications.
 </p>
+-->
 
 <h3>Learning more moves</h3>
 

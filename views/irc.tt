@@ -7,6 +7,11 @@ activate the web chat (powered by Mibbit) below.
 </p>
 
 <p>
+Connect to the IRC channel using
+<a href="http://widget01.mibbit.com/?autoConnect=true&server=irc.perl.org&channel=%23dancer&nick=">your browser</a>
+</p>
+
+<p>
 <a href="#" onclick="activate_webchat(this);">Join us via web chat</a>
 </p>
 
