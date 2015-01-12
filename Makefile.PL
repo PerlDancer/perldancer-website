@@ -17,7 +17,7 @@ WriteMakefile(
         'YAML'        => 0,
         'LWP::Simple' => 0,
         'Template'    => 0,
-        'WebService::Bluga::Webthumb' => 0,
+        'WebService::Bluga::Webthumb' => 0.05,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'TestApp-*' },
