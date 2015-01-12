@@ -27,8 +27,8 @@ for my $site (@dancefloor_sites) {
     $sitenum++;
     ok ref $site eq 'HASH',
         "Site $sitenum is a hashref";
-    ok exists $site->{url},
-        "Site $sitenum has an URL";
+    ok exists $site->{url} || exists $site->{source},
+        "Site $sitenum has an URL or source";
     ok exists $site->{title},
         "Site $sitenum has a title";
     ok exists $site->{description},
