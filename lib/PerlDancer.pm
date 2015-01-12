@@ -21,19 +21,25 @@ get '/donate/thanks' => sub {
 };
 
 get '/testimonials' => sub {
-    template 'testimonials-display', { testimonials => [ _get_testimonials() ] };
+    template 'testimonials-display' => {
+        testimonials => [ _get_testimonials() ],
+        title => 'What people say about the Perl Dancer web development framework',
+    };
 };
 
 get '/dancefloor' => sub {
     my $sites = _get_dancefloor_sites();
-    template 'dancefloor-display', { sites => _get_dancefloor_sites() };
+    template 'dancefloor-display' => {
+        sites => _get_dancefloor_sites(),
+        title => 'The Dancefloor - web site and web applications built on top of Perl Dancer',
+    };
 };
 
 # Add last tweet to template params
 hook before_template_render => sub {
-	my $t = shift;
+    my $t = shift;
     $t->{last_tweet} = latest_tweet();
-	$t->{this_year} = 1900 + (localtime)[5];
+    $t->{this_year} = 1900 + (localtime)[5];
 };
 
 # Find the latest stable version on Github.  Cache it for a while, to avoid
