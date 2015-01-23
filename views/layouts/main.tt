@@ -10,7 +10,7 @@
 	<meta name="copyright" content="Copyright 2009-<% this_year %> Alexis Sukrieh" />
         <meta name="google-site-verification" content="XINoghSibCxQxEzULZIDt-a_E0kWTQU7k54qPKwlLMw" />
 
-	<link rel="stylesheet" href="/css/style.css" media="screen" />
+	<link rel="stylesheet" href="/css/style.css?1" media="screen" />
 	<link rel="stylesheet" href="/css/tweets.css" media="screen" />
 	<!--[if gte IE 7]>
 		<link rel="stylesheet" href="/css/styleIE.css" />
@@ -93,7 +93,7 @@
 <!-- JAVASCRIPTS CALLING -->	
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js"></script> 
-<script src="/javascripts/perlDancer.js"></script>
+<script src="/javascripts/perlDancer.js?1"></script>
 
 <a href="http://github.com/PerlDancer/Dancer2"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
 
