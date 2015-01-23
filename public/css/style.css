@@ -399,3 +399,14 @@ ul.spacy li {
 .dancefloor-site IMG { margin: auto }
 .dancefloor-site P>B { margin: auto }
 
+.dancefloor-button {
+  margin: 20px;
+  background-color: #DDDDDD;
+  padding: 10px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+
+
+

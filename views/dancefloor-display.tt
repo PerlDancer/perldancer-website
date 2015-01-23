@@ -5,7 +5,11 @@
 written a website with Dancer and want it to be listed here, please 
 <a href="/about">contact us</a></em>
 </p>
-
+<p>
+<button class="dancefloor-button" id="show_all">Show All</button>
+<button class="dancefloor-button" id="show_open_source">Open Source</button>
+<button class="dancefloor-button" id="show_dancer2">Dancer 2</button>
+</p>
 <% FOREACH site = sites %>
     <div class="dancefloor-site <% IF site.source %>opensource<% END %> <% IF site.dancer == 2 %>dancer2<% END %>">
         <div align="center">
