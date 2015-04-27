@@ -12,6 +12,11 @@ description: |
     POD format for articles.  
 source: "https://github.com/PerlDancer/advent-calendar"
 ---
+url: "http://www.ivouch.com/"
+title: "iVouch"
+description: |
+    Find, share, and vouch for the top local and web-based businesses. Proudly built on Perl Dancer!
+---
 url: "http://www.moonfruit.com/"
 title: "MoonFruit"
 description: |
