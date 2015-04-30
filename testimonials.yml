@@ -226,4 +226,23 @@ text: |
     The Dancer community has always been responsive to us when we've had
     questions, or pull requests, or issues. That's really important in any
     software project or piece of technology you use.
-
+---
+source: Zahir Lalani
+source_url: http://lists.preshweb.co.uk/pipermail/dancer-users/2015-March/004426.html
+text: |
+    Dancer2 is just amazing - the number of add-on modules is great and I can 
+    get on with the application without worrying about the nitty gritty.
+---
+source: Zahir Lalani
+source_url: http://lists.preshweb.co.uk/pipermail/dancer-users/2015-March/004426.html
+text: |
+    Dancer2 seemed to really stand out [...] After a couple of weeks I have the 
+    beginnings of a complex web app which is n+1 scaleable, which has a REST API
+    module and will also have a messaging and workflow tool with a video render
+    farm  - all done in a single language and framework.
+---
+source: Zahir Lalani
+source_url: http://lists.preshweb.co.uk/pipermail/dancer-users/2015-March/004426.html
+text: |
+    Its damn quick to develop, its quick to run, even a colleague who is helping
+    do the templating (and a php developer) is converted!
