@@ -11,7 +11,7 @@ possible.
 
 <p>
 For easy and automatic installation of Dancer, we recommend using 
-<a href="http://search.cpan.org/perldoc?cpanm">cpanminus</a>:
+<a href="https://metacpan.org/pod/distribution/Menlo/script/cpanm-menlo">cpanminus</a>:
 </p>
 
 <pre class="console">
