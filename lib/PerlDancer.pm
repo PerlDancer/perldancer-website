@@ -35,10 +35,9 @@ get '/dancefloor' => sub {
     };
 };
 
-# Add last tweet to template params
+# Add this year to template params
 hook before_template_render => sub {
     my $t = shift;
-    $t->{last_tweet} = latest_tweet();
     $t->{this_year} = 1900 + (localtime)[5];
 };
 
@@ -99,29 +98,6 @@ sub _get_dancefloor_sites {
             if $site->{url};
     }
     return [ sort { rand } @dancefloor_sites ];
-}
-
-# TODO: I should probably use Net::Twitter / Net::Twitter::Lite or something
-# here, but this is quick and easy and gets the job done.
-{
-    my $last_tweet;
-    my $last_tweet_checked;
-
-    sub latest_tweet {
-        return $last_tweet if $last_tweet and time - $last_tweet_checked < 300;
-
-        my $url = "http://api.twitter.com/1/statuses/user_timeline.json"
-            . "?screen_name=PerlDancer&include_rts=1&count=1";
-        my $json = LWP::Simple::get($url) or return "Unavailable";
-        my $tweets;
-        eval { $tweets = from_json($json); };
-        if (!ref $tweets || (ref $tweets eq 'HASH' && exists $tweets->{errors}))
-        {
-            return "Unavailable";
-        }
-        $last_tweet_checked = time;
-        return $last_tweet  = $tweets->[0]->{text};
-    }
 }
 
 true;

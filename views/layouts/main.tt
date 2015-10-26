@@ -82,11 +82,11 @@
 
 	<div id="contain-bottom"></div>
 	
-<div class="twitter" id="jstweets">
-<a href="http://twitter.com/PerlDancer/">On Twitter</a>: <% last_tweet %> 
-</div>
-
-	<div id="copyright">Dancer Perl web framework is copyright © 2009-<% this_year %> <a href="http://sukria.net/" rel="external">Alexis Sukrieh</a> - <a href="http://github.com/PerlDancer/Dancer2/" rel="external">Fork on GitHub</a> - This website is <a href="http://github.com/PerlDancer/perldancer-website/" rel="external">free software</a>.</div>
+	<div id="copyright">Dancer Perl web framework is copyright © 2009-<% this_year %> <a href="http://sukria.net/" rel="external">Alexis Sukrieh</a> - 
+        <a href="http://twitter.com/PerlDancer/">Twitter</a> -
+        <a href="http://github.com/PerlDancer/Dancer2/" rel="external">Fork on GitHub</a> - 
+        This website is <a href="http://github.com/PerlDancer/perldancer-website/" rel="external">free software</a>.
+    </div>
 
 </div>
 

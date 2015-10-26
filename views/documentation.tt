@@ -37,7 +37,7 @@ The DSL's reference API is documented in
 Dancer is PSGI-compatible, that means you can virtually deploy your app
 anywhere. We wanted to help our users as much as possible, so we've gathered as
 many details as possible in a 
-<a href="https://metacpan.org/pod/Dancer::Deployment">Deployment Guide</a>, 
+<a href="https://metacpan.org/pod/Dancer2::Manual::Deployment">Deployment Guide</a>, 
 in order to provide working configuration examples.
 </p>
 
