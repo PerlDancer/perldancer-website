@@ -81,6 +81,10 @@ description: |
     not there yet, but we're going to try hard to get there while having fun
     along the way.
 ---
+url: "http://www.trebam.hr/"
+title: "Trebam.hr"
+description: "A Croatian site to obtain quotes for various trades/services"
+---
 url: "http://japanesedictionary.org/"
 title: "Japanese Dictionary"
 description: |
@@ -267,3 +271,4 @@ source: "https://metacpan.org/release/App-Notifier-Service"
 title: "simpleshare - simple application for data sharing"
 description: "Upload and share files via randomly generated url."
 source: "https://github.com/mestia/simpleshare"
+
