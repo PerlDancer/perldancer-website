@@ -271,4 +271,8 @@ source: "https://metacpan.org/release/App-Notifier-Service"
 title: "simpleshare - simple application for data sharing"
 description: "Upload and share files via randomly generated url."
 source: "https://github.com/mestia/simpleshare"
-
+---
+url: "http://frontmagic.com/"
+title: "Frontmagic"
+description: "Dedicated frontend web developers producing work that is indistinguishable from magic"
+dancer: 2
