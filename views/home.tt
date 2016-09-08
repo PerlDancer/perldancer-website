@@ -9,7 +9,7 @@
 <pre class="prettyprint">
 #!/usr/bin/perl
 
-use Dancer;
+use Dancer2;
 
 get '/hi' => sub {
     "Hello World!"
