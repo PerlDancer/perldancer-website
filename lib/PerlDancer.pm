@@ -28,7 +28,6 @@ get '/testimonials' => sub {
 };
 
 get '/dancefloor' => sub {
-    my $sites = _get_dancefloor_sites();
     template 'dancefloor-display' => {
         sites => _get_dancefloor_sites(),
         title => 'The Dancefloor - web site and web applications built on top of Perl Dancer',
