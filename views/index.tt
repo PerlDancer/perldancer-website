@@ -45,7 +45,7 @@
     <li>
             <pre class="prettyprint" style="margin-top: 1em; margin-bottom: 2em;">
     #!/usr/bin/env perl
-    use Dancer;
+    use Dancer2;
 
     get '/' =&gt; sub {
         "Hello World!"
