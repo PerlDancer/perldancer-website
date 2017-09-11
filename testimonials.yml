@@ -246,3 +246,34 @@ source_url: http://lists.preshweb.co.uk/pipermail/dancer-users/2015-March/004426
 text: |
     Its damn quick to develop, its quick to run, even a colleague who is helping
     do the templating (and a php developer) is converted!
+---
+source: Rob Boerman
+source_url: http://cpanratings.perl.org/dist/Dancer#9022
+text: |
+    Dancer is incredibly easy to learn, yet very powerful.
+    Dancer is THE fastest way to develop web applications, hands down. 
+---
+source: Andrew Soloman
+source_url: http://cpanratings.perl.org/dist/Dancer#9050
+text: |
+    Formerly a Perl teacher, I never taught web development to the first-year
+    students because the learning curve would have been too steep. I think 
+    Dancer has changed the game and beginners *can* learn Perl web development
+    using Dancer. 
+---
+source: Tyler Durden
+source_url: http://cpanratings.perl.org/dist/Dancer#9070
+text: |
+    Dancer web framework is all about making simple things fun, and complex 
+    things possible. If you're into web development, make sure not to 
+    skip Dancer! [...] 
+    The team behind the project is very friendly and willing to help beginners
+    to get up to speed.
+---
+source: Joshua Keroes
+source_url: http://cpanratings.perl.org/dist/Dancer#9740
+text: |
+   Web development is fun again thanks to Dancer. I spend less time breaking 
+   things and more time solving problems. More time getting to the fun part 
+   of coding.
+
