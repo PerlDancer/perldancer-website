@@ -6,6 +6,7 @@ use LWP::Simple ();
 use List::Util;
 use WebService::Bluga::Webthumb;
 use YAML;
+use File::Basename qw(dirname);
 
 our $VERSION = '0.1';
 
@@ -38,7 +39,8 @@ get '/dancefloor' => sub {
 hook before_template_render => sub {
     my $t = shift;
     $t->{this_year} = 1900 + (localtime)[5];
-    my @git = qx{git log -1};
+    my $dir = dirname dirname __FILE__;
+    my @git = qx{cd $dir; git log -1};
     my ($commit_line) = grep { /^commit\s/ } @git;
     my ($commit) = $commit_line ? $commit_line =~ /commit\s(\w+)\s/ : '';
     my ($date_line) = grep { /^Date:/ } @git;
