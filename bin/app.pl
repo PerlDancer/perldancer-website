@@ -6,4 +6,4 @@ use FindBin;
 use lib "$FindBin::Bin/../lib";
 
 use PerlDancer;
-PerlDancer->dance;
+PerlDancer->to_app;
