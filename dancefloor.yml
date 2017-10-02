@@ -253,7 +253,7 @@ url: "http://geekuni.com/"
 title: "Geekuni"
 description: "An online programming school with a course on Dancer" 
 ---
-url: "http://perlmaven.com/"
+url: "https://perlmaven.com/"
 title: "Perl Maven"
 description: "The biggest source of Perl-related articles and screencasts running on Dancer 2. Offering courses in Perl for Beginners and for web developmers who want to use Dancer."
 source: "https://github.com/szabgab/Perl-Maven"
