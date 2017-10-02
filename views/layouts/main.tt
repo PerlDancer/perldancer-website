@@ -82,10 +82,11 @@
 
 	<div id="contain-bottom"></div>
 	
-	<div id="copyright">Dancer Perl web framework is copyright © 2009-<% this_year %> <a href="http://sukria.net/" rel="external">Alexis Sukrieh</a> - 
+	<div id="copyright">Dancer Perl web framework is copyright © 2009-<% this_year %> <a href="http://sukria.net/" rel="external">Alexis Sukrieh</a> -
         <a href="http://twitter.com/PerlDancer/">Twitter</a> -
-        <a href="http://github.com/PerlDancer/Dancer2/" rel="external">Fork on GitHub</a> - 
-        This website is <a href="http://github.com/PerlDancer/perldancer-website/" rel="external">free software</a>.
+        <a href="http://github.com/PerlDancer/Dancer2/" rel="external">Fork on GitHub</a>.
+        <br>
+        This website is <a href="http://github.com/PerlDancer/perldancer-website/" rel="external">free software</a> last updated: <a href="https://github.com/PerlDancer/perldancer-website/commit/<% last_commit %>" rel="external"><% last_update %></a>
     </div>
 
 </div>

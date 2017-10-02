@@ -38,6 +38,13 @@ get '/dancefloor' => sub {
 hook before_template_render => sub {
     my $t = shift;
     $t->{this_year} = 1900 + (localtime)[5];
+    my @git = qx{git log -1};
+    my ($commit_line) = grep { /^commit\s/ } @git;
+    my ($commit) = $commit_line ? $commit_line =~ /commit\s(\w+)\s/ : '';
+    my ($date_line) = grep { /^Date:/ } @git;
+    my ($date) = $date_line ? $date_line =~ /Date:\s*(.*)/ : '';
+    $t->{last_commit} = $commit;
+    $t->{last_update} = $date;
 };
 
 # Find the latest stable version on Github.  Cache it for a while, to avoid
