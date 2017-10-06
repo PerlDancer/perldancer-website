@@ -103,6 +103,11 @@ Resources to learn more:
 
 <% INCLUDE 'includes/doc-list.tt' %>
 
+<h3>Books about Perl Dancer</h3>
+
+<ul>
+   <li><a href="https://leanpub.com/dancer-spa/">Single Page Application with Perl Dancer</a> by Gabor Szabo.</li>
+</ul>
 
 <h3>New to Perl, too?</h3>
 
@@ -126,7 +131,7 @@ be of use to Perl beginners:
 <li><a href="http://learn.perl.org/books/beginning-perl/">Beginning Perl</a> - a
 book by Simon Cozens, available completely free online</li>
 <li><a href="https://perlmaven.com/perl-tutorial">Perl
-Maven Tutorial</a> - Perl tutorial by Gabor Szabo</li>
+Tutorial</a> - the Perl Maven tutorial by Gabor Szabo</li>
 <li><a href="http://perldoc.perl.org/">perldoc</a> - the Perl documentation
 online</li>
 </ul>
