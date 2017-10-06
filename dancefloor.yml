@@ -62,37 +62,37 @@ description: |
     Americans find at their public libraries, with a broad range of
     learning resources.
 ---
-url: "http://www.quttera.com/"
+url: "https://www.quttera.com/"
 title: "Quttera"
 description: |
     Quttera is a website security provider that scans websites for
     malicious and suspicious activity.
 ---
-url: "http://www.iannounce.net/"
+url: "https://www.iannounce.net/"
 title: "iAnnounce"
 description: |
     iAnnounce is built on Dancer and serves up over 5 million family notices
     from across the UK, Ireland, Germany and Poland.
 ---
-url: "https://www.financejobs.co/"
+url: "http://www.financejobs.co/"
 title: "Finance Jobs"
 description: |
     Finance Jobs aims to be the biggest finance jobs board in the world. We're
     not there yet, but we're going to try hard to get there while having fun
     along the way.
 ---
-url: "http://www.trebam.hr/"
+url: "https://www.trebam.hr/"
 title: "Trebam.hr"
 description: "A Croatian site to obtain quotes for various trades/services"
 ---
-url: "http://japanesedictionary.org/"
+url: "https://japanesedictionary.org/"
 title: "Japanese Dictionary"
 description: |
     This is a free Japanese-English dictionary site
     built on top of Dancer. Site allows users to browse pages by letter or
     search in English, Japanese and romanized forms.
 ---
-url: "http://koreandictionary.net/"
+url: "https://koreandictionary.net/"
 title: "Korean Dictionary"
 description: |
     This is a free English to Korean dictionary site built
@@ -100,38 +100,39 @@ description: |
     search by English, Korean or Romanization. It currently ranks #1 in
     Google.
 ---
-url: "http://vietnamesedictionary.net/"
+url: "https://vietnamesedictionary.net/"
 title: "Vietnamese Dictionary"
 description: |
     This is a free English to Vietnamese dictionary
     site built on top of Dancer. Site allows users to browse pages by
     letter or search by English and Vietnamese.
 ---
-url: "http://germandictionary.org/"
+url: "https://germandictionary.org/"
 title: "German Dictionary"
 description: |
     This is a free German-English dictionary site built
     on top of Dancer. Site allows users to browse pages by letter or
     search by English and German.
 ---
-url: "http://spanishdictionary.net/"
+url: "https://spanishdictionary.net/"
 title: "Spanish Dictionary"
 description: |
     This is a free Spanish-English dictionary site built
     on top of Dancer. Site allows users to browse pages by letter or
     search by English and Spanish.
 ---
-url: "http://italiandictionary.org/"
+url: "https://italiandictionary.org/"
 title: "Italian Dictionary"
 description: |
     This is a free Italian-English dictionary site built
     on top of Dancer. Site allows users to browse pages by letter or
     search by English and Italian.
 ---
-url: "http://greek-dictionary.org/"
+url: "https://greek-dictionary.org/"
 title: "Greek Dictionary"
 description: |
     Free English to Greek dictionary. Browse by letter. Search by word or phrase.
+---
 url: "http://hannover.pm/"
 title: "Hannover Perl Mongers"
 description: "German Perl Mongers group from Hannover"
@@ -158,10 +159,6 @@ description: |
     Official website of the Perl Ecosystem Group, bridging the gap between
     business and the open source Perl community.
 source: "http://github.com/szabgab/peg"
----
-url: "http://www.softwaresolutionservicesinc.com/"
-title: "Software Solution Services"
-description: "A Minnesota-based technology consulting firm"
 ---
 url: "http://www.livro-aberto.net/"
 title: "Livro-Aberto"
