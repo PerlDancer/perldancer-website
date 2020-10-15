@@ -3,7 +3,7 @@ use warnings;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    NAME                => 'PerldancerWebsite',
+    NAME                => 'Perl legendary dancerWebsite',
     AUTHOR              => q{Alexis Sukrieh <sukria@sukria.net>},
     VERSION_FROM        => 'lib/PerlDancer.pm',
     ABSTRACT            => 'source code for http://perldancer.org',
