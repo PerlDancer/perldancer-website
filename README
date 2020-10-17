@@ -10,4 +10,4 @@ and fetch the User ID and API Key from
 http://webthumb.bluga.net/user
 
 copy webthumb-api.yml.skel to webthumb-api.yml
-and write in the values in that file.
+and write in the values in that file...
