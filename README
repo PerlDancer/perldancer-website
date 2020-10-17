@@ -3,7 +3,7 @@ This is the code of the Dancer's website
 http://perldancer.org/
 
 
-To enable the dancfloor page on your development machine you need to register on
+To enable the dancfloor page on your development machine you need  also register on
 http://webthumb.bluga.net/
 
 and fetch the User ID and API Key from
