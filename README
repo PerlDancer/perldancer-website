@@ -1,13 +1,11 @@
-This is the code of the Dancer's website
+This is the code of the Dancer project website
 
-http://perldancer.org/
+Link: http://perldancer.org/
 
 
-To enable the dancfloor page on your development machine you need to register on
-http://webthumb.bluga.net/
-
-and fetch the User ID and API Key from
+To enable the dancefloor page on your development machine you need to register
+on http://webthumb.bluga.net/ and fetch the User ID and API Key from
 http://webthumb.bluga.net/user
 
-copy webthumb-api.yml.skel to webthumb-api.yml
-and write in the values in that file.
+copy `webthumb-api.yml.skel` to `webthumb-api.yml` and edit the values 
+in that file.
