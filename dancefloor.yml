@@ -160,10 +160,6 @@ description: |
     business and the open source Perl community.
 source: "http://github.com/szabgab/peg"
 ---
-url: "http://www.livro-aberto.net/"
-title: "Livro-Aberto"
-description: "A website in Portuguese."
----
 url: "http://www.lyricsbadger.co.uk/"
 title: "Lyrics Badger"
 description: "A lyrics search engine, powered by Dancer and Lyrics::Fetcher."
@@ -268,3 +264,12 @@ url: "http://frontmagic.com/"
 title: "Frontmagic"
 description: "Dedicated frontend web developers producing work that is indistinguishable from magic"
 dancer: 2
+---
+url: "http://www.dicionario-aberto.net/"
+title: "Dicionário-Aberto"
+description: "A Portuguese open dictionary project"
+---
+url: "http://wordnet.pt/"
+title: "PULO: Portuguese Unified Lexical Ontology"
+description: "A WordNet-alike resource for the Portuguese language"
+
