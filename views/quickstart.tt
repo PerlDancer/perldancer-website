@@ -33,7 +33,7 @@ dancer is shipped with a helper that can scaffold a new skeleton for you.
 </p>
 
 <pre class="console">
-$ dancer2 -a MyWeb::App
+$ dancer2 gen -a MyWeb::App
 + MyWeb-App
 + MyWeb-App/config.yml
 + MyWeb-App/cpanfile
