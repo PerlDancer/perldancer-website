@@ -242,7 +242,7 @@ ajax '/getloadavg' => sub {
     <cite>
     <% testimonial.text %>
     </cite>
-    - <% IF testimonal.source_url %>
+    - <% IF testimonial.source_url %>
     <a href="<% testimonial.source_url %>">
     <% END %>
     <% testimonial.source %>
