@@ -84,7 +84,7 @@
 	
 	<div id="copyright">Dancer Perl web framework is copyright © 2009-<% this_year %> <a href="http://sukria.net/" rel="external">Alexis Sukrieh</a> -
         <a href="http://twitter.com/PerlDancer/">Twitter</a> -
-        <a href="http://github.com/PerlDancer/Dancer2/" rel="external">Fork on GitHub</a>.
+        <a href="https://github.com/PerlDancer/Dancer2/fork" rel="external">Fork on GitHub</a>.
         <br>
         This website is <a href="http://github.com/PerlDancer/perldancer-website/" rel="external">free software</a> last updated: <a href="https://github.com/PerlDancer/perldancer-website/commit/<% last_commit %>" rel="external"><% last_update %></a>
     </div>
@@ -96,8 +96,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js"></script> 
 <script src="/javascripts/perlDancer.js?1"></script>
 
-<a href="http://github.com/PerlDancer/Dancer2"><img style="position: absolute;
-    top: 0; right: 0; border: 0;" src="//s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+<a href="https://github.com/PerlDancer/Dancer2/fork"><img src="/images/forkme_right_darkblue_121621.svg" style="position:absolute;top:0;right:0;" alt="Fork me on GitHub"></a>
 
 <script type="text/javascript">
 
