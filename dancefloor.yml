@@ -1,35 +1,35 @@
 ---
-url: "http://www.perldancer.org/"
+url: "https://www.perldancer.org/"
 title: "PerlDancer website"
 description: "Unsurprisingly this site is built using Dancer."
-source: "http://github.com/PerlDancer/perldancer-website"
+source: "https://github.com/PerlDancer/perldancer-website"
 dancer: 2
 ---
-url: "http://advent.perldancer.org/"
+url: "https://advent.perldancer.org/"
 title: "PerlDancer Advent Calendar"
 description: |
     The PerlDancer Advent Calendar is written entirely with Dancer, using the
     POD format for articles.  
 source: "https://github.com/PerlDancer/advent-calendar"
 ---
-url: "http://www.ivouch.com/"
+url: "https://www.ivouch.com/"
 title: "iVouch"
 description: |
     Find, share, and vouch for the top local and web-based businesses. Proudly built on Perl Dancer!
 ---
-url: "http://www.moonfruit.com/"
+url: "https://www.moonfruit.com/"
 title: "MoonFruit"
 description: |
     Moonfruit is proudly built on Dancer, and provides a very cool service for
     free!
 ---
-url: "http://www.uk2.net/"
+url: "https://www.uk2.net/"
 title: "UK2"
 description: |
     UK2 use Dancer to power in-house REST API applications, along with
     holding pages and webdiversion for hundreds of thousands of customer domains.
 ---
-url: "http://www.thegamecrafter.com/"
+url: "https://www.thegamecrafter.com/"
 title: "The Game Crafter"
 description: |
     World's first web-to-print company specialising in the table top game
@@ -43,18 +43,18 @@ description: |
     something happen.".  Perl Dancer API with front-end site built using ReactJS
     and Dancer.
 ---
-url: "http://politicalweb.org.uk/"
+url: "https://politicalweb.org.uk/"
 title: "The Political Web"
 description: |
     TPW makes it easier for people in the UK to get information about their
     MP's.
 ---
-url: "http://www.posandro.com/"
+url: "https://www.posandro.com/"
 title: "POSANDRO (Android Point of Sale application)"
 description: |
     An Android point of sale application whose back-end is powered by Dancer.
 ---
-url: "http://elibraryusa.state.gov/"
+url: "https://elibraryusa.state.gov/"
 title: "eLibraryUSA"
 description: |
     Gives members of Information Resource Centers, American Corners,
@@ -74,7 +74,7 @@ description: |
     iAnnounce is built on Dancer and serves up over 5 million family notices
     from across the UK, Ireland, Germany and Poland.
 ---
-url: "http://www.financejobs.co/"
+url: "https://www.financejobs.co/"
 title: "Finance Jobs"
 description: |
     Finance Jobs aims to be the biggest finance jobs board in the world. We're
@@ -133,88 +133,88 @@ title: "Greek Dictionary"
 description: |
     Free English to Greek dictionary. Browse by letter. Search by word or phrase.
 ---
-url: "http://hannover.pm/"
+url: "https://hannover.pm/"
 title: "Hannover Perl Mongers"
 description: "German Perl Mongers group from Hannover"
 ---
-url: "http://www.szpakphotography.co.uk/"
+url: "https://www.szpakphotography.co.uk/"
 title: "Szpak Photography"
 description: "Photography studio and services in Letchworth, Hertfordshire"
 ---
-url: "http://www.ijedomestics.co.uk/"
+url: "https://www.ijedomestics.co.uk/"
 title: "IJE Domestic Appliance Repairs"
 description: |
     A small business website powered by Dancer and written by David Precious
 ---
-url: "http://perlresume.org/"
+url: "https://perlresume.org/"
 title: "Perl Résumé"
 description: |
     Your Perl Résumé generated automatically based on your CPAN experience,
-    activity and impact. Website by <a href="http://showmetheco.de/">vti</a>.
+    activity and impact. Website by <a href="https://showmetheco.de/">vti</a>.
 source: "https://github.com/vti/perlresume.org"
 ---
-url: "http://perl-ecosystem.org/"
+url: "https://perl-ecosystem.org/"
 title: "Perl Ecosystem Group"
 description: |
     Official website of the Perl Ecosystem Group, bridging the gap between
     business and the open source Perl community.
-source: "http://github.com/szabgab/peg"
+source: "https://github.com/szabgab/peg"
 ---
-url: "http://www.lyricsbadger.co.uk/"
+url: "https://www.lyricsbadger.co.uk/"
 title: "Lyrics Badger"
 description: "A lyrics search engine, powered by Dancer and Lyrics::Fetcher."
 ---
-url: "http://paste.perldancer.org/"
+url: "https://paste.perldancer.org/"
 title: "PasteDance"
 description: |
-    A pastebin written by <a href="http://search.cpan.org/~data/">Danijel
+    A pastebin written by <a href="https://search.cpan.org/~data/">Danijel
     Tašov</a>.
-source: "http://github.com/datamuc/Pastedance"
+source: "https://github.com/datamuc/Pastedance"
 ---
-url: "http://www.imaginaryrobots.net/"
+url: "https://www.imaginaryrobots.net/"
 title: "Imaginary Robots"
 description: "Jesse van Herk's website/blog"
 ---
-url: "http://www.leecarmichael.com/"
+url: "https://www.leecarmichael.com/"
 title: "Lee Carmichael"
 description: |
     Blog of a software engineer/programmer/coder working on web applications,
     data munging, daemons and other various things
 ---
-url: "http://www.finchleyspiritualistchurch.org.uk/"
+url: "https://www.finchleyspiritualistchurch.org.uk/"
 title: "Finchley Spiritualist Church, London"
 description: |
     Website of a church at Woodberry Grove which has served the community
     for more than 80 years
 ---
-url: "http://pullingshots.ca/"
+url: "https://pullingshots.ca/"
 title: "pullingshots"
 description: "Photography blog"
 ---
-url: "http://odyniec.net/"
+url: "https://odyniec.net/"
 title: "odyniec.net - Michal Wojciechowski"
 description: "Michal Wojciechowski's homepage"
 ---
-url: "http://www.lauramccartney.co.uk/"
+url: "https://www.lauramccartney.co.uk/"
 title: "Laura McCartney's portfolio"
 description: |
      UK artist's Dancer-powered portfolio site, developed by LoonyPandora
 ---
-url: "http://www.brandweersliedrecht.nl/"
+url: "https://www.brandweersliedrecht.nl/"
 title: "Brandweer Sliedrecht"
 description: |
-    <a href="http://en.wikipedia.org/wiki/Sliedrecht">Sliedrecht</a> (a
+    <a href="https://en.wikipedia.org/wiki/Sliedrecht">Sliedrecht</a> (a
     mid-sized Netherlands town) fire department website
 ---
-url: "http://ralphschuler.ch/"
+url: "https://ralphschuler.ch/"
 title: "Ralph Schuler"
 description: "Personal website"
 ---
-url: "http://fbsdmon.org/"
+url: "https://fbsdmon.org/"
 title: "FreeBSD Monitor"
 description: "Collect and display FreeBSD and Ports usage statistics"
 ---
-url: "http://danceb.in/"
+url: "https://danceb.in/"
 title: "Dancebin"
 description: |
     Dancer + Pastebin: a simple and elegant pastebin service.
@@ -227,12 +227,12 @@ description: |
     A beautifully minimal approach to getting organized - a web-based task
     manager for lovers of simple.
 ---
-url: "http://www.maxi-tip.cz/"
+url: "https://www.maxi-tip.cz/"
 title: "Maxi-Tip"
 description: |
     Czech sports betting site
 ---
-url: "http://theanarchistlibrary.org/"
+url: "https://theanarchistlibrary.org/"
 title: "The Anarchist Library"
 description: |
     A wiki using the Dancer-powered <a href="https://gitorious.org/amuse-wiki">
@@ -260,16 +260,16 @@ title: "simpleshare - simple application for data sharing"
 description: "Upload and share files via randomly generated url."
 source: "https://github.com/mestia/simpleshare"
 ---
-url: "http://frontmagic.com/"
+url: "https://frontmagic.com/"
 title: "Frontmagic"
 description: "Dedicated frontend web developers producing work that is indistinguishable from magic"
 dancer: 2
 ---
-url: "http://www.dicionario-aberto.net/"
+url: "https://www.dicionario-aberto.net/"
 title: "Dicionário-Aberto"
 description: "A Portuguese open dictionary project"
 ---
-url: "http://wordnet.pt/"
+url: "https://wordnet.pt/"
 title: "PULO: Portuguese Unified Lexical Ontology"
 description: "A WordNet-alike resource for the Portuguese language"
 

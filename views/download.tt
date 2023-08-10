@@ -3,8 +3,8 @@
 <h3>Releases</h3>
 
 <p>
-Last <em>stable</em> release is <a href="http://search.cpan.org/CPAN/authors/id/X/XS/XSAWYERX/Dancer-1.2003.tar.gz">1.2</a>, you can
-also check out the <a href="http://search.cpan.org/dist/Dancer/">CPAN page</a> for 
+Last <em>stable</em> release is <a href="https://search.cpan.org/CPAN/authors/id/X/XS/XSAWYERX/Dancer-1.2003.tar.gz">1.2</a>, you can
+also check out the <a href="https://search.cpan.org/dist/Dancer/">CPAN page</a> for 
 newer releases.
 </p>
 
@@ -20,7 +20,7 @@ $ git clone git://github.com/PerlDancer/Dancer.git
 </pre>
 
 <p>
-Or even <a href="http://github.com/PerlDancer/Dancer/toggle_watch">follow the Dancer project</a> on GitHub.
+Or even <a href="https://github.com/PerlDancer/Dancer/toggle_watch">follow the Dancer project</a> on GitHub.
 </p>
 
 <p>

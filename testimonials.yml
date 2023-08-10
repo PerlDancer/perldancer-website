@@ -3,7 +3,7 @@ source: "Łukasz Metys Lewandowski"
 text: "It's fast! It's simple! It's minimalistic! I really like it! Thanks."
 ---
 source: "Michael G Schwern (@schwern)"
-source_url: "http://twitter.com/#!/schwern/status/38484901841870848"
+source_url: "https://twitter.com/#!/schwern/status/38484901841870848"
 text: "Dancer is the first web framework that hasn't given me an aneurysm. #perl"
 ---
 source: "Damian Krotkine"
@@ -42,7 +42,7 @@ text: |
     work with when I went through to evaluate them...
 ---
 source: Joshua Barratt
-source_url: http://serialized.net/2010/08/deploying-self-contained-perl-dancer-applications/
+source_url: https://serialized.net/2010/08/deploying-self-contained-perl-dancer-applications/
 text: |
     I’m really enjoying using Perl’s Dancer for building lightweight web
     applications. It’s heavily inspired by Ruby’s Sinatra framework, but clearly
@@ -54,13 +54,13 @@ text: |
     enjoying using Dancer. Awesome, awesome, awesome!
 ---
 source: "@juliofraire"
-source_url: http://twitter.com/#!/juliofraire/status/30888830613585921
+source_url: https://twitter.com/#!/juliofraire/status/30888830613585921
 text: |
     Just downloaded and ran #Perl Dancer. Really curious about it. It looks
     amazing.
 ---
 source: talexb
-source_url: http://twitter.com/#!/talexb/status/27076726110552064
+source_url: https://twitter.com/#!/talexb/status/27076726110552064
 text: |
     Trying out @PerlDancer as a basis for building web apps. Very nice.
 ---
@@ -68,24 +68,24 @@ source: Schwern
 text: Dancer is the first web framework I haven't wanted to pee on :-) 
 ---
 source: deepakg
-source_url: http://twitter.com/#!/deepakg/status/16131603503779840
+source_url: https://twitter.com/#!/deepakg/status/16131603503779840
 text: |
     Hacking around using @PerlDancer and enjoying it immensely.
 ---
 source: alexkalderimis
-source_url: http://twitter.com/#!/alexkalderimis/status/9747953946198016
+source_url: https://twitter.com/#!/alexkalderimis/status/9747953946198016
 text: |
     @PerlDancer is the easiest way to write webapps. One day from idea to
     implemention. Fantastic work.
 ---
 source: tsjr
-source_url: http://www.reddit.com/r/perl/comments/d38u2/ask_perl_i_want_to_write_a_minimalist_piece_of/c0
+source_url: https://www.reddit.com/r/perl/comments/d38u2/ask_perl_i_want_to_write_a_minimalist_piece_of/c0
 text: |
     For a simple framework I suggest Dancer. Great thing, it made me stop 
     hating web development.
 ---
 source: Carlos Ivan Sosa (gnusosa)
-source_url: http://log.gnusosa.net/more-dance
+source_url: https://log.gnusosa.net/more-dance
 text: |
     ...there's finally a web framework that works for me. It's called Dancer, and 
     as redundant as this might sound; Dancer, is an effortless web framework. [...]
@@ -93,20 +93,20 @@ text: |
     took for me to write the whole mini-blog app.
 ---
 source: corn on Hacker News
-source_url: http://news.ycombinator.com/item?id=2500163 
+source_url: https://news.ycombinator.com/item?id=2500163 
 text: |
     I have - and would second frameworks like Perl Dancer as fantastic examples 
     of what the Perl community is up to these days.
 ---
 source: dragonquest on Hacker News
-source_url: http://news.ycombinator.com/item?id=2497340
+source_url: https://news.ycombinator.com/item?id=2497340
 text: |
     Perl is [...]  thriving and making some very cool new stuff
     while steadily negating the argument of being line-noise (Dancer comes to
     mind as an excellent project to both read and use).
 ---
 source: John Imison (@johnimison)
-source_url: http://twitter.com/#!/johnimison/status/82113852304658432
+source_url: https://twitter.com/#!/johnimison/status/82113852304658432
 text: |
     Thanks to the @PerlDancer guys in IRC for their help.. better than any
     commercial support IMO 
@@ -118,7 +118,7 @@ text: |
     Thanks for all your efforts on Dancer it is pretty awesome.
 --- 
 source: Andrew Solomon on cpanratings
-source_url: http://cpanratings.perl.org/dist/Dancer#9050
+source_url: https://cpanratings.perl.org/dist/Dancer#9050
 text: |
     [...] the words that come to mind are "quick", "small", "simple" and "clean". 
     There's a close alignment of the packages and methods with the concepts one 
@@ -129,7 +129,7 @@ text: |
     Dancer. (We'll find out at the beginner's class I'm giving at YAPC in Riga:) 
 --- 
 source: linportal on reddit
-source_url: http://www.reddit.com/r/perl/comments/jbh25/happy_birthday_dancer_two_years_of_the_perl/c2aqamw
+source_url: https://www.reddit.com/r/perl/comments/jbh25/happy_birthday_dancer_two_years_of_the_perl/c2aqamw
 text: |
     Perl Dancer is amazing! If you're into web development, definitely give
     Dancer a look, you might be surprised how fun and productive web development
@@ -169,7 +169,7 @@ text: |
    is fun again!
 ---
 source: CrowdTilt
-source_url: http://dsog.info/blog/Perl/Hacking/Technology/2012/08/31/why-did-i-choose-perl-for-crowdtilt/
+source_url: https://dsog.info/blog/Perl/Hacking/Technology/2012/08/31/why-did-i-choose-perl-for-crowdtilt/
 text: |
     We needed to move really fast and provide a highly scalable, extensible, and
     maintainable product to our customers to enable them to pool money together.
@@ -178,26 +178,26 @@ text: |
     website over just a few weeks.
 ---
 source: knighthacker on HN
-source_url: http://news.ycombinator.com/item?id=4462124
+source_url: https://news.ycombinator.com/item?id=4462124
 text: |
     Check out Perl Dancer as a web framework for example and you'll 
     see simplicity.
 ---
 source: Christopher Cashell
-source_url: http://blogs.perl.org/users/christopher_cashell/2013/02/making-the-case-for-better-perl-articles.html
+source_url: https://blogs.perl.org/users/christopher_cashell/2013/02/making-the-case-for-better-perl-articles.html
 text: |
      The heavy hitters are Catalyst, Mojolicious, and Dancer. Any one of them
      can be used to build a large-scale web application just as easily as Django
      in Python, or Ruby on Rails.
 ---
 source: JT Smith @ The Game Crafter
-source_url: http://advent.perldancer.org/2012/19
+source_url: https://advent.perldancer.org/2012/19
 text: |
     ...everyone I've shown the codebase to can't believe how tiny everything is.
     You need to write so little code to do so much.
 ---
 source: JT Smith @ The Game Crafter
-source_url: http://advent.perldancer.org/2012/19
+source_url: https://advent.perldancer.org/2012/19
 text: |
      I believe so much in Dancer that I've given talks about it at local Perl
      Monger's groups, have taught a few people how to use it, and have even
@@ -205,7 +205,7 @@ text: |
      it.
 ---
 source: JT Smith @ The Game Crafter
-source_url: http://advent.perldancer.org/2012/19
+source_url: https://advent.perldancer.org/2012/19
 text: |
     When I picked Dancer I wasn't looking for a tool that did everything for me
     out of the box. I was looking for something I could grow into and build the
@@ -213,7 +213,7 @@ text: |
     getting in my way or limiting me, and that's a big win.
 ---
 source: Will Wolf @ Crowdtilt
-source_url: http://advent.perldancer.org/2012/18
+source_url: https://advent.perldancer.org/2012/18
 text: |
     I loved the simplicity and straight-forwardness of Dancer. It's so
     dead-simple and just gets out of your way. At a startup, you just want to
@@ -221,20 +221,20 @@ text: |
     us that.
 ---
 source: Will Wolf @ Crowdtilt
-source_url: http://advent.perldancer.org/2012/18
+source_url: https://advent.perldancer.org/2012/18
 text: |
     The Dancer community has always been responsive to us when we've had
     questions, or pull requests, or issues. That's really important in any
     software project or piece of technology you use.
 ---
 source: Zahir Lalani
-source_url: http://lists.preshweb.co.uk/pipermail/dancer-users/2015-March/004426.html
+source_url: https://lists.preshweb.co.uk/pipermail/dancer-users/2015-March/004426.html
 text: |
     Dancer2 is just amazing - the number of add-on modules is great and I can 
     get on with the application without worrying about the nitty gritty.
 ---
 source: Zahir Lalani
-source_url: http://lists.preshweb.co.uk/pipermail/dancer-users/2015-March/004426.html
+source_url: https://lists.preshweb.co.uk/pipermail/dancer-users/2015-March/004426.html
 text: |
     Dancer2 seemed to really stand out [...] After a couple of weeks I have the 
     beginnings of a complex web app which is n+1 scaleable, which has a REST API
@@ -242,19 +242,19 @@ text: |
     farm  - all done in a single language and framework.
 ---
 source: Zahir Lalani
-source_url: http://lists.preshweb.co.uk/pipermail/dancer-users/2015-March/004426.html
+source_url: https://lists.preshweb.co.uk/pipermail/dancer-users/2015-March/004426.html
 text: |
     Its damn quick to develop, its quick to run, even a colleague who is helping
     do the templating (and a php developer) is converted!
 ---
 source: Rob Boerman
-source_url: http://cpanratings.perl.org/dist/Dancer#9022
+source_url: https://cpanratings.perl.org/dist/Dancer#9022
 text: |
     Dancer is incredibly easy to learn, yet very powerful.
     Dancer is THE fastest way to develop web applications, hands down. 
 ---
 source: Andrew Soloman
-source_url: http://cpanratings.perl.org/dist/Dancer#9050
+source_url: https://cpanratings.perl.org/dist/Dancer#9050
 text: |
     Formerly a Perl teacher, I never taught web development to the first-year
     students because the learning curve would have been too steep. I think 
@@ -262,7 +262,7 @@ text: |
     using Dancer. 
 ---
 source: Tyler Durden
-source_url: http://cpanratings.perl.org/dist/Dancer#9070
+source_url: https://cpanratings.perl.org/dist/Dancer#9070
 text: |
     Dancer web framework is all about making simple things fun, and complex 
     things possible. If you're into web development, make sure not to 
@@ -271,7 +271,7 @@ text: |
     to get up to speed.
 ---
 source: Joshua Keroes
-source_url: http://cpanratings.perl.org/dist/Dancer#9740
+source_url: https://cpanratings.perl.org/dist/Dancer#9740
 text: |
    Web development is fun again thanks to Dancer. I spend less time breaking 
    things and more time solving problems. More time getting to the fun part 

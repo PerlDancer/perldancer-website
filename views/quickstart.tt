@@ -15,7 +15,7 @@ For easy and automatic installation of Dancer, we recommend using
 </p>
 
 <pre class="console">
-curl -L http://cpanmin.us | perl - --sudo Dancer2
+curl -L https://cpanmin.us | perl - --sudo Dancer2
 </pre>
 
 <p>
@@ -79,18 +79,18 @@ environment-related configurations).
 <pre class="console">
 $ cd MyWeb-App
 $ plackup -r bin/app.psgi
-&gt;&gt; Dancer server 16622 listening on http://0.0.0.0:5000
+&gt;&gt; Dancer server 16622 listening on https://0.0.0.0:5000
 == Entering the development dance floor ...
 </pre>
 
 <p>
 Note that a Dancer startup script is also a <a
-href="http://plackperl.org">PSGI</a> application.
+href="https://plackperl.org">PSGI</a> application.
 </p>
 
 <!--
 <p>
-See <a href="http://p3rl.org/Dancer::Deployment">Dancer::Deployment</a> for
+See <a href="https://p3rl.org/Dancer::Deployment">Dancer::Deployment</a> for
 more ways to deploy your Dancer applications.
 </p>
 -->
@@ -125,14 +125,14 @@ be of use to Perl beginners:
 </p>
 
 <ul>
-<li><a href="http://perl-tutorial.org/">Perl tutorials at perl-tutorial.org</a>
+<li><a href="https://perl-tutorial.org/">Perl tutorials at perl-tutorial.org</a>
 - a site listing various modern Perl tutorials</li>
-<li><a href="http://learn.perl.org/">learn.perl.org</a></li>
-<li><a href="http://learn.perl.org/books/beginning-perl/">Beginning Perl</a> - a
+<li><a href="https://learn.perl.org/">learn.perl.org</a></li>
+<li><a href="https://learn.perl.org/books/beginning-perl/">Beginning Perl</a> - a
 book by Simon Cozens, available completely free online</li>
 <li><a href="https://perlmaven.com/perl-tutorial">Perl
 Tutorial</a> - the Perl Maven tutorial by Gabor Szabo</li>
-<li><a href="http://perldoc.perl.org/">perldoc</a> - the Perl documentation
+<li><a href="https://perldoc.perl.org/">perldoc</a> - the Perl documentation
 online</li>
 </ul>
 

@@ -1,14 +1,14 @@
 ---
-url: "http://www.strehler-cms.org/"
+url: "https://www.strehler-cms.org/"
 title: "Strehler CMS"
 description: "A light-weight, nerdy, smart CMS in perl based on Perl Dancer2 framework."
 dancer: 2
 ---
-url: "http://www.softwaresolutionservicesinc.com/"
+url: "https://www.softwaresolutionservicesinc.com/"
 title: "Software Solution Services"
 description: "A Minnesota-based technology consulting firm"
 ---
-url: "http://www.livro-aberto.net/"
+url: "https://www.livro-aberto.net/"
 title: "Livro-Aberto"
 description: "A website in Portuguese."
 
