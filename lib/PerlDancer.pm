@@ -63,19 +63,13 @@ hook before_template_render => sub {
         }
 
         my $json = LWP::Simple::get(
-            'http://api.metacpan.org/v0/release/Dancer2'
+            'https://fastapi.metacpan.org/v1/release/Dancer2'
         ) or return $latest_version;
 
         my $response = from_json($json) or return $latest_version;
-        my ($short_ver) = $response->{version} =~ /^(\d+\.\d{3})/;
-        my $result =  {
-            version       => $response->{version},
-            short_version => $short_ver,
-            download_url  => $response->{download_url},
-        };
-        $latest_version = $result;
+        $latest_version = $response->{download_url};
         $last_check = time;
-        return $result;
+        return $latest_version;
     }
 }
 
