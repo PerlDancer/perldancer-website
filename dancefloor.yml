@@ -12,17 +12,6 @@ description: |
     POD format for articles.  
 source: "https://github.com/PerlDancer/advent-calendar"
 ---
-url: "https://www.ivouch.com/"
-title: "iVouch"
-description: |
-    Find, share, and vouch for the top local and web-based businesses. Proudly built on Perl Dancer!
----
-url: "https://www.moonfruit.com/"
-title: "MoonFruit"
-description: |
-    Moonfruit is proudly built on Dancer, and provides a very cool service for
-    free!
----
 url: "https://www.uk2.net/"
 title: "UK2"
 description: |
@@ -35,19 +24,6 @@ description: |
     World's first web-to-print company specialising in the table top game
     industry.  Produce your own card / board games.  Created by JT Smith
     of Plain Black.
----
-url: "https://www.tilt.com/"
-title: "Tilt"
-description: |
-    Group-funding campaign site - "Collect money from your group and make
-    something happen.".  Perl Dancer API with front-end site built using ReactJS
-    and Dancer.
----
-url: "https://politicalweb.org.uk/"
-title: "The Political Web"
-description: |
-    TPW makes it easier for people in the UK to get information about their
-    MP's.
 ---
 url: "https://www.posandro.com/"
 title: "POSANDRO (Android Point of Sale application)"
@@ -68,19 +44,6 @@ description: |
     Quttera is a website security provider that scans websites for
     malicious and suspicious activity.
 ---
-url: "https://www.iannounce.net/"
-title: "iAnnounce"
-description: |
-    iAnnounce is built on Dancer and serves up over 5 million family notices
-    from across the UK, Ireland, Germany and Poland.
----
-url: "https://www.financejobs.co/"
-title: "Finance Jobs"
-description: |
-    Finance Jobs aims to be the biggest finance jobs board in the world. We're
-    not there yet, but we're going to try hard to get there while having fun
-    along the way.
----
 url: "https://www.trebam.hr/"
 title: "Trebam.hr"
 description: "A Croatian site to obtain quotes for various trades/services"
@@ -99,13 +62,6 @@ description: |
     on top of Dancer. Site allows users to browse pages by letter or
     search by English, Korean or Romanization. It currently ranks #1 in
     Google.
----
-url: "https://vietnamesedictionary.net/"
-title: "Vietnamese Dictionary"
-description: |
-    This is a free English to Vietnamese dictionary
-    site built on top of Dancer. Site allows users to browse pages by
-    letter or search by English and Vietnamese.
 ---
 url: "https://germandictionary.org/"
 title: "German Dictionary"
@@ -133,14 +89,6 @@ title: "Greek Dictionary"
 description: |
     Free English to Greek dictionary. Browse by letter. Search by word or phrase.
 ---
-url: "https://hannover.pm/"
-title: "Hannover Perl Mongers"
-description: "German Perl Mongers group from Hannover"
----
-url: "https://www.szpakphotography.co.uk/"
-title: "Szpak Photography"
-description: "Photography studio and services in Letchworth, Hertfordshire"
----
 url: "https://www.ijedomestics.co.uk/"
 title: "IJE Domestic Appliance Repairs"
 description: |
@@ -152,24 +100,6 @@ description: |
     Your Perl Résumé generated automatically based on your CPAN experience,
     activity and impact. Website by <a href="https://showmetheco.de/">vti</a>.
 source: "https://github.com/vti/perlresume.org"
----
-url: "https://perl-ecosystem.org/"
-title: "Perl Ecosystem Group"
-description: |
-    Official website of the Perl Ecosystem Group, bridging the gap between
-    business and the open source Perl community.
-source: "https://github.com/szabgab/peg"
----
-url: "https://www.lyricsbadger.co.uk/"
-title: "Lyrics Badger"
-description: "A lyrics search engine, powered by Dancer and Lyrics::Fetcher."
----
-url: "https://paste.perldancer.org/"
-title: "PasteDance"
-description: |
-    A pastebin written by <a href="https://search.cpan.org/~data/">Danijel
-    Tašov</a>.
-source: "https://github.com/datamuc/Pastedance"
 ---
 url: "https://www.imaginaryrobots.net/"
 title: "Imaginary Robots"
@@ -187,14 +117,6 @@ description: |
     Website of a church at Woodberry Grove which has served the community
     for more than 80 years
 ---
-url: "https://pullingshots.ca/"
-title: "pullingshots"
-description: "Photography blog"
----
-url: "https://odyniec.net/"
-title: "odyniec.net - Michal Wojciechowski"
-description: "Michal Wojciechowski's homepage"
----
 url: "https://www.lauramccartney.co.uk/"
 title: "Laura McCartney's portfolio"
 description: |
@@ -209,23 +131,6 @@ description: |
 url: "https://ralphschuler.ch/"
 title: "Ralph Schuler"
 description: "Personal website"
----
-url: "https://fbsdmon.org/"
-title: "FreeBSD Monitor"
-description: "Collect and display FreeBSD and Ports usage statistics"
----
-url: "https://danceb.in/"
-title: "Dancebin"
-description: |
-    Dancer + Pastebin: a simple and elegant pastebin service.
-    Make sure to install the
-    <a href="https://metacpan.org/module/App::Nopaste::Service::Dancebin">nopaste plugin</a>.
----
-url: "https://daystack.com/"
-title: "Daystack"
-description: |
-    A beautifully minimal approach to getting organized - a web-based task
-    manager for lovers of simple.
 ---
 url: "https://www.maxi-tip.cz/"
 title: "Maxi-Tip"
@@ -252,24 +157,7 @@ description: "The biggest source of Perl-related articles and screencasts runnin
 source: "https://github.com/szabgab/Perl-Maven"
 dancer: 2
 ---
-title: "App::Notifier"
-description: "An HTTP service for the notifier application for notifying that an event (such as the finish of a task)"
-source: "https://metacpan.org/release/App-Notifier-Service"
----
-title: "simpleshare - simple application for data sharing"
-description: "Upload and share files via randomly generated url."
-source: "https://github.com/mestia/simpleshare"
----
-url: "https://frontmagic.com/"
-title: "Frontmagic"
-description: "Dedicated frontend web developers producing work that is indistinguishable from magic"
-dancer: 2
----
 url: "https://www.dicionario-aberto.net/"
 title: "Dicionário-Aberto"
 description: "A Portuguese open dictionary project"
----
-url: "https://wordnet.pt/"
-title: "PULO: Portuguese Unified Lexical Ontology"
-description: "A WordNet-alike resource for the Portuguese language"
 
