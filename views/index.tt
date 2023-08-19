@@ -215,8 +215,8 @@ ajax '/getloadavg' => sub {
 
 
 	<ul class="clearme listreset dbc">
-		<li><a href="<% latest.download_url %>" id="contain-download">
-                <% latest.short_version %>&nbsp;</a></li>
+		<li><a href="<% latest %>" id="contain-download">
+                &nbsp;</a></li>
 	<li>You can also follow Dancer on <a
         href="https://github.com/PerlDancer/Dancer2">GitHub</a> and on <a href="https://twitter.com/PerlDancer">Twitter</a></li>
 	</ul>
