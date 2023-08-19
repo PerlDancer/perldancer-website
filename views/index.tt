@@ -37,7 +37,7 @@
 
             <p>
             Dancer has been designed as a Perl web framework which is easy and
-            intuitive to get to grips with - this is how easy it can be:
+            intuitive to get to grips with:
             </p>
             
             <ul class="clearme listreset dbc">
@@ -57,9 +57,9 @@
 
             <li>
             <pre style="margin-top: 1em;">
-    $ perl bin/app.pl &
+    $ plackup bin/app.psgi &
     ...
-    $ curl https://localhost:3000/
+    $ curl https://localhost:5000/
     Hello world!
     </pre>
             </li>
@@ -67,7 +67,7 @@
             </ul>
 
     <p>
-    Getting started with Dancer is easy, but it provides everything you need to
+    Getting started with Dancer is easy, yet it provides everything you need to
     write your web applications with ease!
     </p>
 
@@ -108,7 +108,7 @@
 
     <p>
     Support for many more template engines is available, and it's easy to write
-    a Dancer::Template::* wrapper to add support for your favourite
+    a Dancer2::Template::* wrapper to add support for your favourite
     engine if it's not already available.
     </p>
 
@@ -124,7 +124,7 @@
     </p>
 
         <p><strong>ORM with DBIx::Class</strong></p>
-        <p>Dancer::Plugin::DBIC provides easy database access using DBIx::Class:</p>
+        <p>Dancer2::Plugin::DBIC provides easy database access using DBIx::Class:</p>
 <pre class="prettyprint">
 get '/profile/:id' => sub {
     my $user = schema->resultset('Users')->find(params->{id});
@@ -133,7 +133,7 @@ get '/profile/:id' => sub {
 </pre>
 
         <p><strong>Or easy DBI database access</strong></p>
-        <p>Dancer::Plugin::Database manages your database connections, providing an
+        <p>Dancer2::Plugin::Database manages your database connections, providing an
         augmented DBI database handle for you to use:</p>
 <pre class="prettyprint">
 get '/profile/:id' => sub {
@@ -179,15 +179,16 @@ ajax '/getloadavg' => sub {
     <h3>Easy session support</h3>
     <p>
     Session support is in-built, with a wide choice of session storage methods:
-    </p>
+    </p><br />
 
     <ul>
-    <li>YAML/Storable files on disc</li>
-    <li>Memcache</li>
+    <li>YAML/JSON/Storable files on disc</li>
+    <li>Memcached</li>
     <li>DBI</li>
     <li>MongoDB</li>
-    <li>KiokuDB</li>
+    <li>Redis</li>
     <li>Encrypted cookies</li>
+    <li>DBIx::Class</li>
     </ul>
 </div>
 
@@ -202,7 +203,7 @@ ajax '/getloadavg' => sub {
     </p>
 
     <p>
-    Just <a href="https://metacpan.org/search?q=Dancer%3A%3APlugin%3A%3A">
+    Just <a href="https://metacpan.org/search?q=Dancer2%3A%3APlugin%3A%3A">
     search CPAN</a> and see!
     </p>
 </div>
