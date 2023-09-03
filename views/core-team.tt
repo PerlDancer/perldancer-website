@@ -8,7 +8,7 @@ brings you Dancer:</p>
 <ul>
 <li>Alberto Simões (ambs)</li>
 <li>Alexis Sukrieh (sukria)</li>
-<li>D Ruth Holloway (GeekRuthie)</li>
+<li><a href="#geekruthie">D Ruth Holloway (GeekRuthie)</a></li>
 <li>Damien Krotkine (dams)</li>
 <li>David Precious (bigpresh)</li>
 <li>Franck Cuny (franckc)</li>
@@ -21,17 +21,24 @@ brings you Dancer:</p>
 <li>Yanick Champoux</li>
 </ul>
 
-<a name="ambs"></a>
-<a name="sukria"></a>
-<a name="geetkruthie"></a>
-<a name="dams"></a>
-<a name="bigpresh"></a>
-<a name="franckc"></a>
-<a name="cromedome"></a>
-<a name="mickey"></a>
-<a name="syspete"></a>
-<a name="veryrusty"></a>
-<a name="xsawyerx"></a>
-<a name="racke"></a>
-<a name="yanick"></a>
+<a id="ambs"></a>
+<a id="sukria"></a>
+
+<a id="geetkruthie">D Ruth Holloway</a>
+<p><a href="https://hiruthie.me">Ruth Holloway</a> has been using Perl for more than twenty years, and a heavy user of
+Dancer2 for over five years. She has written several Dancer2 plugins, and a Perl::Critic module specifically for use with 
+Dancer2. Ruth is a full-time traveler, moving around North America in an RV with her husband and dog. In her free time, she's 
+a musician, a crafter, and a published author. You can find her Perl work on 
+<a href="https://metacpan.org/author/GEEKRUTH>CPAN</a>.
+
+<a id="dams"></a>
+<a id="bigpresh"></a>
+<a id="franckc"></a>
+<a id="cromedome"></a>
+<a id="mickey"></a>
+<a id="syspete"></a>
+<a id="veryrusty"></a>
+<a id="xsawyerx"></a>
+<a id="racke"></a>
+<a id="yanick"></a>
 
