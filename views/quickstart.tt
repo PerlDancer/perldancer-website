@@ -10,7 +10,7 @@ possible.
 <h3>Installing Dancer</h3>
 
 <p>
-For easy and automatic installation of Dancer, we recommend using 
+For easy and automatic installation of Dancer, we recommend using
 <a href="https://metacpan.org/pod/distribution/Menlo/script/cpanm-menlo">cpanminus</a>:
 </p>
 
@@ -19,7 +19,7 @@ curl -L https://cpanmin.us | perl - --sudo Dancer2
 </pre>
 
 <p>
-Of course, you can use any other CPAN client to do so, or even 
+Of course, you can use any other CPAN client to do so, or even
 <a href="https://metacpan.org/pod/Dancer2">install it manually</a>.
 </p>
 
@@ -71,7 +71,7 @@ $ dancer2 gen -a MyWeb::App
 </pre>
 
 <p>Everything is ready and works out of the box (with a nice design, jQuery and
-environment-related configurations). 
+environment-related configurations).
 </p>
 
 <h3>Starting to dance</h3>
