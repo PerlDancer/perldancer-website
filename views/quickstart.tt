@@ -104,10 +104,20 @@ Resources to learn more:
 <% INCLUDE 'includes/doc-list.tt' %>
 
 <h3>Books about Perl Dancer</h3>
-
+<p>
 <ul>
    <li><a href="https://leanpub.com/dancer-spa/">Single Page Application with Perl Dancer</a> by Gabor Szabo.</li>
 </ul>
+</p>
+
+<h3>Articles about Perl Dancer</h3>
+<p>
+<ul>
+   <li><a href="https://perlhacks.com/2024/05/deploying-dancer-apps/">Deploying Dancer Apps</a> by Dave Cross</li>
+   <li><a href="https://perlhacks.com/2024/08/deploying-dancer-apps-addendum/">Deploying Dancer Apps (Addendum)</a> by Dave Cross</li>
+   <li><a href="https://perlhacks.com/2025/05/deploying-dancer-apps-the-next-generation/">Deploying Dancer Apps – The Next Generation</a> by Dave Cross</li>
+</ul>
+</p>
 
 <h3>New to Perl, too?</h3>
 
