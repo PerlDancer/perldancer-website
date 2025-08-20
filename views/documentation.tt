@@ -10,13 +10,13 @@
 
 <p>
 If you want to start writing your first application with Dancer, you certainly
-want to read the 
-<a href="https://metacpan.org/pod/Dancer2::Manual">Dancer Manual guide</a>. 
+want to read the
+<a href="https://metacpan.org/pod/Dancer2::Manual">Dancer Manual guide</a>.
 It will help you understand the basics of Dancer.
 </p>
 
 <p>
-You can also find interesting and working examples in the 
+You can also find interesting and working examples in the
 <a
 href="https://metacpan.org/pod/Dancer2::Cookbook">Cookbook</a>.
 There are lots of recipes in there to help you handle common patterns in web
@@ -26,7 +26,7 @@ also helps if you like to learn by example.
 </p>
 
 <p>
-The DSL's reference API is documented in 
+The DSL's reference API is documented in
 <a href="https://metacpan.org/pod/Dancer2">Dancer2.pm</a>.
 </p>
 
@@ -36,13 +36,13 @@ The DSL's reference API is documented in
 <p>
 Dancer is PSGI-compatible, that means you can virtually deploy your app
 anywhere. We wanted to help our users as much as possible, so we've gathered as
-many details as possible in a 
-<a href="https://metacpan.org/pod/Dancer2::Manual::Deployment">Deployment Guide</a>, 
+many details as possible in a
+<a href="https://metacpan.org/pod/Dancer2::Manual::Deployment">Deployment Guide</a>,
 in order to provide working configuration examples.
 </p>
 
 <p>
-Even though special care is given to documentation, there might be some 
+Even though special care is given to documentation, there might be some
 errors, so feel free to <a href="/about">contact the development team</a> if
 you find any.
 </p>
