@@ -44,78 +44,10 @@ description: |
     Quttera is a website security provider that scans websites for
     malicious and suspicious activity.
 ---
-url: "https://www.trebam.hr/"
-title: "Trebam.hr"
-description: "A Croatian site to obtain quotes for various trades/services"
----
-url: "https://japanesedictionary.org/"
-title: "Japanese Dictionary"
-description: |
-    This is a free Japanese-English dictionary site
-    built on top of Dancer. Site allows users to browse pages by letter or
-    search in English, Japanese and romanized forms.
----
-url: "https://koreandictionary.net/"
-title: "Korean Dictionary"
-description: |
-    This is a free English to Korean dictionary site built
-    on top of Dancer. Site allows users to browse pages by letter or
-    search by English, Korean or Romanization. It currently ranks #1 in
-    Google.
----
-url: "https://germandictionary.org/"
-title: "German Dictionary"
-description: |
-    This is a free German-English dictionary site built
-    on top of Dancer. Site allows users to browse pages by letter or
-    search by English and German.
----
-url: "https://spanishdictionary.net/"
-title: "Spanish Dictionary"
-description: |
-    This is a free Spanish-English dictionary site built
-    on top of Dancer. Site allows users to browse pages by letter or
-    search by English and Spanish.
----
-url: "https://italiandictionary.org/"
-title: "Italian Dictionary"
-description: |
-    This is a free Italian-English dictionary site built
-    on top of Dancer. Site allows users to browse pages by letter or
-    search by English and Italian.
----
-url: "https://greek-dictionary.org/"
-title: "Greek Dictionary"
-description: |
-    Free English to Greek dictionary. Browse by letter. Search by word or phrase.
----
 url: "https://www.ijedomestics.co.uk/"
 title: "IJE Domestic Appliance Repairs"
 description: |
     A small business website powered by Dancer and written by David Precious
----
-url: "https://perlresume.org/"
-title: "Perl Résumé"
-description: |
-    Your Perl Résumé generated automatically based on your CPAN experience,
-    activity and impact. Website by <a href="https://showmetheco.de/">vti</a>.
-source: "https://github.com/vti/perlresume.org"
----
-url: "https://www.imaginaryrobots.net/"
-title: "Imaginary Robots"
-description: "Jesse van Herk's website/blog"
----
-url: "https://www.leecarmichael.com/"
-title: "Lee Carmichael"
-description: |
-    Blog of a software engineer/programmer/coder working on web applications,
-    data munging, daemons and other various things
----
-url: "https://www.finchleyspiritualistchurch.org.uk/"
-title: "Finchley Spiritualist Church, London"
-description: |
-    Website of a church at Woodberry Grove which has served the community
-    for more than 80 years
 ---
 url: "https://www.lauramccartney.co.uk/"
 title: "Laura McCartney's portfolio"
@@ -128,24 +60,11 @@ description: |
     <a href="https://en.wikipedia.org/wiki/Sliedrecht">Sliedrecht</a> (a
     mid-sized Netherlands town) fire department website
 ---
-url: "https://ralphschuler.ch/"
-title: "Ralph Schuler"
-description: "Personal website"
----
-url: "https://www.maxi-tip.cz/"
-title: "Maxi-Tip"
-description: |
-    Czech sports betting site
----
 url: "https://theanarchistlibrary.org/"
 title: "The Anarchist Library"
 description: |
     A wiki using the Dancer-powered <a href="https://gitorious.org/amuse-wiki">
     amuse-wiki</a>
----
-url: "https://www.usedcarsgroup.com/"
-title: "Used Cars Group"
-description: "A high traffic used cars for sale website in US"
 ---
 url: "https://geekuni.com/"
 title: "Geekuni"
