@@ -387,17 +387,9 @@ ul.spacy li {
 	box-shadow:#000 0px 0px 5px;
 }
 
-.dancefloor-site {
-    float: left;
-    width: 250px;
-    height: 300px;
-    border: 1px solid #008;
-    padding: 10px;
-    margin: 10px;
-    overflow: auto;
-}
-.dancefloor-site IMG { margin: auto }
-.dancefloor-site P>B { margin: auto }
+.dancefloor P { margin: auto; padding-bottom: 10px; }
+.dancefloor IMG { margin: auto; padding-bottom: 10px; }
+.dancefloor-site P>B { margin: auto; padding-top: 10px;}
 
 .dancefloor-button {
   margin: 20px;

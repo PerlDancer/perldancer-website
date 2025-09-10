@@ -1,82 +1,120 @@
----
-url: "https://www.perldancer.org/"
-title: "PerlDancer website"
-description: "Unsurprisingly this site is built using Dancer."
-source: "https://github.com/PerlDancer/perldancer-website"
-dancer: 2
----
-url: "https://advent.perldancer.org/"
-title: "PerlDancer Advent Calendar"
-description: |
-    The PerlDancer Advent Calendar is written entirely with Dancer, using the
-    POD format for articles.
-source: "https://github.com/PerlDancer/advent-calendar"
----
-url: "https://www.uk2.net/"
-title: "UK2"
-description: |
-    UK2 use Dancer to power in-house REST API applications, along with
-    holding pages and webdiversion for hundreds of thousands of customer domains.
----
-url: "https://www.thegamecrafter.com/"
-title: "The Game Crafter"
-description: |
-    World's first web-to-print company specialising in the table top game
-    industry.  Produce your own card / board games.  Created by JT Smith
-    of Plain Black.
----
-url: "https://www.posandro.com/"
-title: "POSANDRO (Android Point of Sale application)"
-description: |
-    An Android point of sale application whose back-end is powered by Dancer.
----
-url: "https://elibraryusa.state.gov/"
-title: "eLibraryUSA"
-description: |
-    Gives members of Information Resource Centers, American Corners,
-    and other American Spaces around the world access to information
-    Americans find at their public libraries, with a broad range of
-    learning resources.
----
-url: "https://www.quttera.com/"
-title: "Quttera"
-description: |
-    Quttera is a website security provider that scans websites for
-    malicious and suspicious activity.
----
-url: "https://www.ijedomestics.co.uk/"
-title: "IJE Domestic Appliance Repairs"
-description: |
-    A small business website powered by Dancer and written by David Precious
----
-url: "https://www.lauramccartney.co.uk/"
-title: "Laura McCartney's portfolio"
-description: |
-     UK artist's Dancer-powered portfolio site, developed by LoonyPandora
----
-url: "https://www.brandweersliedrecht.nl/"
-title: "Brandweer Sliedrecht"
-description: |
-    <a href="https://en.wikipedia.org/wiki/Sliedrecht">Sliedrecht</a> (a
-    mid-sized Netherlands town) fire department website
----
-url: "https://theanarchistlibrary.org/"
-title: "The Anarchist Library"
-description: |
-    A wiki using the Dancer-powered <a href="https://gitorious.org/amuse-wiki">
-    amuse-wiki</a>
----
-url: "https://geekuni.com/"
-title: "Geekuni"
-description: "An online programming school with a course on Dancer"
----
-url: "https://perlmaven.com/"
-title: "Perl Maven"
-description: "The biggest source of Perl-related articles and screencasts running on Dancer 2. Offering courses in Perl for Beginners and for web developmers who want to use Dancer."
-source: "https://github.com/szabgab/Perl-Maven"
-dancer: 2
----
-url: "https://www.dicionario-aberto.net/"
-title: "Dicionário-Aberto"
-description: "A Portuguese open dictionary project"
+companies:
+    -
+        url: "https://wellsfargo.com"
+        title: "Wells Fargo"
+        logo: "wellsfargo-logo.png"
+    -
+        url: "https://aflac.com"
+        title: "Aflac"
+        logo: "aflac-logo.png"
+    -
+        url: "https://bbc.com"
+        title: "BBC"
+        logo: "bbc-logo.png"
+    -
+        url: "https://cpanel.net"
+        title: "cPanel"
+        logo: "cpanel-logo.png"
+    -
+        url: "https://hostgator.com"
+        title: "HostGator"
+        logo: "hostgator-logo.png"
+    -
+        url: "https://knowmad.com"
+        title: "Knowmad Digital Marketing"
+        logo: "knowmad-logo.png"
+    -
+        url: "https://www.cv-library.co.uk/"
+        title: "CV-Library"
+        description: "The UK's largest independent job site"
+        logo: "cv-library-logo.png"
+    -
+        url: "https://elibraryusa.state.gov/"
+        title: "eLibraryUSA"
+        description: |
+            Gives members of Information Resource Centers, American Corners,
+            and other American Spaces around the world access to information
+            Americans find at their public libraries, with a broad range of
+            learning resources.
+        logo: "eLibraryUSA-logo.png"
+    -
+        url: "https://www.uk2.net/"
+        title: "UK2"
+        description: |
+            UK2 uses Dancer to power in-house REST API applications, along with
+            holding pages and webdiversion for hundreds of thousands of customer domains.
+        logo: "uk2-logo.png"
+    -
+        url: "https://www.thegamecrafter.com/"
+        title: "The Game Crafter"
+        description: |
+            World's first web-to-print company specialising in the table top game
+            industry.  Produce your own card / board games.  Created by JT Smith
+            of Plain Black.
+        logo: "thegamecrafter-logo.png"
+    -
+        url: "https://www.posandro.com/"
+        title: "POSANDRO (Android Point of Sale application)"
+        description: |
+            An Android point of sale application whose back-end is powered by Dancer.
+        logo: "posandro-logo.png"
+    -
+        url: "https://geekuni.com/"
+        title: "Geekuni"
+        description: "An online programming school with a course on Dancer"
+        logo: "geekuni-logo.png"
+    -
+        url: "https://www.quttera.com/"
+        title: "Quttera"
+        description: |
+            Quttera is a website security provider that scans websites for
+            malicious and suspicious activity.
+        logo: "quttera-logo.png"
+
+other_sites:
+    -
+        url: "https://www.perldancer.org/"
+        title: "PerlDancer website"
+        description: "Unsurprisingly this site is built using Dancer."
+        source: "https://github.com/PerlDancer/perldancer-website"
+        dancer: 2
+    -
+        url: "https://advent.perldancer.org/"
+        title: "PerlDancer Advent Calendar"
+        description: |
+            The PerlDancer Advent Calendar is written entirely with Dancer, using the
+            POD format for articles.
+        source: "https://github.com/PerlDancer/advent-calendar"
+    -
+        url: "https://perlmaven.com/"
+        title: "Perl Maven"
+        description: "The biggest source of Perl-related articles and screencasts running on Dancer 2. Offering courses in Perl for Beginners and for web developmers who want to use Dancer."
+        source: "https://github.com/szabgab/Perl-Maven"
+        dancer: 2
+    -
+        url: "https://www.ijedomestics.co.uk/"
+        title: "IJE Domestic Appliance Repairs"
+        description: |
+            A small business website powered by Dancer and written by David Precious
+    -
+        url: "https://www.lauramccartney.co.uk/"
+        title: "Laura McCartney's portfolio"
+        description: |
+             UK artist's Dancer-powered portfolio site, developed by LoonyPandora
+    -
+        url: "https://www.brandweersliedrecht.nl/"
+        title: "Brandweer Sliedrecht"
+        description: |
+            <a href="https://en.wikipedia.org/wiki/Sliedrecht">Sliedrecht</a> (a
+            mid-sized Netherlands town) fire department website
+    -
+        url: "https://theanarchistlibrary.org/"
+        title: "The Anarchist Library"
+        description: |
+            A wiki using the Dancer-powered <a href="https://gitorious.org/amuse-wiki">
+            amuse-wiki</a>
+    -
+        url: "https://www.dicionario-aberto.net/"
+        title: "Dicionário-Aberto"
+        description: "A Portuguese open dictionary project"
 
