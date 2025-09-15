@@ -4,7 +4,6 @@ use Dancer2;
 use Template;
 use LWP::Simple ();
 use List::Util;
-use WebService::Bluga::Webthumb;
 use YAML;
 use File::Basename qw(dirname);
 
@@ -29,9 +28,10 @@ get '/testimonials' => sub {
 };
 
 get '/dancefloor' => sub {
+    # other_sites, companies
     template 'dancefloor-display' => {
         sites => _get_dancefloor_sites(),
-        title => 'The Dancefloor - web site and web applications built on top of Perl Dancer',
+        title => 'The Dancefloor - web sites and web applications built on top of Perl Dancer',
     };
 };
 
@@ -84,22 +84,10 @@ sub _get_dancefloor_sites {
     my $dancefloor_sites_yaml = Dancer2::FileUtils::read_file_content(
         path( setting('appdir'), 'dancefloor.yml' )
     ) or die "Failed to read sites from config";
-    my @dancefloor_sites = YAML::Load($dancefloor_sites_yaml)
+    my $dancefloor_sites = YAML::Load($dancefloor_sites_yaml)
         or die "Failed to parse sites YAML";
 
-    my $webthumb_api = from_yaml(
-            scalar  Dancer2::FileUtils::read_file_content(
-            path( setting('appdir'), 'webthumb-api.yml')
-        )
-    ) or die "Failed to read webthumb API details from config";
-
-    my $wt = WebService::Bluga::Webthumb->new(%$webthumb_api);
-    for my $site (@dancefloor_sites) {
-        # Work out the URL to a thumbnail
-        $site->{thumb_url} = $wt->thumb_url($site->{url})
-            if $site->{url};
-    }
-    return [ sort { rand } @dancefloor_sites ];
+    return $dancefloor_sites;
 }
 
 true;
